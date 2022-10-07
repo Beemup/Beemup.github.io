@@ -137,21 +137,23 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Blueprint Members</div></td></tr>
-<tr class="memitem:a9d650400b19997861cc514931ddf186b"><td class="memItemLeft" align="right" valign="top">TSubclassOf&lt; AActor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a9d650400b19997861cc514931ddf186b">PlayerAsset</a></td></tr>
-<tr class="memdesc:a9d650400b19997861cc514931ddf186b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The player asset of the player that needs to be spawned.  <a href="class_a_yom_player.html#a9d650400b19997861cc514931ddf186b">More...</a><br /></td></tr>
-<tr class="separator:a9d650400b19997861cc514931ddf186b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4789ce3b90b730046bb739b9def27613"><td class="memItemLeft" align="right" valign="top">TArray&lt; TSubclassOf&lt; APawn &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613">PlayerAssets</a></td></tr>
+<tr class="memdesc:a4789ce3b90b730046bb739b9def27613"><td class="mdescLeft">&#160;</td><td class="mdescRight">The player asset of the player that needs to be spawned.  <a href="class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613">More...</a><br /></td></tr>
+<tr class="separator:a4789ce3b90b730046bb739b9def27613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c22a75dfdc9196f6c4992b5dbfc972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#ab5c22a75dfdc9196f6c4992b5dbfc972">ManualSpawnLocation</a> = false</td></tr>
 <tr class="memdesc:ab5c22a75dfdc9196f6c4992b5dbfc972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines where to spawn the player If true, it spawns the player at a random player start If false, the player will be spawned at the ManualSpawnTransform which can be set by the user.  <a href="class_a_yom_player.html#ab5c22a75dfdc9196f6c4992b5dbfc972">More...</a><br /></td></tr>
 <tr class="separator:ab5c22a75dfdc9196f6c4992b5dbfc972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af899aeb67f26931a44f9988e99d1fc49"><td class="memItemLeft" align="right" valign="top">FTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#af899aeb67f26931a44f9988e99d1fc49">ManualSpawnTransform</a></td></tr>
 <tr class="memdesc:af899aeb67f26931a44f9988e99d1fc49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transform that can be set to spawn a player in a specific position.  <a href="class_a_yom_player.html#af899aeb67f26931a44f9988e99d1fc49">More...</a><br /></td></tr>
 <tr class="separator:af899aeb67f26931a44f9988e99d1fc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0967f0d883cea9107611d526924dc9"><td class="memItemLeft" align="right" valign="top">TSubclassOf&lt; UMovieSceneSequence &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a4d0967f0d883cea9107611d526924dc9">CameraSequenceClass</a></td></tr>
-<tr class="memdesc:a4d0967f0d883cea9107611d526924dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class of the camera sequence that plays when the player does not have a wallet.  <a href="class_a_yom_player.html#a4d0967f0d883cea9107611d526924dc9">More...</a><br /></td></tr>
-<tr class="separator:a4d0967f0d883cea9107611d526924dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf2a2890e4f12fa7e94a89e9bd253b68"><td class="memItemLeft" align="right" valign="top">FMovieSceneSequencePlaybackSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#abf2a2890e4f12fa7e94a89e9bd253b68">CameraSettings</a></td></tr>
-<tr class="memdesc:abf2a2890e4f12fa7e94a89e9bd253b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The camera settings of the camera sequence that plays when the player does not have a wallet.  <a href="class_a_yom_player.html#abf2a2890e4f12fa7e94a89e9bd253b68">More...</a><br /></td></tr>
-<tr class="separator:abf2a2890e4f12fa7e94a89e9bd253b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa95fc02fd750fcdacec583dc1909ae"><td class="memItemLeft" align="right" valign="top">ULevelSequence *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae">MovieSceneSequence</a></td></tr>
+<tr class="memdesc:a0aa95fc02fd750fcdacec583dc1909ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class of the camera sequence that plays when the player does not have a wallet.  <a href="class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae">More...</a><br /></td></tr>
+<tr class="separator:a0aa95fc02fd750fcdacec583dc1909ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab248189eef4c472977aca8686d7f2d70"><td class="memItemLeft" align="right" valign="top">FMovieSceneSequencePlaybackSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70">MovieSceneSettings</a></td></tr>
+<tr class="memdesc:ab248189eef4c472977aca8686d7f2d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">The camera settings of the camera sequence that plays when the player does not have a wallet.  <a href="class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70">More...</a><br /></td></tr>
+<tr class="separator:ab248189eef4c472977aca8686d7f2d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607c5da4b5bf287c7742960d0867525a"><td class="memItemLeft" align="right" valign="top">FLevelSequenceCameraSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a607c5da4b5bf287c7742960d0867525a">CameraSettings</a></td></tr>
+<tr class="separator:a607c5da4b5bf287c7742960d0867525a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="adad2c10d3d0e4651a8f9b625127e5958" name="adad2c10d3d0e4651a8f9b625127e5958"></a>
@@ -323,35 +325,17 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4d0967f0d883cea9107611d526924dc9" name="a4d0967f0d883cea9107611d526924dc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0967f0d883cea9107611d526924dc9">&#9670;&#160;</a></span>CameraSequenceClass</h2>
+<a id="a607c5da4b5bf287c7742960d0867525a" name="a607c5da4b5bf287c7742960d0867525a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a607c5da4b5bf287c7742960d0867525a">&#9670;&#160;</a></span>CameraSettings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TSubclassOf&lt;UMovieSceneSequence&gt; AYomPlayer::CameraSequenceClass</td>
+          <td class="memname">FLevelSequenceCameraSettings AYomPlayer::CameraSettings</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>The class of the camera sequence that plays when the player does not have a wallet. </p>
-
-</div>
-</div>
-<a id="abf2a2890e4f12fa7e94a89e9bd253b68" name="abf2a2890e4f12fa7e94a89e9bd253b68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf2a2890e4f12fa7e94a89e9bd253b68">&#9670;&#160;</a></span>CameraSettings</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">FMovieSceneSequencePlaybackSettings AYomPlayer::CameraSettings</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The camera settings of the camera sequence that plays when the player does not have a wallet. </p>
 
 </div>
 </div>
@@ -387,14 +371,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d650400b19997861cc514931ddf186b" name="a9d650400b19997861cc514931ddf186b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d650400b19997861cc514931ddf186b">&#9670;&#160;</a></span>PlayerAsset</h2>
+<a id="a0aa95fc02fd750fcdacec583dc1909ae" name="a0aa95fc02fd750fcdacec583dc1909ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa95fc02fd750fcdacec583dc1909ae">&#9670;&#160;</a></span>MovieSceneSequence</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TSubclassOf&lt;AActor&gt; AYomPlayer::PlayerAsset</td>
+          <td class="memname">ULevelSequence* AYomPlayer::MovieSceneSequence</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The class of the camera sequence that plays when the player does not have a wallet. </p>
+
+</div>
+</div>
+<a id="ab248189eef4c472977aca8686d7f2d70" name="ab248189eef4c472977aca8686d7f2d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab248189eef4c472977aca8686d7f2d70">&#9670;&#160;</a></span>MovieSceneSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FMovieSceneSequencePlaybackSettings AYomPlayer::MovieSceneSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The camera settings of the camera sequence that plays when the player does not have a wallet. </p>
+
+</div>
+</div>
+<a id="a4789ce3b90b730046bb739b9def27613" name="a4789ce3b90b730046bb739b9def27613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4789ce3b90b730046bb739b9def27613">&#9670;&#160;</a></span>PlayerAssets</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt;TSubclassOf&lt;APawn&gt; &gt; AYomPlayer::PlayerAssets</td>
         </tr>
       </table>
 </div><div class="memdoc">

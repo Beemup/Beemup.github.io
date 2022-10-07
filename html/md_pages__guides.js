@@ -13,7 +13,7 @@ var md_pages__guides =
       [ "Additional settings for a Player", "_player_setup.html#autotoc_md6", [
         [ "Player Asset", "_player_setup.html#autotoc_md7", null ],
         [ "Manual Spawn Location", "_player_setup.html#autotoc_md8", null ],
-        [ "Movie Scene Sequence (virtual camera)", "_player_setup.html#autotoc_md9", null ]
+        [ "Level Sequence (virtual camera)", "_player_setup.html#autotoc_md9", null ]
       ] ]
     ] ],
     [ "Advanced Inventory Setup", "_inventory_setup.html", [

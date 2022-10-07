@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "YOM Replicator SDK", "index.html", [
-    [ "About YomPlugins", "index.html", null ],
+    [ "About", "index.html", null ],
     [ "Guides", "md_pages__guides.html", "md_pages__guides" ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [

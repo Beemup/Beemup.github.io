@@ -8,9 +8,10 @@ var class_a_yom_player =
     [ "OnSpawn", "class_a_yom_player.html#a4da034f4547734ae49cd839d1649a667", null ],
     [ "SetManualSpawn", "class_a_yom_player.html#af3eb1bccf44b301cc200758e2f7c4341", null ],
     [ "SpawnPlayerInstance", "class_a_yom_player.html#adf5694457e5d9d933f8b109c4dc41ab1", null ],
-    [ "CameraSequenceClass", "class_a_yom_player.html#a4d0967f0d883cea9107611d526924dc9", null ],
-    [ "CameraSettings", "class_a_yom_player.html#abf2a2890e4f12fa7e94a89e9bd253b68", null ],
+    [ "CameraSettings", "class_a_yom_player.html#a607c5da4b5bf287c7742960d0867525a", null ],
     [ "ManualSpawnLocation", "class_a_yom_player.html#ab5c22a75dfdc9196f6c4992b5dbfc972", null ],
     [ "ManualSpawnTransform", "class_a_yom_player.html#af899aeb67f26931a44f9988e99d1fc49", null ],
-    [ "PlayerAsset", "class_a_yom_player.html#a9d650400b19997861cc514931ddf186b", null ]
+    [ "MovieSceneSequence", "class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae", null ],
+    [ "MovieSceneSettings", "class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70", null ],
+    [ "PlayerAssets", "class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613", null ]
 ];

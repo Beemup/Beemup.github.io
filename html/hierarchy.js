@@ -4,7 +4,8 @@ var hierarchy =
       [ "AYomPortal", "class_a_yom_portal.html", null ]
     ] ],
     [ "AInfo", null, [
-      [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ]
+      [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
+      [ "AYomManager", "class_a_yom_manager.html", null ]
     ] ],
     [ "APlayerController", null, [
       [ "AYomPlayer", "class_a_yom_player.html", null ]
@@ -32,6 +33,7 @@ var hierarchy =
     ] ],
     [ "UUserWidget", null, [
       [ "UYomButton", "class_u_yom_button.html", null ],
+      [ "UYomNameplateWidget", "class_u_yom_nameplate_widget.html", null ],
       [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", null ]
     ] ]
 ];

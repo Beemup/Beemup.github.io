@@ -1,6 +1,7 @@
 var group___yom_core =
 [
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
+    [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "UYomModule", "class_u_yom_module.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", [
       [ "GetInputComponent", "class_a_yom_player.html#adad2c10d3d0e4651a8f9b625127e5958", null ],
@@ -16,7 +17,8 @@ var group___yom_core =
       [ "ManualSpawnTransform", "class_a_yom_player.html#af899aeb67f26931a44f9988e99d1fc49", null ],
       [ "MovieSceneSequence", "class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae", null ],
       [ "MovieSceneSettings", "class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70", null ],
-      [ "PlayerAssets", "class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613", null ]
+      [ "PlayerAssets", "class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613", null ],
+      [ "YomManagers", "class_a_yom_player.html#a445c16ce07d0495135b9485504a03bba", null ]
     ] ],
     [ "FWallet", "struct_f_wallet.html", [
       [ "PublicWalletID", "struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda", null ],

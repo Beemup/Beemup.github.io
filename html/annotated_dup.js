@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
+    [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
@@ -13,6 +14,7 @@ var annotated_dup =
     [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
     [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
     [ "UYomModule", "class_u_yom_module.html", null ],
+    [ "UYomNameplateWidget", "class_u_yom_nameplate_widget.html", "class_u_yom_nameplate_widget" ],
     [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", "class_u_yom_player_inventory_widget" ],
     [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", "class_u_yom_portalling_component" ],
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],

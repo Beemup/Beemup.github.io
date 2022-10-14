@@ -12,10 +12,11 @@ var searchData=
   ['uyominventoryitemfactory_9',['UYomInventoryItemFactory',['../class_u_yom_inventory_item_factory.html',1,'']]],
   ['uyomitemsbpfunctions_10',['UYomItemsBPFunctions',['../class_u_yom_items_b_p_functions.html',1,'']]],
   ['uyommodule_11',['UYomModule',['../class_u_yom_module.html',1,'']]],
-  ['uyomplayerinventorywidget_12',['UYomPlayerInventoryWidget',['../class_u_yom_player_inventory_widget.html',1,'']]],
-  ['uyomportallingcomponent_13',['UYomPortallingComponent',['../class_u_yom_portalling_component.html',1,'']]],
-  ['uyomportalsbpfunctions_14',['UYomPortalsBPFunctions',['../class_u_yom_portals_b_p_functions.html',1,'']]],
-  ['uyomportalssettings_15',['UYomPortalsSettings',['../class_u_yom_portals_settings.html',1,'']]],
-  ['uyomtrackingbpfunctions_16',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
-  ['uyomwalletfetchstrategies_17',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
+  ['uyomnameplatewidget_12',['UYomNameplateWidget',['../class_u_yom_nameplate_widget.html',1,'']]],
+  ['uyomplayerinventorywidget_13',['UYomPlayerInventoryWidget',['../class_u_yom_player_inventory_widget.html',1,'']]],
+  ['uyomportallingcomponent_14',['UYomPortallingComponent',['../class_u_yom_portalling_component.html',1,'']]],
+  ['uyomportalsbpfunctions_15',['UYomPortalsBPFunctions',['../class_u_yom_portals_b_p_functions.html',1,'']]],
+  ['uyomportalssettings_16',['UYomPortalsSettings',['../class_u_yom_portals_settings.html',1,'']]],
+  ['uyomtrackingbpfunctions_17',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
+  ['uyomwalletfetchstrategies_18',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
 ];

@@ -13,5 +13,6 @@ var class_a_yom_player =
     [ "ManualSpawnTransform", "class_a_yom_player.html#af899aeb67f26931a44f9988e99d1fc49", null ],
     [ "MovieSceneSequence", "class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae", null ],
     [ "MovieSceneSettings", "class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70", null ],
-    [ "PlayerAssets", "class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613", null ]
+    [ "PlayerAssets", "class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613", null ],
+    [ "YomManagers", "class_a_yom_player.html#a445c16ce07d0495135b9485504a03bba", null ]
 ];

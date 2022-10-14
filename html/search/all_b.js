@@ -6,5 +6,7 @@ var searchData=
   ['onspawn_3',['OnSpawn',['../class_a_yom_player.html#a4da034f4547734ae49cd839d1649a667',1,'AYomPlayer']]],
   ['onstartitemload_4',['OnStartItemLoad',['../class_u_yom_button.html#a2975ee0de8002f722a62f526c7be1b9b',1,'UYomButton']]],
   ['open_5ffile_5',['OPEN_FILE',['../_yom_central_log_8cpp.html#a9c5fbfe8f7a604f8a5604c59014fadeb',1,'YomCentralLog.cpp']]],
-  ['openrandomyomportal_6',['OpenRandomYomPortal',['../class_u_yom_portals_b_p_functions.html#a5d569d69b85b1d279c311bf47a56880e',1,'UYomPortalsBPFunctions']]]
+  ['openrandomyomportalfromplayer_6',['OpenRandomYomPortalFromPlayer',['../class_u_yom_portals_b_p_functions.html#a342f75e6d4a86e3d207a547905fbed6b',1,'UYomPortalsBPFunctions']]],
+  ['openrandomyomportalinworld_7',['OpenRandomYomPortalInWorld',['../class_u_yom_portals_b_p_functions.html#a8cabeec4cb85e124a01f06d0aa7e057c',1,'UYomPortalsBPFunctions']]],
+  ['openyomportal_8',['OpenYomPortal',['../class_u_yom_portals_b_p_functions.html#a3d3b476f0900bcfb4eda760a827cb006',1,'UYomPortalsBPFunctions']]]
 ];

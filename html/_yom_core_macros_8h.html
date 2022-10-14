@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('_yom_core_macros_8h.html',''); initRes
 Macros</h2></td></tr>
 <tr class="memitem:af6ad60ef4c47c4a9bc65da38ba085125"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">PRETTY_FUNCTION</a>&#160;&#160;&#160;__FUNCTIONW__ &quot;()&quot;</td></tr>
 <tr class="separator:af6ad60ef4c47c4a9bc65da38ba085125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ece47500cf6068b656a4c918f85814"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a>(pText, ...)&#160;&#160;&#160;fwprintf(UYomCentralLog::GetFile(), pText, <a class="el" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">PRETTY_FUNCTION</a>, ##__VA_ARGS__); fflush(UYomCentralLog::GetFile());</td></tr>
+<tr class="memitem:a12ece47500cf6068b656a4c918f85814"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a>(pText, ...)&#160;&#160;&#160;fwprintf(UYomCentralLog::GetFile(), pText, ##__VA_ARGS__); fflush(UYomCentralLog::GetFile());</td></tr>
 <tr class="separator:a12ece47500cf6068b656a4c918f85814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0184a6c6d3da655409f7c39aa1676af2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_core_macros_8h.html#a0184a6c6d3da655409f7c39aa1676af2">YOM_DEFAULT_LOGGING</a>(pCategory,  pLevel,  pText, ...)</td></tr>
 <tr class="separator:a0184a6c6d3da655409f7c39aa1676af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,8 +193,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    UE_LOG(pCategory, pLevel, TEXT(<span class="stringliteral">&quot;%s - &quot;</span> pText), <a class="code hl_define" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">PRETTY_FUNCTION</a>, ##__VA_ARGS__); \</div>
-<div class="line">    if(UYomCentralLog::GetFile()) { <a class="code hl_define" href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a>(L<span class="stringliteral">&quot;%s - &quot;</span> pText <span class="stringliteral">&quot;\n&quot;</span>, ##__VA_ARGS__); }</div>
-<div class="ttc" id="a_yom_core_macros_8h_html_a12ece47500cf6068b656a4c918f85814"><div class="ttname"><a href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a></div><div class="ttdeci">#define YOM_PRINT_TO_LOG_FILE(pText,...)</div><div class="ttdef"><b>Definition:</b> YomCoreMacros.h:28</div></div>
+<div class="line">    if(UYomCentralLog::GetFile()) { <a class="code hl_define" href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a>(pText L<span class="stringliteral">&quot;\n&quot;</span>, ##__VA_ARGS__); }</div>
+<div class="ttc" id="a_yom_core_macros_8h_html_a12ece47500cf6068b656a4c918f85814"><div class="ttname"><a href="_yom_core_macros_8h.html#a12ece47500cf6068b656a4c918f85814">YOM_PRINT_TO_LOG_FILE</a></div><div class="ttdeci">#define YOM_PRINT_TO_LOG_FILE(pText,...)</div><div class="ttdef"><b>Definition:</b> YomCoreMacros.h:31</div></div>
 <div class="ttc" id="a_yom_core_macros_8h_html_af6ad60ef4c47c4a9bc65da38ba085125"><div class="ttname"><a href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">PRETTY_FUNCTION</a></div><div class="ttdeci">#define PRETTY_FUNCTION</div><div class="ttdef"><b>Definition:</b> YomCoreMacros.h:18</div></div>
 </div><!-- fragment -->
 </div>
@@ -526,7 +526,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;fwprintf(UYomCentralLog::GetFile(), pText, <a class="el" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">PRETTY_FUNCTION</a>, ##__VA_ARGS__); fflush(UYomCentralLog::GetFile());</td>
+          <td></td><td>&#160;&#160;&#160;fwprintf(UYomCentralLog::GetFile(), pText, ##__VA_ARGS__); fflush(UYomCentralLog::GetFile());</td>
         </tr>
       </table>
 </div><div class="memdoc">

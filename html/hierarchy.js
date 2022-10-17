@@ -20,6 +20,7 @@ var hierarchy =
     [ "UBlueprintFunctionLibrary", null, [
       [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
       [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
+      [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
       [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
       [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
       [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],

@@ -9,6 +9,7 @@ var annotated_dup =
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
+    [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
     [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
     [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", "class_u_yom_inventory_component" ],
     [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],

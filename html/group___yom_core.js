@@ -1,6 +1,7 @@
 var group___yom_core =
 [
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
+    [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "UYomModule", "class_u_yom_module.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", [

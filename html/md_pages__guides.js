@@ -27,5 +27,19 @@ var md_pages__guides =
         [ "Step 3: Creating a component", "_inventory_setup.html#autotoc_md15", null ],
         [ "Step 4: Setting your inventory in your player", "_inventory_setup.html#autotoc_md16", null ]
       ] ]
+    ] ],
+    [ "Nameplate Setup", "_nameplate_setup.html", [
+      [ "Adding a nameplate to your character", "_nameplate_setup.html#autotoc_md17", [
+        [ "Step 1: Creating a custom nameplate", "_nameplate_setup.html#autotoc_md18", null ],
+        [ "Step 2: Adding the nameplate to your character", "_nameplate_setup.html#autotoc_md19", null ],
+        [ "Step 3: Add the YomNameplateManager to your MetaspacePlayer", "_nameplate_setup.html#autotoc_md20", null ]
+      ] ]
+    ] ],
+    [ "Portal Setup", "_portal_setup.html", [
+      [ "Adding a portal to your Metaspace", "_portal_setup.html#autotoc_md21", [
+        [ "Step 1: Creating a Custom portal", "_portal_setup.html#autotoc_md22", null ],
+        [ "Step 2: Adding the portal to your level", "_portal_setup.html#autotoc_md23", null ],
+        [ "Step 3: Checking the images that are generated", "_portal_setup.html#autotoc_md24", null ]
+      ] ]
     ] ]
 ];

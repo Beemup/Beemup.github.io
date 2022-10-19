@@ -110,14 +110,49 @@ Inheritance diagram for UYomPortalsBPFunctions:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d569d69b85b1d279c311bf47a56880e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a5d569d69b85b1d279c311bf47a56880e">OpenRandomYomPortal</a> (UWorld *pWorld, const FString &amp;pUrl)</td></tr>
-<tr class="memdesc:a5d569d69b85b1d279c311bf47a56880e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a random portal in the world to the url.  <a href="class_u_yom_portals_b_p_functions.html#a5d569d69b85b1d279c311bf47a56880e">More...</a><br /></td></tr>
-<tr class="separator:a5d569d69b85b1d279c311bf47a56880e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342f75e6d4a86e3d207a547905fbed6b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a342f75e6d4a86e3d207a547905fbed6b">OpenRandomYomPortalFromPlayer</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const FString &amp;pUrl)</td></tr>
+<tr class="memdesc:a342f75e6d4a86e3d207a547905fbed6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a random portal in the world of the player to the url.  <a href="class_u_yom_portals_b_p_functions.html#a342f75e6d4a86e3d207a547905fbed6b">More...</a><br /></td></tr>
+<tr class="separator:a342f75e6d4a86e3d207a547905fbed6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cabeec4cb85e124a01f06d0aa7e057c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a8cabeec4cb85e124a01f06d0aa7e057c">OpenRandomYomPortalInWorld</a> (UWorld *pWorld, const FString &amp;pUrl)</td></tr>
+<tr class="memdesc:a8cabeec4cb85e124a01f06d0aa7e057c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a random portal in the world to the url.  <a href="class_u_yom_portals_b_p_functions.html#a8cabeec4cb85e124a01f06d0aa7e057c">More...</a><br /></td></tr>
+<tr class="separator:a8cabeec4cb85e124a01f06d0aa7e057c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3b476f0900bcfb4eda760a827cb006"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a3d3b476f0900bcfb4eda760a827cb006">OpenYomPortal</a> (<a class="el" href="class_a_yom_portal.html">AYomPortal</a> *pPortal, const FString &amp;pUrl)</td></tr>
+<tr class="separator:a3d3b476f0900bcfb4eda760a827cb006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fc721d88633018c980f8bbb8b930772"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a5fc721d88633018c980f8bbb8b930772">GetRandomAvailableYomPortal</a> (UWorld *pWorld)</td></tr>
+<tr class="separator:a5fc721d88633018c980f8bbb8b930772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd9940f16ee56afb9bfa85c2477614e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#abd9940f16ee56afb9bfa85c2477614e6">GetYomPortalFromID</a> (UWorld *pWorld, int pPortalID)</td></tr>
+<tr class="separator:abd9940f16ee56afb9bfa85c2477614e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d5d16fe82e1ac3b371941395134b67"><td class="memItemLeft" align="right" valign="top">static FTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portals_b_p_functions.html#a56d5d16fe82e1ac3b371941395134b67">GetTransformFromPortalID</a> (UWorld *pWorld, int pPortalID)</td></tr>
 <tr class="memdesc:a56d5d16fe82e1ac3b371941395134b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the transform from a portalID.  <a href="class_u_yom_portals_b_p_functions.html#a56d5d16fe82e1ac3b371941395134b67">More...</a><br /></td></tr>
 <tr class="separator:a56d5d16fe82e1ac3b371941395134b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5fc721d88633018c980f8bbb8b930772" name="a5fc721d88633018c980f8bbb8b930772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fc721d88633018c980f8bbb8b930772">&#9670;&#160;</a></span>GetRandomAvailableYomPortal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> * UYomPortalsBPFunctions::GetRandomAvailableYomPortal </td>
+          <td>(</td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>pWorld</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a56d5d16fe82e1ac3b371941395134b67" name="a56d5d16fe82e1ac3b371941395134b67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56d5d16fe82e1ac3b371941395134b67">&#9670;&#160;</a></span>GetTransformFromPortalID()</h2>
 
@@ -164,8 +199,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5d569d69b85b1d279c311bf47a56880e" name="a5d569d69b85b1d279c311bf47a56880e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d569d69b85b1d279c311bf47a56880e">&#9670;&#160;</a></span>OpenRandomYomPortal()</h2>
+<a id="abd9940f16ee56afb9bfa85c2477614e6" name="abd9940f16ee56afb9bfa85c2477614e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9940f16ee56afb9bfa85c2477614e6">&#9670;&#160;</a></span>GetYomPortalFromID()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -174,7 +209,88 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UYomPortalsBPFunctions::OpenRandomYomPortal </td>
+          <td class="memname"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> * UYomPortalsBPFunctions::GetYomPortalFromID </td>
+          <td>(</td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>pWorld</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pPortalID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a342f75e6d4a86e3d207a547905fbed6b" name="a342f75e6d4a86e3d207a547905fbed6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342f75e6d4a86e3d207a547905fbed6b">&#9670;&#160;</a></span>OpenRandomYomPortalFromPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomPortalsBPFunctions::OpenRandomYomPortalFromPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td>
+          <td class="paramname"><em>pPlayer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pUrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opens a random portal in the world of the player to the url. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPlayer</td><td>The player that opens the portal </td></tr>
+    <tr><td class="paramname">pUrl</td><td>The url of the other world </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8cabeec4cb85e124a01f06d0aa7e057c" name="a8cabeec4cb85e124a01f06d0aa7e057c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cabeec4cb85e124a01f06d0aa7e057c">&#9670;&#160;</a></span>OpenRandomYomPortalInWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomPortalsBPFunctions::OpenRandomYomPortalInWorld </td>
           <td>(</td>
           <td class="paramtype">UWorld *&#160;</td>
           <td class="paramname"><em>pWorld</em>, </td>
@@ -206,6 +322,42 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a3d3b476f0900bcfb4eda760a827cb006" name="a3d3b476f0900bcfb4eda760a827cb006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3b476f0900bcfb4eda760a827cb006">&#9670;&#160;</a></span>OpenYomPortal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomPortalsBPFunctions::OpenYomPortal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td>
+          <td class="paramname"><em>pPortal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pUrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -1,7 +1,9 @@
 var annotated_dup =
 [
+    [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
+    [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],

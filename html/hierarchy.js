@@ -3,9 +3,14 @@ var hierarchy =
     [ "AActor", null, [
       [ "AYomPortal", "class_a_yom_portal.html", null ]
     ] ],
+    [ "AGameMode", null, [
+      [ "AYomGameMode", "class_a_yom_game_mode.html", null ]
+    ] ],
     [ "AInfo", null, [
       [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
-      [ "AYomManager", "class_a_yom_manager.html", null ]
+      [ "AYomManager", "class_a_yom_manager.html", [
+        [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ]
+      ] ]
     ] ],
     [ "APlayerController", null, [
       [ "AYomPlayer", "class_a_yom_player.html", null ]

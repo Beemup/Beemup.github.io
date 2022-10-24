@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('class_u_yom_portalling_component.html'
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_u_yom_portalling_component-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UYomPortallingComponent Class Reference<div class="ingroups"><a class="el" href="group___yom_portals.html">YomPortals</a></div></div></div>
 </div><!--header-->
@@ -113,62 +112,75 @@ Inheritance diagram for UYomPortallingComponent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3771d46e060b5e2ae2c4da08376fca71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#a3771d46e060b5e2ae2c4da08376fca71">InitYomModule</a> () override</td></tr>
-<tr class="memdesc:a3771d46e060b5e2ae2c4da08376fca71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the player spawn if the player was teleported.  <a href="class_u_yom_portalling_component.html#a3771d46e060b5e2ae2c4da08376fca71">More...</a><br /></td></tr>
-<tr class="separator:a3771d46e060b5e2ae2c4da08376fca71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d3807108d679f7d110d2866d44e882"><td class="memItemLeft" align="right" valign="top">virtual FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#a79d3807108d679f7d110d2866d44e882">GetModuleName</a> () override</td></tr>
-<tr class="separator:a79d3807108d679f7d110d2866d44e882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Blueprint Functions</div></td></tr>
+<tr class="memitem:ac0574a8f0f0a5b5ebd656c4281148623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623">OpenPortal</a> (<a class="el" href="class_a_yom_portal.html">AYomPortal</a> *pPortal, const FString &amp;pUrl)</td></tr>
+<tr class="memdesc:ac0574a8f0f0a5b5ebd656c4281148623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a portal to a url.  <a href="class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623">More...</a><br /></td></tr>
+<tr class="separator:ac0574a8f0f0a5b5ebd656c4281148623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a280aaf3b080b78a7484fc19771951c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37">ClosePortal</a> (<a class="el" href="class_a_yom_portal.html">AYomPortal</a> *pPortal)</td></tr>
+<tr class="memdesc:a280aaf3b080b78a7484fc19771951c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the portal.  <a href="class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37">More...</a><br /></td></tr>
+<tr class="separator:a280aaf3b080b78a7484fc19771951c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79d3807108d679f7d110d2866d44e882" name="a79d3807108d679f7d110d2866d44e882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d3807108d679f7d110d2866d44e882">&#9670;&#160;</a></span>GetModuleName()</h2>
+<a id="a280aaf3b080b78a7484fc19771951c37" name="a280aaf3b080b78a7484fc19771951c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280aaf3b080b78a7484fc19771951c37">&#9670;&#160;</a></span>ClosePortal()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FString UYomPortallingComponent::GetModuleName </td>
+          <td class="memname">void UYomPortallingComponent::ClosePortal </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td>
+          <td class="paramname"><em>pPortal</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Closes the portal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPortal</td><td>The portal to open </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a3771d46e060b5e2ae2c4da08376fca71" name="a3771d46e060b5e2ae2c4da08376fca71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3771d46e060b5e2ae2c4da08376fca71">&#9670;&#160;</a></span>InitYomModule()</h2>
+<a id="ac0574a8f0f0a5b5ebd656c4281148623" name="ac0574a8f0f0a5b5ebd656c4281148623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0574a8f0f0a5b5ebd656c4281148623">&#9670;&#160;</a></span>OpenPortal()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UYomPortallingComponent::InitYomModule </td>
+          <td class="memname">void UYomPortallingComponent::OpenPortal </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td>
+          <td class="paramname"><em>pPortal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pUrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Sets the player spawn if the player was teleported. </p>
+<p>Opens a portal to a url. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPortal</td><td>The portal </td></tr>
+    <tr><td class="paramname">pUrl</td><td>The url </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

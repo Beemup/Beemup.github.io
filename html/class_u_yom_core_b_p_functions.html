@@ -113,9 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9099a40f4e844131557618f2c3046d50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_core_b_p_functions.html#a9099a40f4e844131557618f2c3046d50">GetYomPlayerFromActor</a> (AActor *pActor)</td></tr>
 <tr class="memdesc:a9099a40f4e844131557618f2c3046d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to retrieve the owning YomPlayer from an actor.  <a href="class_u_yom_core_b_p_functions.html#a9099a40f4e844131557618f2c3046d50">More...</a><br /></td></tr>
 <tr class="separator:a9099a40f4e844131557618f2c3046d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a055560e3dc203f2d7800fa3a59806ff5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_core_b_p_functions.html#a055560e3dc203f2d7800fa3a59806ff5">GetYomPlayerSinglePlayer</a> (UWorld *pWorld)</td></tr>
-<tr class="memdesc:a055560e3dc203f2d7800fa3a59806ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to retrieve the YomPlayer in a single player world, does NOT work in multiplayer.  <a href="class_u_yom_core_b_p_functions.html#a055560e3dc203f2d7800fa3a59806ff5">More...</a><br /></td></tr>
-<tr class="separator:a055560e3dc203f2d7800fa3a59806ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a556980bf0d80c115a2809e419984a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_core_b_p_functions.html#ab1a556980bf0d80c115a2809e419984a">GetYomPlayer</a> (const UObject *pWorldContextObject)</td></tr>
+<tr class="memdesc:ab1a556980bf0d80c115a2809e419984a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a YomPlayer.  <a href="class_u_yom_core_b_p_functions.html#ab1a556980bf0d80c115a2809e419984a">More...</a><br /></td></tr>
+<tr class="separator:ab1a556980bf0d80c115a2809e419984a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0092c10830430f6b02c2488092dab614"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_core_b_p_functions.html#a0092c10830430f6b02c2488092dab614">GetBlockchainFromWalletType</a> (const <a class="el" href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a> &amp;pType)</td></tr>
 <tr class="memdesc:a0092c10830430f6b02c2488092dab614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the blockchain type as an FString.  <a href="class_u_yom_core_b_p_functions.html#a0092c10830430f6b02c2488092dab614">More...</a><br /></td></tr>
 <tr class="separator:a0092c10830430f6b02c2488092dab614"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,6 +289,41 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab1a556980bf0d80c115a2809e419984a" name="ab1a556980bf0d80c115a2809e419984a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a556980bf0d80c115a2809e419984a">&#9670;&#160;</a></span>GetYomPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_a_yom_player.html">AYomPlayer</a> * UYomCoreBPFunctions::GetYomPlayer </td>
+          <td>(</td>
+          <td class="paramtype">const UObject *&#160;</td>
+          <td class="paramname"><em>pWorldContextObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a YomPlayer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pWorldContextObject</td><td>The context object (should be given by unreal) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The current YomPlayer </dd></dl>
+
+</div>
+</div>
 <a id="a9099a40f4e844131557618f2c3046d50" name="a9099a40f4e844131557618f2c3046d50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9099a40f4e844131557618f2c3046d50">&#9670;&#160;</a></span>GetYomPlayerFromActor()</h2>
 
@@ -317,41 +352,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pActor</td><td>The actor that has a relation to a YomPlayer </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>If found the YomPlayer, if not it will return a nullptr </dd></dl>
-
-</div>
-</div>
-<a id="a055560e3dc203f2d7800fa3a59806ff5" name="a055560e3dc203f2d7800fa3a59806ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a055560e3dc203f2d7800fa3a59806ff5">&#9670;&#160;</a></span>GetYomPlayerSinglePlayer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_a_yom_player.html">AYomPlayer</a> * UYomCoreBPFunctions::GetYomPlayerSinglePlayer </td>
-          <td>(</td>
-          <td class="paramtype">UWorld *&#160;</td>
-          <td class="paramname"><em>pWorld</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Tries to retrieve the YomPlayer in a single player world, does NOT work in multiplayer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pWorld</td><td>The current game world </td></tr>
   </table>
   </dd>
 </dl>

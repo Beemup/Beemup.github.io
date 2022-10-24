@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['startbuttonamount_0',['StartButtonAmount',['../class_u_yom_player_inventory_widget.html#af296a5c3699f930f7046dca7e786cca8',1,'UYomPlayerInventoryWidget']]]
+  ['playerassets_0',['PlayerAssets',['../class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613',1,'AYomPlayer']]],
+  ['publicwalletid_1',['PublicWalletID',['../struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda',1,'FWallet']]]
 ];

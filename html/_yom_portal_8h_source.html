@@ -181,30 +181,31 @@ $(document).ready(function(){initNavTree('_yom_portal_8h_source.html',''); initR
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    FString mUrl;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">bool</span> mAvailable = false;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    UPROPERTY(Replicated)</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    FPortalData mSessionData;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    FScriptDelegate mTeleportDelegate;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    UPROPERTY()</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    UYomPortalPreviewComponent* mPreviewComponent;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    UPROPERTY()</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    UShapeComponent* mPortalCollider;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">void</span> GetJsonData();</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    UFUNCTION()</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> GetJsonDataCallback(UVaRestRequestJSON* pJson);</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    UFUNCTION(NetMulticast,Reliable)</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> SyncPortal(const FString&amp; pImgUrl);</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    UFUNCTION()</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> TeleportObject(AActor* pTrigger, AActor* pActor);</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>};</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    UPROPERTY(Replicated)</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">bool</span> mAvailable = false;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    UPROPERTY(Replicated)</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    FPortalData mSessionData;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    FScriptDelegate mTeleportDelegate;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    UPROPERTY()</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    UYomPortalPreviewComponent* mPreviewComponent;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    UPROPERTY()</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    UShapeComponent* mPortalCollider;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> GetJsonData();</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    UFUNCTION()</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">void</span> GetJsonDataCallback(UVaRestRequestJSON* pJson);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    UFUNCTION(NetMulticast,Reliable)</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordtype">void</span> SyncPortal(const FString&amp; pImgUrl);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    UFUNCTION()</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">void</span> TeleportObject(AActor* pTrigger, AActor* pActor);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>};</div>
 <div class="ttc" id="a_yom_portal_preview_component_8h_html"><div class="ttname"><a href="_yom_portal_preview_component_8h.html">YomPortalPreviewComponent.h</a></div><div class="ttdoc">A component that can create and show cube maps for portals.</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:50</div></div>
 <div class="ttc" id="aclass_a_yom_portal_html"><div class="ttname"><a href="class_a_yom_portal.html">AYomPortal</a></div><div class="ttdoc">A portal that can portal players to a different metaspace.</div><div class="ttdef"><b>Definition:</b> YomPortal.h:43</div></div>

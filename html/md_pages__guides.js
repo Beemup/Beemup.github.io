@@ -39,7 +39,8 @@ var md_pages__guides =
       [ "Adding a portal to your Metaspace", "_portal_setup.html#autotoc_md21", [
         [ "Step 1: Creating a Custom portal", "_portal_setup.html#autotoc_md22", null ],
         [ "Step 2: Adding the portal to your level", "_portal_setup.html#autotoc_md23", null ],
-        [ "Step 3: Checking the images that are generated", "_portal_setup.html#autotoc_md24", null ]
+        [ "Step 3: Opening and closing the portal", "_portal_setup.html#autotoc_md24", null ],
+        [ "Step 4: Checking the images that are generated", "_portal_setup.html#autotoc_md25", null ]
       ] ]
     ] ]
 ];

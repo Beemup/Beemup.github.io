@@ -1,5 +1,5 @@
 var class_u_yom_portalling_component =
 [
-    [ "GetModuleName", "class_u_yom_portalling_component.html#a79d3807108d679f7d110d2866d44e882", null ],
-    [ "InitYomModule", "class_u_yom_portalling_component.html#a3771d46e060b5e2ae2c4da08376fca71", null ]
+    [ "ClosePortal", "class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37", null ],
+    [ "OpenPortal", "class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623", null ]
 ];

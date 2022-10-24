@@ -11,8 +11,8 @@ var group___yom_portals =
       [ "DefaultMapMaterial", "class_a_yom_portal.html#a6272798bcfdf990cee6ebb472ce4be69", null ]
     ] ],
     [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", [
-      [ "GetModuleName", "class_u_yom_portalling_component.html#a79d3807108d679f7d110d2866d44e882", null ],
-      [ "InitYomModule", "class_u_yom_portalling_component.html#a3771d46e060b5e2ae2c4da08376fca71", null ]
+      [ "ClosePortal", "class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37", null ],
+      [ "OpenPortal", "class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623", null ]
     ] ],
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ]
 ];

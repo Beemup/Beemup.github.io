@@ -103,36 +103,35 @@ $(document).ready(function(){initNavTree('_yom_core_macros_8h_source.html',''); 
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>DECLARE_LOG_CATEGORY_EXTERN(YomCoreLog, Log, All);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#if !defined(__PRETTY_FUNCTION__) &amp;&amp; !defined(__GNUC__)</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">   17</a></span><span class="preprocessor">#define PRETTY_FUNCTION __FUNCTIONW__ &quot;()&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125">   17</a></span><span class="preprocessor">#define PRETTY_FUNCTION __FUNCTION__ &quot;()&quot;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">//#define PRETTY_FUNCTION __PRETTY_FUNCTION__</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define PRETTY_FUNCTION L&quot;func()&quot;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a0184a6c6d3da655409f7c39aa1676af2">   23</a></span><span class="preprocessor">#define YOM_DEFAULT_LOGGING(pCategory, pLevel, pText, ...) UE_LOG(pCategory, pLevel, TEXT(&quot;%s - &quot;</span> pText), PRETTY_FUNCTION, ##__VA_ARGS__);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#undef YOM_LOG</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#undef YOM_WARN</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3471d89c85c793a8a2a00a84a97bb58c">   28</a></span><span class="preprocessor">#define YOM_LOG(pText, ...) YOM_DEFAULT_LOGGING(YomCoreLog, Log, pText, ##__VA_ARGS__)</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a34dc26db80bc8a87fa0b05aedc0e082f">   30</a></span><span class="preprocessor">#define YOM_WARN(pText, ...) YOM_DEFAULT_LOGGING(YomCoreLog, Warning, pText, ##__VA_ARGS__)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3397da45e7e9348fec729db99d237403">   32</a></span><span class="preprocessor">#define YOM_GUARD(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return; }</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a65434af94f98670e62ba533e8d1d1921">   34</a></span><span class="preprocessor">#define YOM_GUARD_NULL(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return nullptr;}</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a8d7324648fe747a6f1d7c68ad3660496">   36</a></span><span class="preprocessor">#define YOM_GUARD_CONT(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); continue;}</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#aff670dd118a6f33c3200c03ffa91db7e">   38</a></span><span class="preprocessor">#define YOM_GUARD_BREAK(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); break;}</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a90e4573e43ef4f795e0abb9f6cc3c7ad">   40</a></span><span class="preprocessor">#define YOM_GUARD_EMPTY(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return {}; }</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a05782e8a13027fdae7839907930809dd">   42</a></span><span class="preprocessor">#define YOM_GUARD_FALSE(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return false; }</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a781e6302b8073c34e7373dd061e71cb0">   44</a></span><span class="preprocessor">#define YOM_GUARD_TRUE(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return true; }</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3f90ea4efd7ecc1b82eddb55317bcc06">   46</a></span><span class="preprocessor">#define YOM_GUARD_CUSTOM(pCond, pRet, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return pRet; }</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define PRETTY_FUNCTION __PRETTY_FUNCTION__</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a0184a6c6d3da655409f7c39aa1676af2">   22</a></span><span class="preprocessor">#define YOM_DEFAULT_LOGGING(pCategory, pLevel, pText, ...) UE_LOG(pCategory, pLevel, TEXT(&quot;%hs - &quot;</span> pText), PRETTY_FUNCTION, ##__VA_ARGS__);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#undef YOM_LOG</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#undef YOM_WARN</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3471d89c85c793a8a2a00a84a97bb58c">   27</a></span><span class="preprocessor">#define YOM_LOG(pText, ...) YOM_DEFAULT_LOGGING(YomCoreLog, Log, pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a34dc26db80bc8a87fa0b05aedc0e082f">   29</a></span><span class="preprocessor">#define YOM_WARN(pText, ...) YOM_DEFAULT_LOGGING(YomCoreLog, Warning, pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3397da45e7e9348fec729db99d237403">   31</a></span><span class="preprocessor">#define YOM_GUARD(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return; }</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a65434af94f98670e62ba533e8d1d1921">   33</a></span><span class="preprocessor">#define YOM_GUARD_NULL(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return nullptr;}</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a8d7324648fe747a6f1d7c68ad3660496">   35</a></span><span class="preprocessor">#define YOM_GUARD_CONT(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); continue;}</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#aff670dd118a6f33c3200c03ffa91db7e">   37</a></span><span class="preprocessor">#define YOM_GUARD_BREAK(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); break;}</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a90e4573e43ef4f795e0abb9f6cc3c7ad">   39</a></span><span class="preprocessor">#define YOM_GUARD_EMPTY(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return {}; }</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a05782e8a13027fdae7839907930809dd">   41</a></span><span class="preprocessor">#define YOM_GUARD_FALSE(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return false; }</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a781e6302b8073c34e7373dd061e71cb0">   43</a></span><span class="preprocessor">#define YOM_GUARD_TRUE(pCond, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return true; }</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="_yom_core_macros_8h.html#a3f90ea4efd7ecc1b82eddb55317bcc06">   45</a></span><span class="preprocessor">#define YOM_GUARD_CUSTOM(pCond, pRet, pText, ...) if(pCond) { YOM_WARN(pText, ##__VA_ARGS__); return pRet; }</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

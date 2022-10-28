@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('_portal_setup.html',''); initResizable
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md21"></a>
 Adding a portal to your Metaspace</h1>
-<p >The <code>Your Open Metaverse</code> plugin allows creators to design their own portals. This guide will explain how to create and use your own portals with our ecosystem. If you just want to use our default portals, you can use the portals in the <code>Content Browser</code> under <code>Plugins -&gt; YOM Content -&gt; Portals</code> and skip to step 3. Note that you must have the option <code>Allow teleporting</code> set to true, you can verify this by going into your <code>MetaspacePlayer</code> and checking if it has a <code>YomPortallingComponent</code>.</p>
+<p >The <code>Your Open Metaverse</code> plugin allows creators to design their own portals. This guide will explain how to create and use your own portals with our ecosystem. If you just want to use our default portals, you can use the portals in the <code>Content Browser</code> under <code>Plugins -&gt; YOM Content -&gt; Portals</code> and skip to step 2. The portals that you can use are the <code>YomDefaultPortal</code> and the <code>YomFXPortal</code>, where the <code>YomFXPortal</code> is more visually appealing. Note that you must have the option <code>Allow teleporting</code> set to true, you can verify this by going into your <code>MetaspacePlayer</code> and checking if it has a <code>YomPortallingComponent</code>.</p>
 <h2><a class="anchor" id="autotoc_md22"></a>
 Step 1: Creating a Custom portal</h2>
 <p >To create a custom portal you will have to create a new blueprint asset. Right-click in a folder in the <code>Content Browser</code> and under <code>Create Basic Asset</code> click on <code>Blueprint Class</code>.</p>
@@ -110,12 +110,31 @@ Step 1: Creating a Custom portal</h2>
 Step 2: Adding the portal to your level</h2>
 <p >You can now add the newly created portal to your level by taking it from the <code>Content Browser</code> and sliding it into your level.</p>
 <h2><a class="anchor" id="autotoc_md24"></a>
-Step 3: Opening and closing the portal</h2>
-<p >You can now open and close the portals in blueprints. Create a reference to your portal and use the node <code>Open Yom Portal</code>, and give the node the player, the portal and a url (this can be random for now but should be another space later). To close a portal use the node <code>Close Yom Portal</code>.</p>
-<p ><img src="OpenYomPortalNode.png" alt="Open YomPortal" class="inline"/> <img src="CloseYomPortalNode.png" alt="Close YomPortal" class="inline"/></p>
+Step 3: Adding a button to your level</h2>
+<p >In this step we will describe how to create your own button, if you want to use a default button created by YOM please use the <code>YomDefaultPortalButton</code>, which works by pressing <code>E</code> in front of the button and go to step 4.</p>
+<p >To create your own button we will have to create a blueprint. Right-click in a folder in the <code>Content Browser</code> and under <code>Create Basic Asset</code> click on <code>Blueprint Class</code>.</p>
+<p ><img src="CreateBlueprintClass.png" alt="Blueprint Class" class="inline"/></p>
+<p >This will open op the blueprint dialog box, in this box click on <code>Actor</code>.</p>
+<p ><img src="PickActor.png" alt="Pick Actor" class="inline"/></p>
+<p >Open up the blueprint and add a collision (we use <code>Box Collision</code>).</p>
+<p ><img src="PickBoxCollision.png" alt="Pick Box Collision" class="inline"/></p>
+<p >Click on the new collision component and under <code>Details -&gt; Events</code> click on the <code>+</code> sign on the <code>On Component Begin Overlap</code>.</p>
+<p ><img src="PickOnComponentBeginOverlap.png" alt="Pick OnComponentBeginOverlap" class="inline"/></p>
+<p >This will now open the event graph. Under <code>Variables</code> press the <code>+</code> sign and add the following two variables:</p>
+<p ><img src="SetupPortalButtonVariables.png" alt="Setup PortalButtonVariables" class="inline"/></p>
+<p >Note that you will have to set the types of the variables yourself, and that the 'eye' needs to be open.</p>
+<p >After this setup your graph like this:</p>
+<p ><img src="OpenPortalGraph.png" alt="OpenPortalGraph" class="inline"/></p>
+<p >You have now created a button that can open a portal when a player runs into the box.</p>
 <h2><a class="anchor" id="autotoc_md25"></a>
-Step 4: Checking the images that are generated</h2>
-<p >If you start the game now and walk over to your portal you will see the image of your metaspace in the portal. Furthermore, a directory called <code>PortalImages</code> is added to your project root in which the images are stored. These are needed when submitting your project to <code>Your Open Metaverse</code> as these will be used to display your metaspace in other metaspaces. </p>
+Step 4: Adding the button to your level</h2>
+<p >You can now add the newly created button to your level by taking it from the <code>Content Browser</code> and sliding it into your level.</p>
+<h2><a class="anchor" id="autotoc_md26"></a>
+Step 5: Opening the portal</h2>
+<p >In the <code>Outliner</code> find the button that you just put into your level. In the <code>Details</code> panel of this actor you can now find the <code>Portal</code> and <code>Url</code> variables that you created. In the portal set the portal that you added to the level in step 2. The url of the portal should be a valid url to another metaspace.</p>
+<h2><a class="anchor" id="autotoc_md27"></a>
+Step 6: Checking the images that are generated</h2>
+<p >If you start the game now, trigger the button and walk over to your portal you will see the image of your metaspace in the portal. Furthermore, a directory called <code>PortalImages</code> is added to your project root in which the images are stored. These are needed when submitting your project to <code>Your Open Metaverse</code> as these will be used to display your metaspace in other metaspaces. When your level is hosted the image of another metaspace will be set in here. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -15,6 +15,7 @@ var hierarchy =
     [ "APlayerController", null, [
       [ "AYomPlayer", "class_a_yom_player.html", null ]
     ] ],
+    [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
     [ "UActorComponent", null, [
       [ "UYomModule", "class_u_yom_module.html", [

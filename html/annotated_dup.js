@@ -6,6 +6,7 @@ var annotated_dup =
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
+    [ "FRetryPawn", "struct_f_retry_pawn.html", "struct_f_retry_pawn" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],

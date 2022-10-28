@@ -8,7 +8,8 @@ var group___yom_portals =
       [ "OnPortalOpen", "class_a_yom_portal.html#a7c0fd1a5d0d8358aad4791bcbf7662d6", null ],
       [ "OnPortalOpenServer", "class_a_yom_portal.html#a206ddce2763fb892fe2860ed34eeea5c", null ],
       [ "AutoSetPortalMaterial", "class_a_yom_portal.html#aff96cc2ae3d92ccf164d3812ccee5275", null ],
-      [ "DefaultMapMaterial", "class_a_yom_portal.html#a6272798bcfdf990cee6ebb472ce4be69", null ]
+      [ "DefaultMapMaterial", "class_a_yom_portal.html#a6272798bcfdf990cee6ebb472ce4be69", null ],
+      [ "TimeOutSeconds", "class_a_yom_portal.html#a502795b36a1871429cc2e3779efe3e87", null ]
     ] ],
     [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", [
       [ "ClosePortal", "class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37", null ],

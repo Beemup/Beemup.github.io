@@ -1,5 +1,10 @@
 var NAVTREEINDEX0 =
 {
+"_counter_setup.html":[1,6],
+"_counter_setup.html#autotoc_md28":[1,6,0],
+"_counter_setup.html#autotoc_md29":[1,6,1],
+"_counter_setup.html#autotoc_md30":[1,6,1,0],
+"_counter_setup.html#autotoc_md31":[1,6,1,1],
 "_inventory_setup.html":[1,3],
 "_inventory_setup.html#autotoc_md10":[1,3,0],
 "_inventory_setup.html#autotoc_md11":[1,3,0,0],
@@ -118,8 +123,8 @@ var NAVTREEINDEX0 =
 "group___yom_portals.html":[2,6],
 "group___yom_tracking.html":[2,7],
 "hierarchy.html":[3,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "md_pages__guides.html":[1],
 "md_pages__guides.html#autotoc_md0":[1,0],
 "modules.html":[2],

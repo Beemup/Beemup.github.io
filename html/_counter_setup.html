@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomPortals/YomPortals.Build.cs File Reference</title>
+<title>YOM Replicator SDK: Counter Setup</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('_yom_portals_8_build_8cs.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_counter_setup.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,26 +92,39 @@ $(document).ready(function(){initNavTree('_yom_portals_8_build_8cs.html',''); in
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">YomPortals.Build.cs File Reference</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Counter Setup </div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Unreal build file.  
-<a href="#details">More...</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Unreal build file. </p>
-<hr  />
-<p> Copyright (C) Your Open Metaverse (Beemup), Inc - All Rights Reserved Unauthorized copying of this file, via any medium is strictly prohibited Proprietary and confidential Written by Sietze Riemersma <a href="#" onclick="location.href='mai'+'lto:'+'hel'+'lo'+'@yo'+'m.'+'ooo'; return false;">hello<span class="obfuscator">.nosp@m.</span>@yom<span class="obfuscator">.nosp@m.</span>.ooo</a>, August 2022</p>
-<dl class="section author"><dt>Author</dt><dd>Sietze Riemersma </dd></dl>
-<h2><a class="anchor" id="autotoc_md146"></a>
-@date   25/08/2022</h2>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md28"></a>
+Adding a portal to your</h1>
+<h1><a class="anchor" id="autotoc_md29"></a>
+Adding a counter to your metaverse</h1>
+<p >The <code>Your Open Metaverse</code> plugin allows creators to design their own counters. This guide will explain how to create and use your own counters with our ecosystem.</p>
+<h2><a class="anchor" id="autotoc_md30"></a>
+Step 1: Adding counter component</h2>
+<p >To use the features of the counter component, it needs to be connected to your player. This should be done by default. However, if you do not see YomCounter under your player as a component, follow this step. Otherwise, you can skip to step 2.</p>
+<p >YOM Counter is a component therefore we need to add it to the player blueprint. To add the component you will have to click add on component menu and search for <code>Yom Counter</code>.</p>
+<p ><img src="PickYomCounterComponent.png" alt="Pick YomCounter Component" class="inline"/></p>
+<p >After this, you can call counter functions through blueprints without errors.</p>
+<h2><a class="anchor" id="autotoc_md31"></a>
+Step 2: Using blueprint functions to use the component</h2>
+<p >From the blueprint actions box (it is automatically open or you should right click to the screen), search for <code>Yom Counter</code> in order to see the available functions.</p>
+<p >Example use case for <code>Get Counter</code> function</p>
+<p ><img src="GetCounter.png" alt="Get Counter" class="inline"/></p>
+<p >In this example, we are trying to get <code>testCounter</code> in metaspace with id <code>123123</code>. Counter value is returned by a callback therefore we drag and drop P Callback node and create a custom event. P value returned by the event is the value of the counter which can be used however the user wants. In this example case it is printed to development screen.</p>
+<p ><img src="CreateCallbackEvent.png" alt="Create Callback Event" class="inline"/></p>
+<p >Example use case for <code>Add to Counter</code> function</p>
+<p ><img src="AddToCounter.png" alt="Add to Counter" class="inline"/></p>
+<p >In this example, counter is set to increment the <code>testCounter</code> in metaspace with id <code>123123</code> by value 1. Therefore, this will increment that counter value by 1. P Callback function is the function which is returned after API Request is done. It can be used to execute more commands when your increment/decrement request is done.</p>
+<p >If callback function is not required, a dummy callback function can be created as it can be seen from the image. This can be done using the same method with <code>GetCounter</code> callback function. </p>
 </div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_9daeee9279cf2528ceb428287143f9c1.html">YomPortals</a></li><li class="navelem"><a class="el" href="_yom_portals_8_build_8cs.html">YomPortals.Build.cs</a></li>
+    <li class="navelem"><a class="el" href="md_pages__guides.html">Guides</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

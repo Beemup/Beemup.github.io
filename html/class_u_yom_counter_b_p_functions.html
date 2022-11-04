@@ -110,16 +110,16 @@ Inheritance diagram for UYomCounterBPFunctions:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Blueprint Functions</div></td></tr>
-<tr class="memitem:a919ec936e8df3eabdc2be420807e69cb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_counter_b_p_functions.html#a919ec936e8df3eabdc2be420807e69cb">AddToCounter</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const int pValue, const FString &amp;pName, const FString &amp;pMetaspaceId)</td></tr>
-<tr class="memdesc:a919ec936e8df3eabdc2be420807e69cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">A BlueprintCallable function that increments or decrements a counter on blockchain.  <a href="class_u_yom_counter_b_p_functions.html#a919ec936e8df3eabdc2be420807e69cb">More...</a><br /></td></tr>
-<tr class="separator:a919ec936e8df3eabdc2be420807e69cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51a553cdba7c1fcc2f69fdd9499bf96"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_counter_b_p_functions.html#ae51a553cdba7c1fcc2f69fdd9499bf96">AddToCounter</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const int pValue, const FString &amp;pName, const FString &amp;pMetaspaceId, const FFetchCounterDoneDelegate &amp;pCallback)</td></tr>
+<tr class="memdesc:ae51a553cdba7c1fcc2f69fdd9499bf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A BlueprintCallable function that increments or decrements a counter on blockchain.  <a href="class_u_yom_counter_b_p_functions.html#ae51a553cdba7c1fcc2f69fdd9499bf96">More...</a><br /></td></tr>
+<tr class="separator:ae51a553cdba7c1fcc2f69fdd9499bf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdf82802a21baca92551df3ad791a0de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_counter_b_p_functions.html#abdf82802a21baca92551df3ad791a0de">GetCounter</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const FString &amp;pName, const FString &amp;pMetaspaceId, const FFetchCounterDelegate &amp;pCallback)</td></tr>
 <tr class="memdesc:abdf82802a21baca92551df3ad791a0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">A BlueprintCallable function that gets the value of the counter with the given name from given metaspace.  <a href="class_u_yom_counter_b_p_functions.html#abdf82802a21baca92551df3ad791a0de">More...</a><br /></td></tr>
 <tr class="separator:abdf82802a21baca92551df3ad791a0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a919ec936e8df3eabdc2be420807e69cb" name="a919ec936e8df3eabdc2be420807e69cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a919ec936e8df3eabdc2be420807e69cb">&#9670;&#160;</a></span>AddToCounter()</h2>
+<a id="ae51a553cdba7c1fcc2f69fdd9499bf96" name="ae51a553cdba7c1fcc2f69fdd9499bf96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51a553cdba7c1fcc2f69fdd9499bf96">&#9670;&#160;</a></span>AddToCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,7 +149,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const FString &amp;&#160;</td>
-          <td class="paramname"><em>pMetaspaceId</em>&#160;</td>
+          <td class="paramname"><em>pMetaspaceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FFetchCounterDoneDelegate &amp;&#160;</td>
+          <td class="paramname"><em>pCallback</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -171,6 +177,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">pValue</td><td>The value which will be added to the counter </td></tr>
     <tr><td class="paramname">pName</td><td>The name of the counter to change </td></tr>
     <tr><td class="paramname">pMetaspaceId</td><td>The identifier of the metaspace </td></tr>
+    <tr><td class="paramname">pCallback</td><td>The name of the callback to save the value </td></tr>
   </table>
   </dd>
 </dl>

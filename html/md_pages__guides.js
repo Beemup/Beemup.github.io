@@ -44,5 +44,12 @@ var md_pages__guides =
         [ "Step 5: Opening the portal", "_portal_setup.html#autotoc_md26", null ],
         [ "Step 6: Checking the images that are generated", "_portal_setup.html#autotoc_md27", null ]
       ] ]
+    ] ],
+    [ "Counter Setup", "_counter_setup.html", [
+      [ "Adding a portal to your", "_counter_setup.html#autotoc_md28", null ],
+      [ "Adding a counter to your metaverse", "_counter_setup.html#autotoc_md29", [
+        [ "Step 1: Adding counter component", "_counter_setup.html#autotoc_md30", null ],
+        [ "Step 2: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md31", null ]
+      ] ]
     ] ]
 ];

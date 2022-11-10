@@ -17,6 +17,13 @@ var hierarchy =
     ] ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "ModuleRules", null, [
+      [ "YomEditor", "class_yom_editor.html", null ]
+    ] ],
+    [ "SCompoundWidget", null, [
+      [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
+      [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ]
+    ] ],
     [ "UActorComponent", null, [
       [ "UYomModule", "class_u_yom_module.html", [
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],

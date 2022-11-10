@@ -8,6 +8,8 @@ var annotated_dup =
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", "struct_f_retry_pawn" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
+    [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
+    [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
@@ -26,5 +28,6 @@ var annotated_dup =
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
     [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
     [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", "class_u_yom_voice_initializer" ],
-    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
+    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
+    [ "YomEditor", "class_yom_editor.html", "class_yom_editor" ]
 ];

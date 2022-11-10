@@ -16,5 +16,7 @@ var searchData=
   ['uyomportalsbpfunctions_13',['UYomPortalsBPFunctions',['../class_u_yom_portals_b_p_functions.html',1,'']]],
   ['uyomportalssettings_14',['UYomPortalsSettings',['../class_u_yom_portals_settings.html',1,'']]],
   ['uyomtrackingbpfunctions_15',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
-  ['uyomwalletfetchstrategies_16',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
+  ['uyomvoicecomponent_16',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
+  ['uyomvoiceinitializer_17',['UYomVoiceInitializer',['../class_u_yom_voice_initializer.html',1,'']]],
+  ['uyomwalletfetchstrategies_18',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
 ];

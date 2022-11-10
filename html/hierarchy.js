@@ -20,8 +20,10 @@ var hierarchy =
     [ "UActorComponent", null, [
       [ "UYomModule", "class_u_yom_module.html", [
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],
-        [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ]
-      ] ]
+        [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ],
+        [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", null ]
+      ] ],
+      [ "UYomVoiceComponent", "class_u_yom_voice_component.html", null ]
     ] ],
     [ "UBlueprintFunctionLibrary", null, [
       [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],

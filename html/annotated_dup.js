@@ -24,5 +24,7 @@ var annotated_dup =
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
     [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
+    [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
+    [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", "class_u_yom_voice_initializer" ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
 ];

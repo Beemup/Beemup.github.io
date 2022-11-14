@@ -18,6 +18,9 @@ var hierarchy =
     ] ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "IPixelStreamingAudioConsumer", null, [
+      [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ]
+    ] ],
     [ "ModuleRules", null, [
       [ "YomEditor", "class_yom_editor.html", null ]
     ] ],
@@ -26,6 +29,7 @@ var hierarchy =
       [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ]
     ] ],
     [ "UActorComponent", null, [
+      [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ],
       [ "UYomModule", "class_u_yom_module.html", [
         [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", null ],
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],

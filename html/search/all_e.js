@@ -10,7 +10,8 @@ var searchData=
   ['spawnitemfromwidget_7',['SpawnItemFromWidget',['../class_u_yom_inventory_b_p_functions.html#ae0702435b0c4f84ae03860f11b74c875',1,'UYomInventoryBPFunctions']]],
   ['spawnplayerinstance_8',['SpawnPlayerInstance',['../class_a_yom_player.html#adf5694457e5d9d933f8b109c4dc41ab1',1,'AYomPlayer']]],
   ['startbuttonamount_9',['StartButtonAmount',['../class_u_yom_player_inventory_widget.html#af296a5c3699f930f7046dca7e786cca8',1,'UYomPlayerInventoryWidget']]],
-  ['string_5fsetting_10',['STRING_SETTING',['../_yom_settings_window_8cpp.html#a6a4c06c7618a86c78a91c5da20ff3ca0',1,'YomSettingsWindow.cpp']]],
-  ['syomsettingswindow_11',['SYomSettingsWindow',['../class_s_yom_settings_window.html',1,'']]],
-  ['syomsetupwindow_12',['SYomSetupWindow',['../class_s_yom_setup_window.html',1,'']]]
+  ['stop_5ftalking_5fthreshold_10',['STOP_TALKING_THRESHOLD',['../_yom_audio_consumer_8cpp.html#a88303c0124beb0af64a551a35128721a',1,'YomAudioConsumer.cpp']]],
+  ['string_5fsetting_11',['STRING_SETTING',['../_yom_settings_window_8cpp.html#a6a4c06c7618a86c78a91c5da20ff3ca0',1,'YomSettingsWindow.cpp']]],
+  ['syomsettingswindow_12',['SYomSettingsWindow',['../class_s_yom_settings_window.html',1,'']]],
+  ['syomsetupwindow_13',['SYomSetupWindow',['../class_s_yom_setup_window.html',1,'']]]
 ];

@@ -12,6 +12,7 @@ var annotated_dup =
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
     [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
+    [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],

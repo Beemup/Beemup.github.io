@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['yombuttonwidget_0',['YomButtonWidget',['../class_u_yom_player_inventory_widget.html#a3e09adce56c288e073e51b9fe2148ddb',1,'UYomPlayerInventoryWidget']]],
-  ['yommanagers_1',['YomManagers',['../class_a_yom_player.html#a445c16ce07d0495135b9485504a03bba',1,'AYomPlayer']]],
-  ['yomvoicecomponent_2',['YomVoiceComponent',['../class_u_yom_voice_initializer.html#ae26e35fa115652d1f883cf0c1181ab34',1,'UYomVoiceInitializer']]]
+  ['walletid_0',['WalletID',['../class_u_yom_nameplate_widget.html#a2093172b6e25880d199844f854413dc8',1,'UYomNameplateWidget']]],
+  ['wallettype_1',['WalletType',['../struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5',1,'FWallet']]],
+  ['widget_2',['Widget',['../class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd',1,'UYomInventoryComponent']]],
+  ['window_3',['Window',['../class_s_yom_setup_window.html#a32054fd0d628b072cd61701eeda614f6',1,'SYomSetupWindow']]]
 ];

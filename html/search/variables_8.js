@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['playerassets_0',['PlayerAssets',['../class_a_yom_player.html#a4789ce3b90b730046bb739b9def27613',1,'AYomPlayer']]],
-  ['playerpawn_1',['PlayerPawn',['../struct_f_retry_pawn.html#a349831fa17c9019118f1747834ed42f8',1,'FRetryPawn']]],
-  ['publicwalletid_2',['PublicWalletID',['../struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda',1,'FWallet']]]
+  ['ongatedaccessallowed_0',['OnGatedAccessAllowed',['../class_u_yom_gated_access_component.html#a6e2494c3452d8303bbf52a1330047e9f',1,'UYomGatedAccessComponent']]],
+  ['ongatedaccessdenied_1',['OnGatedAccessDenied',['../class_u_yom_gated_access_component.html#aa4aaf5fd07c9c8f1ccb1f325ed9af1fb',1,'UYomGatedAccessComponent']]]
 ];

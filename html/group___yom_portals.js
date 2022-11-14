@@ -1,5 +1,9 @@
 var group___yom_portals =
 [
+    [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", [
+      [ "OnGatedAccessAllowed", "class_u_yom_gated_access_component.html#a6e2494c3452d8303bbf52a1330047e9f", null ],
+      [ "OnGatedAccessDenied", "class_u_yom_gated_access_component.html#aa4aaf5fd07c9c8f1ccb1f325ed9af1fb", null ]
+    ] ],
     [ "AYomPortal", "class_a_yom_portal.html", [
       [ "GetPortalMaterial", "class_a_yom_portal.html#a55ff6390f44a6149fdb565d2ec88d1ba", null ],
       [ "IsAvailable", "class_a_yom_portal.html#a3e9e9447fa7a7d3c19a6e7cf3fa0c3cc", null ],

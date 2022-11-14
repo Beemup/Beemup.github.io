@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
+    [ "AYomGatedAccess", "class_a_yom_gated_access.html", "class_a_yom_gated_access" ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
@@ -15,6 +16,8 @@ var annotated_dup =
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
+    [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
+    [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", "class_u_yom_gated_access_component" ],
     [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
     [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", "class_u_yom_inventory_component" ],
     [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],

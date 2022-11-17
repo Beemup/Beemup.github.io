@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['back_5fcam_0',['BACK_CAM',['../_yom_portal_capture_component_8cpp.html#a51f0568c8c423d70d9323112ad0254af',1,'YomPortalCaptureComponent.cpp']]]
+  ['audio_5fcutoff_5fthreshold_0',['AUDIO_CUTOFF_THRESHOLD',['../_yom_audio_consumer_8cpp.html#aab4cd5551139e31200213f312bc365dc',1,'YomAudioConsumer.cpp']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['yombuttonwidget_0',['YomButtonWidget',['../class_u_yom_player_inventory_widget.html#a3e09adce56c288e073e51b9fe2148ddb',1,'UYomPlayerInventoryWidget']]],
-  ['yommanagers_1',['YomManagers',['../class_a_yom_player.html#a445c16ce07d0495135b9485504a03bba',1,'AYomPlayer']]]
+  ['voiceplayer_0',['VoicePlayer',['../class_u_yom_voice_component.html#a9ee83d3dfbcedbbcd0093d6bb6cd6c14',1,'UYomVoiceComponent']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['up_5fcam_0',['UP_CAM',['../_yom_portal_capture_component_8cpp.html#a3e499d334ebec6d616e6b322991c4de2',1,'YomPortalCaptureComponent.cpp']]]
+  ['max_5fvoice_5fremainder_5fsize_0',['MAX_VOICE_REMAINDER_SIZE',['../_yom_audio_consumer_8cpp.html#a7ebd7257c5fa8ca6dd5614af8c0fbbcf',1,'YomAudioConsumer.cpp']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['walletid_0',['WalletID',['../class_u_yom_nameplate_widget.html#a2093172b6e25880d199844f854413dc8',1,'UYomNameplateWidget']]],
-  ['wallettype_1',['WalletType',['../struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5',1,'FWallet']]],
-  ['widget_2',['Widget',['../class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd',1,'UYomInventoryComponent']]]
+  ['variable_5ftext_0',['VARIABLE_TEXT',['../_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a',1,'YomSettingsWindow.cpp']]],
+  ['voiceplayer_1',['VoicePlayer',['../class_u_yom_voice_component.html#a9ee83d3dfbcedbbcd0093d6bb6cd6c14',1,'UYomVoiceComponent']]]
 ];

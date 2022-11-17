@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
+    [ "AYomGatedAccess", "class_a_yom_gated_access.html", "class_a_yom_gated_access" ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
@@ -8,11 +9,16 @@ var annotated_dup =
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", "struct_f_retry_pawn" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
+    [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
+    [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
+    [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
+    [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
+    [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", "class_u_yom_gated_access_component" ],
     [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
     [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", "class_u_yom_inventory_component" ],
     [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
@@ -24,5 +30,8 @@ var annotated_dup =
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
     [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
-    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
+    [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
+    [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", "class_u_yom_voice_initializer" ],
+    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
+    [ "YomEditor", "class_yom_editor.html", "class_yom_editor" ]
 ];

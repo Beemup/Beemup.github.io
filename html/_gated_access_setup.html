@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomNameplates/Private/YomNameplatesModule.h File Reference</title>
+<title>YOM Replicator SDK: Gated Access Setup</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('_yom_nameplates_module_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_gated_access_setup.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,28 +92,35 @@ $(document).ready(function(){initNavTree('_yom_nameplates_module_8h.html',''); i
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">YomNameplatesModule.h File Reference</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Gated Access Setup </div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Module interface for unreal.  
-<a href="#details">More...</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Module interface for unreal. </p>
-<hr  />
-<p> Copyright (C) Your Open Metaverse (Beemup), Inc - All Rights Reserved Unauthorized copying of this file, via any medium is strictly prohibited Proprietary and confidential Written by Sietze Riemersma <a href="#" onclick="location.href='mai'+'lto:'+'hel'+'lo'+'@yo'+'m.'+'ooo'; return false;">hello<span class="obfuscator">.nosp@m.</span>@yom<span class="obfuscator">.nosp@m.</span>.ooo</a>, August 2022</p>
-<dl class="section author"><dt>Author</dt><dd>Sietze Riemersma </dd></dl>
-<h2><a class="anchor" id="autotoc_md159"></a>
-@date   18/08/2022</h2>
-</div>
-<p><a href="_yom_nameplates_module_8h_source.html">Go to the source code of this file.</a></p>
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="autotoc_md32"></a>
+Adding a Gated Access to your metaverse</h1>
+<p >The <code>Your Open Metaverse</code> plugin allows creators to create restricted zones accessible only by the players that own a specific NFT item in their wallet. This guide will explain how to create and use your own Gated Access with our ecosystem.</p>
+<h2><a class="anchor" id="autotoc_md33"></a>
+Step 1: Adding Gated Access component</h2>
+<p >To use the features of the Gated Access component, it needs to be connected to your player. This should be done by default. However, if you do not see YomGatedAccess under your player as a component, follow this step. Otherwise, you can skip to step 2.</p>
+<p >YOM Gated Access is a component, therefore we need to add it to the player blueprint. To add the component you will have to click add the on component menu and search for <code>Yom Gated Access</code>.</p>
+<p ><img src="PickYomGatedAccessComponent.png" alt="Pick YomGatedAccess Component" class="inline"/></p>
+<p >After this, you can call the Gated Access functions through blueprints without errors.</p>
+<h2><a class="anchor" id="autotoc_md34"></a>
+Step 2: Adding Gated Access actor to the level</h2>
+<p >To implement a Gated Access actor search for <code>Yom Gated Access</code> in the Place Actors Window and drag it into the level.</p>
+<p ><img src="PickYomGatedAccessActor.png" alt="Pick YomGatedAccess Actor" class="inline"/></p>
+<p ><img src="YomGatedAccessInLevel.png" alt="YomGatedAccess in Level" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md35"></a>
+Step 3: Set Gated Access Item ID</h2>
+<p >In order to set the NFT item needed to access the Gated Access zone click on the Gated Access actor, search for <code>Item ID</code> and insert the NFT address.</p>
+<p ><img src="YomGatedAccessItemID.png" alt="YomGatedAccess in Level" class="inline"/> </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_2c5889688a8b695ad520cdd54c916037.html">YomNameplates</a></li><li class="navelem"><a class="el" href="dir_89bf91b766a0a9b47edc9f3d7f1666c1.html">Private</a></li><li class="navelem"><a class="el" href="_yom_nameplates_module_8h.html">YomNameplatesModule.h</a></li>
+    <li class="navelem"><a class="el" href="md_pages__guides.html">Guides</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

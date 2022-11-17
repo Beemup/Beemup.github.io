@@ -51,5 +51,12 @@ var md_pages__guides =
         [ "Step 1: Adding counter component", "_counter_setup.html#autotoc_md30", null ],
         [ "Step 2: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md31", null ]
       ] ]
+    ] ],
+    [ "Gated Access Setup", "_gated_access_setup.html", [
+      [ "Adding a Gated Access to your metaverse", "_gated_access_setup.html#autotoc_md32", [
+        [ "Step 1: Adding Gated Access component", "_gated_access_setup.html#autotoc_md33", null ],
+        [ "Step 2: Adding Gated Access actor to the level", "_gated_access_setup.html#autotoc_md34", null ],
+        [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md35", null ]
+      ] ]
     ] ]
 ];

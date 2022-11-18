@@ -18,11 +18,10 @@ var hierarchy =
     ] ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "FYomQueue< T >", "class_f_yom_queue.html", null ],
+    [ "FYomQueue< int16_t >", "class_f_yom_queue.html", null ],
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ]
-    ] ],
-    [ "ModuleRules", null, [
-      [ "YomEditor", "class_yom_editor.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
@@ -52,6 +51,8 @@ var hierarchy =
       [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
       [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
+      [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
+      [ "UYomVoiceSettingsClass", "class_u_yom_voice_settings_class.html", null ],
       [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
     ] ],
     [ "UUserWidget", null, [

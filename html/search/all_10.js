@@ -24,5 +24,7 @@ var searchData=
   ['uyomtrackingbpfunctions_21',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
   ['uyomvoicecomponent_22',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
   ['uyomvoiceinitializer_23',['UYomVoiceInitializer',['../class_u_yom_voice_initializer.html',1,'']]],
-  ['uyomwalletfetchstrategies_24',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
+  ['uyomvoicesettings_24',['UYomVoiceSettings',['../class_u_yom_voice_settings.html',1,'']]],
+  ['uyomvoicesettingsclass_25',['UYomVoiceSettingsClass',['../class_u_yom_voice_settings_class.html',1,'']]],
+  ['uyomwalletfetchstrategies_26',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
 ];

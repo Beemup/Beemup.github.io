@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yomeditor_0',['YomEditor',['../class_yom_editor.html#a8fb03121040db165f4bac9528e592b66',1,'YomEditor']]],
-  ['yomregexreplace_1',['YomRegexReplace',['../_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e',1,'YomSettingsWindow.cpp']]]
+  ['usesolanadevnet_0',['UseSolanaDevnet',['../class_u_yom_core_settings.html#ab3d3cfc045e21a1bcd0ddd30a451cc21',1,'UYomCoreSettings']]],
+  ['usetestplayer_1',['UseTestPlayer',['../class_u_yom_core_settings.html#a1cd256216e1cb371c78639cd82f504d8',1,'UYomCoreSettings']]]
 ];

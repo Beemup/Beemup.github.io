@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomVoice/Private/YomAudioConsumer.cpp File Reference</title>
+<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomVoice/Private/YomAudioRecorderComponent.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('_yom_audio_consumer_8cpp.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_yom_audio_recorder_component_8cpp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8cpp.html',''); in
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">YomAudioConsumer.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">YomAudioRecorderComponent.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -107,21 +107,24 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8cpp.html',''); in
 <hr  />
 <p> Copyright (C) Your Open Metaverse (Beemup), Inc - All Rights Reserved Unauthorized copying of this file, via any medium is strictly prohibited Proprietary and confidential Written by Sietze Riemersma <a href="#" onclick="location.href='mai'+'lto:'+'hel'+'lo'+'@yo'+'m.'+'ooo'; return false;">hello<span class="obfuscator">.nosp@m.</span>@yom<span class="obfuscator">.nosp@m.</span>.ooo</a>, November 2022</p>
 <dl class="section author"><dt>Author</dt><dd>Sietze Riemersma </dd></dl>
-<h2><a class="anchor" id="autotoc_md194"></a>
+<h2><a class="anchor" id="autotoc_md195"></a>
 @date   14/11/2022</h2>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7ebd7257c5fa8ca6dd5614af8c0fbbcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_consumer_8cpp.html#a7ebd7257c5fa8ca6dd5614af8c0fbbcf">MAX_VOICE_REMAINDER_SIZE</a>&#160;&#160;&#160;1u * 1024u</td></tr>
+<tr class="memitem:a7ebd7257c5fa8ca6dd5614af8c0fbbcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_recorder_component_8cpp.html#a7ebd7257c5fa8ca6dd5614af8c0fbbcf">MAX_VOICE_REMAINDER_SIZE</a>&#160;&#160;&#160;1024u</td></tr>
 <tr class="separator:a7ebd7257c5fa8ca6dd5614af8c0fbbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c097300f1452137bd06a8553159397"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_consumer_8cpp.html#a27c097300f1452137bd06a8553159397">PREFFERED_SAMPLES</a>&#160;&#160;&#160;160</td></tr>
-<tr class="separator:a27c097300f1452137bd06a8553159397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88303c0124beb0af64a551a35128721a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_consumer_8cpp.html#a88303c0124beb0af64a551a35128721a">STOP_TALKING_THRESHOLD</a>&#160;&#160;&#160;0.01</td></tr>
+<tr class="memitem:a42a3d20e3e29f0719c8d8ea19b24d8d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_recorder_component_8cpp.html#a42a3d20e3e29f0719c8d8ea19b24d8d2">PREFERRED_SAMPLES</a>&#160;&#160;&#160;UYomVoiceSettings::SamplingRate() / 100</td></tr>
+<tr class="separator:a42a3d20e3e29f0719c8d8ea19b24d8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88303c0124beb0af64a551a35128721a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_recorder_component_8cpp.html#a88303c0124beb0af64a551a35128721a">STOP_TALKING_THRESHOLD</a>&#160;&#160;&#160;0.01</td></tr>
 <tr class="separator:a88303c0124beb0af64a551a35128721a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58089ae56fa99093c060e17bf13c77f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_recorder_component_8cpp.html#a58089ae56fa99093c060e17bf13c77f3">SIGNALLING_SAMPLE_RATE</a>&#160;&#160;&#160;48000</td></tr>
+<tr class="separator:a58089ae56fa99093c060e17bf13c77f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f9c731e5e1e7ada990ca888dc28a962"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_consumer_8cpp.html#a8f9c731e5e1e7ada990ca888dc28a962">YomVoiceIsSound</a> (int pMinValue, int pMaxValue)</td></tr>
+<tr class="memitem:a8f9c731e5e1e7ada990ca888dc28a962"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_audio_recorder_component_8cpp.html#a8f9c731e5e1e7ada990ca888dc28a962">YomVoiceIsSound</a> (int pMinValue, int pMaxValue)</td></tr>
+<tr class="memdesc:a8f9c731e5e1e7ada990ca888dc28a962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if there currently is sound playing above the threshold.  <a href="_yom_audio_recorder_component_8cpp.html#a8f9c731e5e1e7ada990ca888dc28a962">More...</a><br /></td></tr>
 <tr class="separator:a8f9c731e5e1e7ada990ca888dc28a962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -132,21 +135,35 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_VOICE_REMAINDER_SIZE&#160;&#160;&#160;1u * 1024u</td>
+          <td class="memname">#define MAX_VOICE_REMAINDER_SIZE&#160;&#160;&#160;1024u</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a27c097300f1452137bd06a8553159397" name="a27c097300f1452137bd06a8553159397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27c097300f1452137bd06a8553159397">&#9670;&#160;</a></span>PREFFERED_SAMPLES</h2>
+<a id="a42a3d20e3e29f0719c8d8ea19b24d8d2" name="a42a3d20e3e29f0719c8d8ea19b24d8d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a3d20e3e29f0719c8d8ea19b24d8d2">&#9670;&#160;</a></span>PREFERRED_SAMPLES</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PREFFERED_SAMPLES&#160;&#160;&#160;160</td>
+          <td class="memname">#define PREFERRED_SAMPLES&#160;&#160;&#160;UYomVoiceSettings::SamplingRate() / 100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58089ae56fa99093c060e17bf13c77f3" name="a58089ae56fa99093c060e17bf13c77f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58089ae56fa99093c060e17bf13c77f3">&#9670;&#160;</a></span>SIGNALLING_SAMPLE_RATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SIGNALLING_SAMPLE_RATE&#160;&#160;&#160;48000</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -194,6 +211,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if there currently is sound playing above the threshold. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pMinValue</td><td>The minimal value of the current sound </td></tr>
+    <tr><td class="paramname">pMaxValue</td><td>The maximum value of the current sound </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether there is sound or not </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -201,7 +228,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_6180356a7a8b11b856bff332a3fa6bb2.html">YomVoice</a></li><li class="navelem"><a class="el" href="dir_1a5f4ceb5db37ca923987b5b1b4a6a69.html">Private</a></li><li class="navelem"><a class="el" href="_yom_audio_consumer_8cpp.html">YomAudioConsumer.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_6180356a7a8b11b856bff332a3fa6bb2.html">YomVoice</a></li><li class="navelem"><a class="el" href="dir_1a5f4ceb5db37ca923987b5b1b4a6a69.html">Private</a></li><li class="navelem"><a class="el" href="_yom_audio_recorder_component_8cpp.html">YomAudioRecorderComponent.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

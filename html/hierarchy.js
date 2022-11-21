@@ -18,22 +18,20 @@ var hierarchy =
     ] ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
-    [ "FYomQueue< T >", "class_f_yom_queue.html", null ],
-    [ "FYomQueue< int16_t >", "class_f_yom_queue.html", null ],
     [ "IPixelStreamingAudioConsumer", null, [
-      [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ]
+      [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
       [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ]
     ] ],
     [ "UActorComponent", null, [
-      [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ],
+      [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
       [ "UYomModule", "class_u_yom_module.html", [
         [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", null ],
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],
         [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ],
-        [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", null ]
+        [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", null ]
       ] ],
       [ "UYomVoiceComponent", "class_u_yom_voice_component.html", null ]
     ] ],
@@ -52,12 +50,14 @@ var hierarchy =
       [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
       [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
-      [ "UYomVoiceSettingsClass", "class_u_yom_voice_settings_class.html", null ],
       [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
     ] ],
     [ "UUserWidget", null, [
       [ "UYomButton", "class_u_yom_button.html", null ],
       [ "UYomNameplateWidget", "class_u_yom_nameplate_widget.html", null ],
       [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", null ]
+    ] ],
+    [ "UVoipListenerSynthComponent", null, [
+      [ "UYomAudioPlayerComponent", "class_u_yom_audio_player_component.html", null ]
     ] ]
 ];

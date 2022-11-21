@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['usesolanadevnet_0',['UseSolanaDevnet',['../class_u_yom_core_settings.html#ab3d3cfc045e21a1bcd0ddd30a451cc21',1,'UYomCoreSettings']]],
-  ['usetestplayer_1',['UseTestPlayer',['../class_u_yom_core_settings.html#a1cd256216e1cb371c78639cd82f504d8',1,'UYomCoreSettings']]]
+  ['yomregexreplace_0',['YomRegexReplace',['../_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e',1,'YomSettingsWindow.cpp']]],
+  ['yomvoiceissound_1',['YomVoiceIsSound',['../_yom_audio_recorder_component_8cpp.html#a8f9c731e5e1e7ada990ca888dc28a962',1,'YomAudioRecorderComponent.cpp']]]
 ];

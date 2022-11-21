@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomVoice/Public/YomAudioConsumer.h Source File</title>
+<title>YOM Replicator SDK: /home/vsts/work/1/s/Plugins/YourOpenMetaverse/Source/YomVoice/Public/YomAudioRecorderComponent.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_yom_audio_recorder_component_8h_source.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">YomAudioConsumer.h</div></div>
+  <div class="headertitle"><div class="title">YomAudioRecorderComponent.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_yom_audio_consumer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<a href="_yom_audio_recorder_component_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -104,19 +104,19 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;IPixelStreamingAudioConsumer.h&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_yom_queue_8h.html">YomQueue.h</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;UObject/Object.h&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;YomAudioConsumer.generated.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;YomAudioRecorderComponent.generated.h&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span><a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FYomVoiceGenerated, <span class="keyword">const</span> TArray&lt;uint8&gt;&amp;, pVoiceData);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>UCLASS()</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_u_yom_audio_consumer.html">   27</a></span>class YOMVOICE_API <a class="code hl_class" href="class_u_yom_audio_consumer.html">UYomAudioConsumer</a> : public UActorComponent, public IPixelStreamingAudioConsumer</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_u_yom_audio_recorder_component.html">   27</a></span>class YOMVOICE_API <a class="code hl_class" href="class_u_yom_audio_recorder_component.html">UYomAudioRecorderComponent</a> : public UActorComponent, public IPixelStreamingAudioConsumer</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    GENERATED_BODY()</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_class" href="class_u_yom_audio_consumer.html">UYomAudioConsumer</a>();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_class" href="class_u_yom_audio_recorder_component.html">UYomAudioRecorderComponent</a>();</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> Init(<a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pPlayer);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> GenerateAudioCompressed(uint32 pTotalVoiceBytes);</div>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnConsumerAdded() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnConsumerRemoved() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_u_yom_audio_consumer.html">~UYomAudioConsumer</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="class_u_yom_audio_recorder_component.html">~UYomAudioRecorderComponent</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    FYomVoiceGenerated VoiceGenerated;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    TSharedPtr&lt;class IVoiceEncoder&gt; mVoiceEncoder;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_class" href="class_f_yom_queue.html">FYomQueue&lt;int16_t&gt;</a> mRawPCM;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    FYomQueue&lt;int16_t&gt; mRawPCM;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    TArray&lt;int16_t&gt; mUnprocessedRawPCM;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
@@ -165,16 +165,15 @@ $(document).ready(function(){initNavTree('_yom_audio_consumer_8h_source.html',''
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    FCriticalSection mCriticalSection;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
-<div class="ttc" id="a_yom_queue_8h_html"><div class="ttname"><a href="_yom_queue_8h.html">YomQueue.h</a></div></div>
+<div class="ttc" id="a_yom_queue_8h_html"><div class="ttname"><a href="_yom_queue_8h.html">YomQueue.h</a></div><div class="ttdoc">A queue that also keeps track of the amount of objects it stores.</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:52</div></div>
-<div class="ttc" id="aclass_f_yom_queue_html"><div class="ttname"><a href="class_f_yom_queue.html">FYomQueue</a></div><div class="ttdef"><b>Definition:</b> YomQueue.h:9</div></div>
-<div class="ttc" id="aclass_u_yom_audio_consumer_html"><div class="ttname"><a href="class_u_yom_audio_consumer.html">UYomAudioConsumer</a></div><div class="ttdoc">Consumes audio from the webrtc for voicechat.</div><div class="ttdef"><b>Definition:</b> YomAudioConsumer.h:28</div></div>
+<div class="ttc" id="aclass_u_yom_audio_recorder_component_html"><div class="ttname"><a href="class_u_yom_audio_recorder_component.html">UYomAudioRecorderComponent</a></div><div class="ttdoc">Consumes audio from the webrtc for voice chat.</div><div class="ttdef"><b>Definition:</b> YomAudioRecorderComponent.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_6180356a7a8b11b856bff332a3fa6bb2.html">YomVoice</a></li><li class="navelem"><a class="el" href="dir_46bc33e1976020318517081777ffc36e.html">Public</a></li><li class="navelem"><a class="el" href="_yom_audio_consumer_8h.html">YomAudioConsumer.h</a></li>
+    <li class="navelem"><a class="el" href="dir_0b4eaef40a1fe20bedafe9e8e719ce66.html">Plugins</a></li><li class="navelem"><a class="el" href="dir_1f1f9e3d4a038eb3792df6b7d5da1861.html">YourOpenMetaverse</a></li><li class="navelem"><a class="el" href="dir_f86aba2c49827c2750917ef99700dfc8.html">Source</a></li><li class="navelem"><a class="el" href="dir_6180356a7a8b11b856bff332a3fa6bb2.html">YomVoice</a></li><li class="navelem"><a class="el" href="dir_46bc33e1976020318517081777ffc36e.html">Public</a></li><li class="navelem"><a class="el" href="_yom_audio_recorder_component_8h.html">YomAudioRecorderComponent.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

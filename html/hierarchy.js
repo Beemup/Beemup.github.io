@@ -18,6 +18,9 @@ var hierarchy =
     ] ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "IModuleInterface", null, [
+      [ "YomControlHintsModule", "class_yom_control_hints_module.html", null ]
+    ] ],
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
     ] ],
@@ -28,6 +31,7 @@ var hierarchy =
     [ "UActorComponent", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
       [ "UYomModule", "class_u_yom_module.html", [
+        [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", null ],
         [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", null ],
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],
         [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ],
@@ -54,6 +58,7 @@ var hierarchy =
     ] ],
     [ "UUserWidget", null, [
       [ "UYomButton", "class_u_yom_button.html", null ],
+      [ "UYomControlHintsWidget", "class_u_yom_control_hints_widget.html", null ],
       [ "UYomNameplateWidget", "class_u_yom_nameplate_widget.html", null ],
       [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", null ]
     ] ],

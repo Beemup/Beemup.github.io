@@ -15,6 +15,8 @@ var annotated_dup =
     [ "UYomAudioPlayerComponent", "class_u_yom_audio_player_component.html", "class_u_yom_audio_player_component" ],
     [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
+    [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", null ],
+    [ "UYomControlHintsWidget", "class_u_yom_control_hints_widget.html", null ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
@@ -34,5 +36,6 @@ var annotated_dup =
     [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
     [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
-    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
+    [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
+    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
 ];

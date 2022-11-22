@@ -107,6 +107,10 @@ $(document).ready(function(){initNavTree('_yom_voice_macros_8h_source.html','');
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#a3471d89c85c793a8a2a00a84a97bb58c">   19</a></span><span class="preprocessor">#define YOM_LOG(pText, ...) YOM_DEFAULT_LOGGING(YomVoiceLog, Log, pText, ##__VA_ARGS__)</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#a34dc26db80bc8a87fa0b05aedc0e082f">   20</a></span><span class="preprocessor">#define YOM_WARN(pText, ...) YOM_DEFAULT_LOGGING(YomVoiceLog, Warning, pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#af79c461d28aab990cee8774b81dfffaf">   22</a></span><span class="preprocessor">#define YOMVOICE_SOUND_LOG(pText, ...) if(UYomVoiceSettings::IsSoundLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#a1b911a97e4f6a9cabc2bf22554feb53c">   23</a></span><span class="preprocessor">#define YOMVOICE_CONNECTION_LOG(pText, ...) if(UYomVoiceSettings::IsConnectionLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#addf36d8a05ac2cc37dd7c25b554cf7c0">   24</a></span><span class="preprocessor">#define YOMVOICE_PLAYBACK_LOG(pText, ...) if(UYomVoiceSettings::IsPlaybackLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
 <div class="ttc" id="a_yom_core_macros_8h_html"><div class="ttname"><a href="_yom_core_macros_8h.html">YomCoreMacros.h</a></div><div class="ttdoc">Some module specific macros.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

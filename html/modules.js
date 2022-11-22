@@ -1,6 +1,7 @@
 var modules =
 [
     [ "YomAirdrop", "group___yom_airdrop.html", "group___yom_airdrop" ],
+    [ "YomControlHints", "group___yom_control_hints.html", "group___yom_control_hints" ],
     [ "YomCore", "group___yom_core.html", "group___yom_core" ],
     [ "YomCounter", "group___yom_counter.html", "group___yom_counter" ],
     [ "YomEditor", "group___yom_editor.html", "group___yom_editor" ],

@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('_yom_settings_window_8cpp.html',''); i
 <hr  />
 <p> Copyright (C) Your Open Metaverse (Beemup), Inc - All Rights Reserved Unauthorized copying of this file, via any medium is strictly prohibited Proprietary and confidential Written by Sietze Riemersma <a href="#" onclick="location.href='mai'+'lto:'+'hel'+'lo'+'@yo'+'m.'+'ooo'; return false;">hello<span class="obfuscator">.nosp@m.</span>@yom<span class="obfuscator">.nosp@m.</span>.ooo</a>, November 2022</p>
 <dl class="section author"><dt>Author</dt><dd>Sietze Riemersma </dd></dl>
-<h2><a class="anchor" id="autotoc_md95"></a>
+<h2><a class="anchor" id="autotoc_md109"></a>
 @date   10/11/2022</h2>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -118,6 +118,8 @@ Macros</h2></td></tr>
 <tr class="separator:afc0a6c421b7e9ae89555c64cde54eeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9239ef7fd4fa06a9e42fac208ce6a353"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a9239ef7fd4fa06a9e42fac208ce6a353">REPLACE_INT_SETTING</a>(pField)&#160;&#160;&#160;iniContent = <a class="el" href="_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e">YomRegexReplace</a>(iniContent, #pField &quot;=(\\{\\{&quot; #pField &quot;\\}\\}|[0-9]*)&quot;, FString(#pField &quot;=&quot;).Append(FString::FromInt(pSettings-&gt;pField)))</td></tr>
 <tr class="separator:a9239ef7fd4fa06a9e42fac208ce6a353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aaad7ad6ec7e63d575d9d3d526681fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a4aaad7ad6ec7e63d575d9d3d526681fe">REPLACE_FLOAT_SETTING</a>(pField)&#160;&#160;&#160;iniContent = <a class="el" href="_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e">YomRegexReplace</a>(iniContent, #pField &quot;=(\\{\\{&quot; #pField &quot;\\}\\}|[0-9]*\\.[0-9]*|[0-9]*)&quot;, FString(#pField &quot;=&quot;).Append(FString::SanitizeFloat(pSettings-&gt;pField)))</td></tr>
+<tr class="separator:a4aaad7ad6ec7e63d575d9d3d526681fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7062a6884cb55a7cfb7464a37488704a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a7062a6884cb55a7cfb7464a37488704a">REPLACE_CUSTOM_SETTING</a>(pField,  pRegex)&#160;&#160;&#160;iniContent = <a class="el" href="_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e">YomRegexReplace</a>(iniContent, #pField &quot;=(\\{\\{&quot; #pField &quot;\\}\\}|&quot; pRegex &quot;)&quot;, FString(#pField &quot;=&quot;).Append(pSettings-&gt;pField))</td></tr>
 <tr class="separator:a7062a6884cb55a7cfb7464a37488704a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8a0ad2bccbf2895ab8d0ffb23b340a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText,  pDescription)</td></tr>
@@ -126,6 +128,10 @@ Macros</h2></td></tr>
 <tr class="separator:a82f832e8ea2828c1261a8ea318b07a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4c06c7618a86c78a91c5da20ff3ca0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a6a4c06c7618a86c78a91c5da20ff3ca0">STRING_SETTING</a>(pModule,  pField,  pText,  pDescription)</td></tr>
 <tr class="separator:a6a4c06c7618a86c78a91c5da20ff3ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c40d0996697efc54586794b555643d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#a77c40d0996697efc54586794b555643d">INT_SETTING</a>(pModule,  pField,  pText,  pDescription)</td></tr>
+<tr class="separator:a77c40d0996697efc54586794b555643d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39348f1a9487779c93aef4d97f70902"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_settings_window_8cpp.html#ad39348f1a9487779c93aef4d97f70902">FLOAT_SETTING</a>(pModule,  pField,  pText,  pDescription)</td></tr>
+<tr class="separator:ad39348f1a9487779c93aef4d97f70902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -193,7 +199,123 @@ Functions</h2></td></tr>
 <div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
 <div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
 <div class="line"><span class="preprocessor">    ]</span></div>
-<div class="ttc" id="a_yom_settings_window_8cpp_html_a9a8a0ad2bccbf2895ab8d0ffb23b340a"><div class="ttname"><a href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a></div><div class="ttdeci">#define VARIABLE_TEXT(pText, pDescription)</div><div class="ttdef"><b>Definition:</b> YomSettingsWindow.cpp:142</div></div>
+<div class="ttc" id="a_yom_settings_window_8cpp_html_a9a8a0ad2bccbf2895ab8d0ffb23b340a"><div class="ttname"><a href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a></div><div class="ttdeci">#define VARIABLE_TEXT(pText, pDescription)</div><div class="ttdef"><b>Definition:</b> YomSettingsWindow.cpp:182</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad39348f1a9487779c93aef4d97f70902" name="ad39348f1a9487779c93aef4d97f70902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39348f1a9487779c93aef4d97f70902">&#9670;&#160;</a></span>FLOAT_SETTING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLOAT_SETTING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pModule, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pField, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pText, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pDescription&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                       \</div>
+<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                 \</div>
+<div class="line">    .HAlign(HAlign_Left)                                                                     \</div>
+<div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
+<div class="line">    [                                                                                        \</div>
+<div class="line">        SNew(SEditableTextBox)                                                               \</div>
+<div class="line">        .Text(FText::FromString(FString::SanitizeFloat(current##pModule##Settings-&gt;pField))) \</div>
+<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                   \</div>
+<div class="line">        {                                                                                    \</div>
+<div class="line">            FString stringValue = pNewText.ToString();                                       \</div>
+<div class="line">            if(!stringValue.IsNumeric()) return;                                             \</div>
+<div class="line">            U<span class="preprocessor">##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</span></div>
+<div class="line"><span class="preprocessor">            newSettings-&gt;pField = FCString::Atof(stringValue.GetCharArray().GetData());      \</span></div>
+<div class="line"><span class="preprocessor">            U##pModule##Settings::SetSettings(newSettings);                                  \</span></div>
+<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
+<div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
+<div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
+<div class="line"><span class="preprocessor">    ]</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a77c40d0996697efc54586794b555643d" name="a77c40d0996697efc54586794b555643d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c40d0996697efc54586794b555643d">&#9670;&#160;</a></span>INT_SETTING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INT_SETTING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pModule, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pField, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pText, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pDescription&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                       \</div>
+<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                 \</div>
+<div class="line">    .HAlign(HAlign_Left)                                                                     \</div>
+<div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
+<div class="line">    [                                                                                        \</div>
+<div class="line">        SNew(SEditableTextBox)                                                               \</div>
+<div class="line">        .Text(FText::FromString(FString::FromInt(current##pModule##Settings-&gt;pField)))       \</div>
+<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                   \</div>
+<div class="line">        {                                                                                    \</div>
+<div class="line">            FString stringValue = pNewText.ToString();                                       \</div>
+<div class="line">            if(!YomIsInt(stringValue)) <span class="keywordflow">return</span>;                                               \</div>
+<div class="line">            U##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</div>
+<div class="line">            newSettings-&gt;pField = FCString::Atoi(stringValue.GetCharArray().GetData());      \</div>
+<div class="line">            U##pModule##Settings::SetSettings(newSettings);                                  \</div>
+<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
+<div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
+<div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
+<div class="line"><span class="preprocessor">    ]</span></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -237,6 +359,24 @@ Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;iniContent = <a class="el" href="_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e">YomRegexReplace</a>(iniContent, #pField &quot;=(\\{\\{&quot; #pField &quot;\\}\\}|&quot; pRegex &quot;)&quot;, FString(#pField &quot;=&quot;).Append(pSettings-&gt;pField))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4aaad7ad6ec7e63d575d9d3d526681fe" name="a4aaad7ad6ec7e63d575d9d3d526681fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aaad7ad6ec7e63d575d9d3d526681fe">&#9670;&#160;</a></span>REPLACE_FLOAT_SETTING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REPLACE_FLOAT_SETTING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pField</td><td>)</td>
+          <td>&#160;&#160;&#160;iniContent = <a class="el" href="_yom_settings_window_8cpp.html#aed2c58181479efd0a653bd2360eec35e">YomRegexReplace</a>(iniContent, #pField &quot;=(\\{\\{&quot; #pField &quot;\\}\\}|[0-9]*\\.[0-9]*|[0-9]*)&quot;, FString(#pField &quot;=&quot;).Append(FString::SanitizeFloat(pSettings-&gt;pField)))</td>
         </tr>
       </table>
 </div><div class="memdoc">

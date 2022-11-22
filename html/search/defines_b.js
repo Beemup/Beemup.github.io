@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['stop_5ftalking_5fthreshold_0',['STOP_TALKING_THRESHOLD',['../_yom_audio_consumer_8cpp.html#a88303c0124beb0af64a551a35128721a',1,'YomAudioConsumer.cpp']]],
-  ['string_5fsetting_1',['STRING_SETTING',['../_yom_settings_window_8cpp.html#a6a4c06c7618a86c78a91c5da20ff3ca0',1,'YomSettingsWindow.cpp']]]
+  ['up_5fcam_0',['UP_CAM',['../_yom_portal_capture_component_8cpp.html#a3e499d334ebec6d616e6b322991c4de2',1,'YomPortalCaptureComponent.cpp']]]
 ];

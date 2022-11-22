@@ -46,10 +46,10 @@ var md_pages__guides =
       ] ]
     ] ],
     [ "Counter Setup", "_counter_setup.html", [
-      [ "Adding a portal to your", "_counter_setup.html#autotoc_md28", null ],
-      [ "Adding a counter to your metaverse", "_counter_setup.html#autotoc_md29", [
-        [ "Step 1: Adding counter component", "_counter_setup.html#autotoc_md30", null ],
-        [ "Step 2: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md31", null ]
+      [ "Adding a counter to your metaverse", "_counter_setup.html#autotoc_md28", [
+        [ "Step 1: Adding counter actor the the world", "_counter_setup.html#autotoc_md29", null ],
+        [ "Step 2: Adding counter component to the player", "_counter_setup.html#autotoc_md30", null ],
+        [ "Step 3: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md31", null ]
       ] ]
     ] ],
     [ "Gated Access Setup", "_gated_access_setup.html", [
@@ -57,6 +57,11 @@ var md_pages__guides =
         [ "Step 1: Adding Gated Access component", "_gated_access_setup.html#autotoc_md33", null ],
         [ "Step 2: Adding Gated Access actor to the level", "_gated_access_setup.html#autotoc_md34", null ],
         [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md35", null ]
+      ] ]
+    ] ],
+    [ "Control Hints Setup", "_control_hints_setup.html", [
+      [ "Displaying the Control Hints Panel to the player's screen", "_control_hints_setup.html#autotoc_md36", [
+        [ "Step 1: Adding Control Hints component", "_control_hints_setup.html#autotoc_md37", null ]
       ] ]
     ] ]
 ];

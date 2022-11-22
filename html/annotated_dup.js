@@ -12,8 +12,11 @@ var annotated_dup =
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
     [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
-    [ "UYomAudioConsumer", "class_u_yom_audio_consumer.html", null ],
+    [ "UYomAudioPlayerComponent", "class_u_yom_audio_player_component.html", "class_u_yom_audio_player_component" ],
+    [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
+    [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", null ],
+    [ "UYomControlHintsWidget", "class_u_yom_control_hints_widget.html", null ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
@@ -31,7 +34,8 @@ var annotated_dup =
     [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
     [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
-    [ "UYomVoiceInitializer", "class_u_yom_voice_initializer.html", "class_u_yom_voice_initializer" ],
+    [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
+    [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
-    [ "YomEditor", "class_yom_editor.html", "class_yom_editor" ]
+    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
 ];

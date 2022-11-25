@@ -51,6 +51,7 @@ var hierarchy =
     ] ],
     [ "UObject", null, [
       [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
+      [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
       [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
       [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],

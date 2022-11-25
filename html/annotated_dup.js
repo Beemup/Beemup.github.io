@@ -20,6 +20,7 @@ var annotated_dup =
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
+    [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
     [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
     [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", "class_u_yom_gated_access_component" ],
     [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],

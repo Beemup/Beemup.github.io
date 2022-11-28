@@ -181,6 +181,6 @@ var NAVTREEINDEX0 =
 "struct_f_retry_pawn.html#acd097c3681e3ce4118f86ee717b3911a":[3,0,7,0],
 "struct_f_wallet.html":[2,2,5],
 "struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda":[2,2,5,1],
-"struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944":[2,2,5,0],
-"struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5":[2,2,5,2]
+"struct_f_wallet.html#a8b4bc4ab6b5a4e6f204f5521380d91f2":[2,2,5,2],
+"struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944":[2,2,5,0]
 };

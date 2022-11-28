@@ -194,5 +194,6 @@ var searchData=
   ['yomwalletconnectstrategies_2eh_191',['YomWalletConnectStrategies.h',['../_yom_wallet_connect_strategies_8h.html',1,'']]],
   ['yomwalletfetchstrategies_2ecpp_192',['YomWalletFetchStrategies.cpp',['../_yom_wallet_fetch_strategies_8cpp.html',1,'']]],
   ['yomwalletfetchstrategies_2eh_193',['YomWalletFetchStrategies.h',['../_yom_wallet_fetch_strategies_8h.html',1,'']]],
-  ['yomwallets_2eh_194',['YomWallets.h',['../_yom_wallets_8h.html',1,'']]]
+  ['yomwallets_2ecpp_194',['YomWallets.cpp',['../_yom_wallets_8cpp.html',1,'']]],
+  ['yomwallets_2eh_195',['YomWallets.h',['../_yom_wallets_8h.html',1,'']]]
 ];

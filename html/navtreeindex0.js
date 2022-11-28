@@ -156,6 +156,7 @@ var NAVTREEINDEX0 =
 "group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242":[2,2,6],
 "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5":[2,2,6,0],
 "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a67e79d50f3d7c47288f35e3ab4476f4f":[2,2,6,2],
+"group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242aa992ac22585cab018d573a01e851f992":[2,2,6,3],
 "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242accc39d39a80c5a02b63336092c9f40fb":[2,2,6,1],
 "group___yom_counter.html":[2,3],
 "group___yom_editor.html":[2,4],
@@ -179,6 +180,7 @@ var NAVTREEINDEX0 =
 "struct_f_retry_pawn.html#a349831fa17c9019118f1747834ed42f8":[3,0,7,1],
 "struct_f_retry_pawn.html#acd097c3681e3ce4118f86ee717b3911a":[3,0,7,0],
 "struct_f_wallet.html":[2,2,5],
-"struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda":[2,2,5,0],
-"struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5":[2,2,5,1]
+"struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda":[2,2,5,1],
+"struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944":[2,2,5,0],
+"struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5":[2,2,5,2]
 };

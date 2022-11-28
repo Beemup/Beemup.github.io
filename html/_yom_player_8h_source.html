@@ -176,10 +176,10 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> OnOverlayPressed(<span class="keyword">const</span> FString&amp; pJson);</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    UFUNCTION(Client, Reliable)</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> ConnectPlayer(<span class="keyword">const</span> FString&amp; pWalletKey);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> ConnectPlayer(<span class="keyword">const</span> FString&amp; pWalletKey, <span class="keyword">const</span> FString&amp; pPlayerName);</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> ConnectWallet(<span class="keyword">const</span> FString&amp; pWalletKey);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> ConnectWallet(<span class="keyword">const</span> FString&amp; pWalletKey, <span class="keyword">const</span> FString&amp; pPlayerName);</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">void</span> LoadModules();</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
@@ -269,7 +269,7 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="ttc" id="aclass_a_yom_manager_html"><div class="ttname"><a href="class_a_yom_manager.html">AYomManager</a></div><div class="ttdoc">A manager that can manage something of the metaspace.</div><div class="ttdef"><b>Definition:</b> YomManager.h:22</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:52</div></div>
 <div class="ttc" id="aclass_u_yom_module_html"><div class="ttname"><a href="class_u_yom_module.html">UYomModule</a></div><div class="ttdoc">The base class for all YomModules that can extend the YomPlayer.</div><div class="ttdef"><b>Definition:</b> YomModule.h:21</div></div>
-<div class="ttc" id="astruct_f_wallet_html"><div class="ttname"><a href="struct_f_wallet.html">FWallet</a></div><div class="ttdoc">The wallet which holds information about a the wallet of a player.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:33</div></div>
+<div class="ttc" id="astruct_f_wallet_html"><div class="ttname"><a href="struct_f_wallet.html">FWallet</a></div><div class="ttdoc">The wallet which holds information about a the wallet of a player.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

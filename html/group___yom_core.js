@@ -22,12 +22,14 @@ var group___yom_core =
       [ "YomManagers", "class_a_yom_player.html#a445c16ce07d0495135b9485504a03bba", null ]
     ] ],
     [ "FWallet", "struct_f_wallet.html", [
+      [ "PlayerName", "struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944", null ],
       [ "PublicWalletID", "struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda", null ],
       [ "WalletType", "struct_f_wallet.html#afaf1b8712981198dad457a251fb60fd5", null ]
     ] ],
     [ "EWalletType", "group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242", [
       [ "NoWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5", null ],
       [ "TestWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242accc39d39a80c5a02b63336092c9f40fb", null ],
-      [ "SolanaWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a67e79d50f3d7c47288f35e3ab4476f4f", null ]
+      [ "SolanaWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a67e79d50f3d7c47288f35e3ab4476f4f", null ],
+      [ "GuestWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242aa992ac22585cab018d573a01e851f992", null ]
     ] ]
 ];

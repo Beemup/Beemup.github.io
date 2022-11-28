@@ -21,13 +21,12 @@ var searchData=
   ['getvarestsubsystem_18',['GetVaRestSubsystem',['../class_u_yom_core_b_p_functions.html#a9ddc1f148cfefc77dd607001a36e5d5d',1,'UYomCoreBPFunctions']]],
   ['getwallet_19',['GetWallet',['../class_a_yom_player.html#a64081a9c9116035847cc721d70e062b5',1,'AYomPlayer']]],
   ['getwalletid_20',['GetWalletID',['../class_a_yom_player.html#a1c26f4de3fd3f46e105a26dcd1001a38',1,'AYomPlayer']]],
-  ['getwalletname_21',['GetWalletName',['../_yom_nameplate_manager_8cpp.html#af31d7d8c81c776269b7a1b36ae2e4bb3',1,'YomNameplateManager.cpp']]],
-  ['getyominipath_22',['GetYomIniPath',['../_yom_settings_window_8cpp.html#a957cf60136d48e2e17ae6e8c89e0892c',1,'YomSettingsWindow.cpp']]],
-  ['getyominitemplatepath_23',['GetYomIniTemplatePath',['../_yom_settings_window_8cpp.html#a967146e01a1eaa0924efb75666709fee',1,'YomSettingsWindow.cpp']]],
-  ['getyominventoryitems_24',['GetYomInventoryItems',['../class_u_yom_inventory_component.html#aa25e1fde0a31c702186f759b3fe5ec97',1,'UYomInventoryComponent']]],
-  ['getyomplayer_25',['GetYomPlayer',['../class_u_yom_core_b_p_functions.html#ab1a556980bf0d80c115a2809e419984a',1,'UYomCoreBPFunctions']]],
-  ['getyomplayerfromactor_26',['GetYomPlayerFromActor',['../class_u_yom_core_b_p_functions.html#a9099a40f4e844131557618f2c3046d50',1,'UYomCoreBPFunctions']]],
-  ['getyomplayerfromitem_27',['GetYomPlayerFromItem',['../class_u_yom_items_b_p_functions.html#a87ff96e71ee8087e93ef1ff0421d2fbd',1,'UYomItemsBPFunctions']]],
-  ['getyomplayerobject_28',['GetYomPlayerObject',['../_yom_player_blueprint_factory_8cpp.html#a5d2d29afd18834dc8ace6c3fe92b0b76',1,'YomPlayerBlueprintFactory.cpp']]],
-  ['getyomportalfromid_29',['GetYomPortalFromID',['../class_u_yom_portals_b_p_functions.html#a4d934c848ffc07301a16416d66dec61b',1,'UYomPortalsBPFunctions']]]
+  ['getyominipath_21',['GetYomIniPath',['../_yom_settings_window_8cpp.html#a957cf60136d48e2e17ae6e8c89e0892c',1,'YomSettingsWindow.cpp']]],
+  ['getyominitemplatepath_22',['GetYomIniTemplatePath',['../_yom_settings_window_8cpp.html#a967146e01a1eaa0924efb75666709fee',1,'YomSettingsWindow.cpp']]],
+  ['getyominventoryitems_23',['GetYomInventoryItems',['../class_u_yom_inventory_component.html#aa25e1fde0a31c702186f759b3fe5ec97',1,'UYomInventoryComponent']]],
+  ['getyomplayer_24',['GetYomPlayer',['../class_u_yom_core_b_p_functions.html#ab1a556980bf0d80c115a2809e419984a',1,'UYomCoreBPFunctions']]],
+  ['getyomplayerfromactor_25',['GetYomPlayerFromActor',['../class_u_yom_core_b_p_functions.html#a9099a40f4e844131557618f2c3046d50',1,'UYomCoreBPFunctions']]],
+  ['getyomplayerfromitem_26',['GetYomPlayerFromItem',['../class_u_yom_items_b_p_functions.html#a87ff96e71ee8087e93ef1ff0421d2fbd',1,'UYomItemsBPFunctions']]],
+  ['getyomplayerobject_27',['GetYomPlayerObject',['../_yom_player_blueprint_factory_8cpp.html#a5d2d29afd18834dc8ace6c3fe92b0b76',1,'YomPlayerBlueprintFactory.cpp']]],
+  ['getyomportalfromid_28',['GetYomPortalFromID',['../class_u_yom_portals_b_p_functions.html#a4d934c848ffc07301a16416d66dec61b',1,'UYomPortalsBPFunctions']]]
 ];

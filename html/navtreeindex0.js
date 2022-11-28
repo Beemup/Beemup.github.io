@@ -1,8 +1,9 @@
 var NAVTREEINDEX0 =
 {
 "_control_hints_setup.html":[1,8],
-"_control_hints_setup.html#autotoc_md40":[1,8,0],
-"_control_hints_setup.html#autotoc_md41":[1,8,0,0],
+"_control_hints_setup.html#autotoc_md41":[1,8,0],
+"_control_hints_setup.html#autotoc_md42":[1,8,0,0],
+"_control_hints_setup.html#autotoc_md43":[1,8,0,1],
 "_counter_setup.html":[1,6],
 "_counter_setup.html#autotoc_md32":[1,6,0],
 "_counter_setup.html#autotoc_md33":[1,6,0,0],
@@ -17,6 +18,7 @@ var NAVTREEINDEX0 =
 "_gated_access_setup.html#autotoc_md37":[1,7,0,0],
 "_gated_access_setup.html#autotoc_md38":[1,7,0,1],
 "_gated_access_setup.html#autotoc_md39":[1,7,0,2],
+"_gated_access_setup.html#autotoc_md40":[1,7,0,3],
 "_inventory_setup.html":[1,3],
 "_inventory_setup.html#autotoc_md14":[1,3,0],
 "_inventory_setup.html#autotoc_md15":[1,3,0,0],

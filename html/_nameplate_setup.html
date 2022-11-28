@@ -97,17 +97,17 @@ $(document).ready(function(){initNavTree('_nameplate_setup.html',''); initResiza
   <div class="headertitle"><div class="title">Nameplate Setup </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md17"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md21"></a>
 Adding a nameplate to your character</h1>
 <p >The <code>Your Open Metaverse</code> plugin allows creators to design their own nameplates. This guide will explain how to create and use your own nameplates with our ecosystem. If you just want to use our default nameplates, but it has not been enabled yet on your character you can move to Step 2 and use the <code>YomDefaultNameplateWidget</code> as your widget.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Step 1: Creating a custom nameplate</h2>
 <p >To create a custom nameplate you will have to create a new blueprint asset. Right-click in a folder in the <code>Content Browser</code> and under <code>Create Basic Asset</code> click on <code>Blueprint Class</code>.</p>
 <p ><img src="CreateBlueprintClass.png" alt="Blueprint Class" class="inline"/></p>
 <p >This will open up the blueprint dialog box in which you can search for <code>YomNameplateWidget</code>. Once you find the <code>YomNameplateWidget</code> select it.</p>
 <p ><img src="PickYomNameplateWidget.png" alt="Pick YomNameplate" class="inline"/></p>
 <p >You can now customize your nameplate as you like, but one of the widgets must be a <code>TextBlock</code> widget with the name <code>WalletID</code>. In this <code>TextBlock</code> the walletID of the players will be printed when they are loaded into the game. Also give this walletID block a nice default name like <code>Unknown</code> for when the nameplate could not be loaded.</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Step 2: Adding the nameplate to your character</h2>
 <p >Open up your character (this is not your <code>MetaspacePlayer</code>, but the character that the players will use to move around with) and under the <code>Components</code> tab add a <code>Widget</code> component.</p>
 <p ><img src="PickWidgetComponent.png" alt="Pick Widget Component" class="inline"/></p>
@@ -115,7 +115,7 @@ Step 2: Adding the nameplate to your character</h2>
 <p ><img src="SelectWidgetClass.png" alt="Select Widget Class" class="inline"/></p>
 <p >Tip: If you want the widget to always face the player, change <code>Space</code> from <code>World</code> to <code>Screen</code>.</p>
 <p >In the <code>Viewport</code> tab, set the nameplate to the desired position for your character.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Step 3: Add the YomNameplateManager to your MetaspacePlayer</h2>
 <p >The nameplates will only work when you tell your <code>MetaspacePlayer</code> to load the <code>YomNameplateManager</code> in your game on startup. Go to your <code>MetaspacePlayer</code> and under <code>Details -&gt; Yom Player -&gt; Managers</code> add an element and insert <code>YomNameplateManager</code>.</p>
 <p ><img src="AddYomNameplateManager.png" alt="Add YomNameplate Manager" class="inline"/></p>

@@ -133,8 +133,8 @@ $(document).ready(function(){initNavTree('_yom_audio_recorder_component_8h_sourc
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    FYomVoiceGenerated VoiceGenerated;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    uint32 GetAvailableVoiceDataBytes();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> GenerateAudioUncompressed(<span class="keywordtype">int</span>&amp; pBytesWritten);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    uint32 GetAvailableVoiceDataBytes(<span class="keywordtype">float</span> pDeltaTime);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> GenerateAudioUncompressed(<span class="keywordtype">float</span> pDeltaTime, <span class="keywordtype">int</span>&amp; pBytesWritten);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    TSharedPtr&lt;class IVoiceEncoder&gt; mVoiceEncoder;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
@@ -160,12 +160,12 @@ $(document).ready(function(){initNavTree('_yom_audio_recorder_component_8h_sourc
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">float</span> mLastSeen = 0.0f;</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">bool</span> mVoiceActive;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">bool</span> mVoiceActive = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">bool</span> mIsTalking;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">bool</span> mIsTalking = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">bool</span> mTryingToSendVoice = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">bool</span> mPassedMinTalkingTime = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
 <div class="ttc" id="a_yom_queue_8h_html"><div class="ttname"><a href="_yom_queue_8h.html">YomQueue.h</a></div><div class="ttdoc">A queue that also keeps track of the amount of objects it stores.</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:52</div></div>
 <div class="ttc" id="aclass_u_yom_audio_recorder_component_html"><div class="ttname"><a href="class_u_yom_audio_recorder_component.html">UYomAudioRecorderComponent</a></div><div class="ttdoc">Consumes audio from the webrtc for voice chat.</div><div class="ttdef"><b>Definition:</b> YomAudioRecorderComponent.h:28</div></div>

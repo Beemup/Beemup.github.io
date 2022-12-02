@@ -195,5 +195,12 @@ var searchData=
   ['yomwalletfetchstrategies_2ecpp_192',['YomWalletFetchStrategies.cpp',['../_yom_wallet_fetch_strategies_8cpp.html',1,'']]],
   ['yomwalletfetchstrategies_2eh_193',['YomWalletFetchStrategies.h',['../_yom_wallet_fetch_strategies_8h.html',1,'']]],
   ['yomwallets_2ecpp_194',['YomWallets.cpp',['../_yom_wallets_8cpp.html',1,'']]],
-  ['yomwallets_2eh_195',['YomWallets.h',['../_yom_wallets_8h.html',1,'']]]
+  ['yomwallets_2eh_195',['YomWallets.h',['../_yom_wallets_8h.html',1,'']]],
+  ['yomwebsocket_2ebuild_2ecs_196',['YomWebSocket.Build.cs',['../_yom_web_socket_8_build_8cs.html',1,'']]],
+  ['yomwebsocket_2ecpp_197',['YomWebSocket.cpp',['../_yom_web_socket_8cpp.html',1,'']]],
+  ['yomwebsocket_2eh_198',['YomWebSocket.h',['../_yom_web_socket_8h.html',1,'']]],
+  ['yomwebsocketmacros_2ecpp_199',['YomWebSocketMacros.cpp',['../_yom_web_socket_macros_8cpp.html',1,'']]],
+  ['yomwebsocketmacros_2eh_200',['YomWebSocketMacros.h',['../_yom_web_socket_macros_8h.html',1,'']]],
+  ['yomwebsocketmodule_2ecpp_201',['YomWebSocketModule.cpp',['../_yom_web_socket_module_8cpp.html',1,'']]],
+  ['yomwebsocketmodule_2eh_202',['YomWebSocketModule.h',['../_yom_web_socket_module_8h.html',1,'']]]
 ];

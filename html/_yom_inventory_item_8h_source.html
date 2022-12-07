@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('_yom_inventory_item_8h_source.html',''
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        MaxSupply(pMaxSupply) {};</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    UPROPERTY(EditAnywhere, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    int MaxSupply;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    int MaxSupply = 0;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>USTRUCT(BlueprintType)</div>
@@ -202,8 +202,8 @@ $(document).ready(function(){initNavTree('_yom_inventory_item_8h_source.html',''
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="class_a_yom_inventory_item.html">  134</a></span>class YOMINVENTORY_API <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> : public AInfo</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>{</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    GENERATED_BODY()</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keyword">public</span>: </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>(<span class="keyword">const</span> FObjectInitializer&amp; ObjectInitializer = FObjectInitializer::Get());</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsSupportedForNetworking()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
@@ -262,17 +262,17 @@ $(document).ready(function(){initNavTree('_yom_inventory_item_8h_source.html',''
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keywordtype">bool</span> isSpawned = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keywordtype">bool</span> finishedLoading = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>};</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>UCLASS()</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="class_u_yom_inventory_item_factory.html">  205</a></span>class YOMINVENTORY_API <a class="code hl_class" href="class_u_yom_inventory_item_factory.html">UYomInventoryItemFactory</a> : public UBlueprintFunctionLibrary</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>{</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    GENERATED_BODY()</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateEmptyYomInventoryItem(<a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop,</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                                                          TSubclassOf&lt;AYomBaseItem&gt; pActorClass);</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    UFUNCTION(BlueprintCallable, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>

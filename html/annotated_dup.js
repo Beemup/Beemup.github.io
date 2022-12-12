@@ -7,8 +7,10 @@ var annotated_dup =
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
+    [ "AYomWebSocket", "class_a_yom_web_socket.html", "class_a_yom_web_socket" ],
     [ "FRetryPawn", "struct_f_retry_pawn.html", "struct_f_retry_pawn" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
+    [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", "class_f_yom_web_socket_module" ],
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
     [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
@@ -38,5 +40,6 @@ var annotated_dup =
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
     [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
-    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
+    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ],
+    [ "YomWebSocket", "class_yom_web_socket.html", "class_yom_web_socket" ]
 ];

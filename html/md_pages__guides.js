@@ -57,12 +57,14 @@ var md_pages__guides =
       [ "Adding a Gated Access to your metaverse", "_gated_access_setup.html#autotoc_md36", [
         [ "Step 1: Adding Gated Access component", "_gated_access_setup.html#autotoc_md37", null ],
         [ "Step 2: Adding Gated Access actor to the level", "_gated_access_setup.html#autotoc_md38", null ],
-        [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md39", null ]
+        [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md39", null ],
+        [ "Example of Gated Access", "_gated_access_setup.html#autotoc_md40", null ]
       ] ]
     ] ],
     [ "Control Hints Setup", "_control_hints_setup.html", [
-      [ "Displaying the Control Hints Panel to the player's screen", "_control_hints_setup.html#autotoc_md40", [
-        [ "Step 1: Adding Control Hints component", "_control_hints_setup.html#autotoc_md41", null ]
+      [ "Displaying the Control Hints Panel to the player's screen", "_control_hints_setup.html#autotoc_md41", [
+        [ "Step 1: Adding Control Hints component", "_control_hints_setup.html#autotoc_md42", null ],
+        [ "Example of ControlHints", "_control_hints_setup.html#autotoc_md43", null ]
       ] ]
     ] ],
     [ "Debugging your metaspace", "_debugging_metaspace.html", [

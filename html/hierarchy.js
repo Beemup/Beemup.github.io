@@ -2,7 +2,8 @@ var hierarchy =
 [
     [ "AActor", null, [
       [ "AYomGatedAccess", "class_a_yom_gated_access.html", null ],
-      [ "AYomPortal", "class_a_yom_portal.html", null ]
+      [ "AYomPortal", "class_a_yom_portal.html", null ],
+      [ "AYomWebSocket", "class_a_yom_web_socket.html", null ]
     ] ],
     [ "AGameMode", null, [
       [ "AYomGameMode", "class_a_yom_game_mode.html", null ]
@@ -19,10 +20,14 @@ var hierarchy =
     [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
     [ "IModuleInterface", null, [
+      [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", null ],
       [ "YomControlHintsModule", "class_yom_control_hints_module.html", null ]
     ] ],
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
+    ] ],
+    [ "ModuleRules", null, [
+      [ "YomWebSocket", "class_yom_web_socket.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],

@@ -11,8 +11,10 @@ var searchData=
   ['onportalopenserver_8',['OnPortalOpenServer',['../class_a_yom_portal.html#a206ddce2763fb892fe2860ed34eeea5c',1,'AYomPortal']]],
   ['onspawn_9',['OnSpawn',['../class_a_yom_player.html#a4da034f4547734ae49cd839d1649a667',1,'AYomPlayer']]],
   ['onstartitemload_10',['OnStartItemLoad',['../class_u_yom_button.html#a2975ee0de8002f722a62f526c7be1b9b',1,'UYomButton']]],
-  ['openportal_11',['OpenPortal',['../class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623',1,'UYomPortallingComponent']]],
-  ['openrandomyomportalfromplayer_12',['OpenRandomYomPortalFromPlayer',['../class_u_yom_portals_b_p_functions.html#a342f75e6d4a86e3d207a547905fbed6b',1,'UYomPortalsBPFunctions']]],
-  ['openrandomyomportalinworld_13',['OpenRandomYomPortalInWorld',['../class_u_yom_portals_b_p_functions.html#abd034a0160465b192c1d5c7a3c6a03c6',1,'UYomPortalsBPFunctions']]],
-  ['openyomportal_14',['OpenYomPortal',['../class_u_yom_portals_b_p_functions.html#ab693b1e6d855cb47000a692163ed71bb',1,'UYomPortalsBPFunctions']]]
+  ['onstarttalking_11',['OnStartTalking',['../class_u_yom_nameplate_widget.html#a7d9409ae70621b8a85c3998dad14d68d',1,'UYomNameplateWidget']]],
+  ['onstoptalking_12',['OnStopTalking',['../class_u_yom_nameplate_widget.html#a565e1566d390c4381a655840ef7b0a75',1,'UYomNameplateWidget']]],
+  ['openportal_13',['OpenPortal',['../class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623',1,'UYomPortallingComponent']]],
+  ['openrandomyomportalfromplayer_14',['OpenRandomYomPortalFromPlayer',['../class_u_yom_portals_b_p_functions.html#a342f75e6d4a86e3d207a547905fbed6b',1,'UYomPortalsBPFunctions']]],
+  ['openrandomyomportalinworld_15',['OpenRandomYomPortalInWorld',['../class_u_yom_portals_b_p_functions.html#abd034a0160465b192c1d5c7a3c6a03c6',1,'UYomPortalsBPFunctions']]],
+  ['openyomportal_16',['OpenYomPortal',['../class_u_yom_portals_b_p_functions.html#ab693b1e6d855cb47000a692163ed71bb',1,'UYomPortalsBPFunctions']]]
 ];

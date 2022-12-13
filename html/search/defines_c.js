@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['variable_5ftext_0',['VARIABLE_TEXT',['../_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a',1,'YomSettingsWindow.cpp']]]
+  ['up_5fcam_0',['UP_CAM',['../_yom_portal_capture_component_8cpp.html#a3e499d334ebec6d616e6b322991c4de2',1,'YomPortalCaptureComponent.cpp']]]
 ];

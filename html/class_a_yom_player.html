@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.2.0.6</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.3.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a419e53f5b7f00fe301fddc19be7d69a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_yom_module.html">UYomModule</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a419e53f5b7f00fe301fddc19be7d69a5">GetModuleByName</a> (const FString &amp;pName)</td></tr>
 <tr class="memdesc:a419e53f5b7f00fe301fddc19be7d69a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find a module with a given name.  <a href="class_a_yom_player.html#a419e53f5b7f00fe301fddc19be7d69a5">More...</a><br /></td></tr>
 <tr class="separator:a419e53f5b7f00fe301fddc19be7d69a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6d20662afdbcd783b6f39912c8c24d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_a_yom_manager.html">AYomManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#adf6d20662afdbcd783b6f39912c8c24d">GetManagerByName</a> (const FString &amp;pName)</td></tr>
+<tr class="memdesc:adf6d20662afdbcd783b6f39912c8c24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to find a manager with a given name.  <a href="class_a_yom_player.html#adf6d20662afdbcd783b6f39912c8c24d">More...</a><br /></td></tr>
+<tr class="separator:adf6d20662afdbcd783b6f39912c8c24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98605d3791e4d2825ce089719a75cf1f"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="class_u_yom_module.html">UYomModule</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_yom_player.html#a98605d3791e4d2825ce089719a75cf1f">GetLoadedModules</a> ()</td></tr>
 <tr class="memdesc:a98605d3791e4d2825ce089719a75cf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all loaded modules on this player.  <a href="class_a_yom_player.html#a98605d3791e4d2825ce089719a75cf1f">More...</a><br /></td></tr>
 <tr class="separator:a98605d3791e4d2825ce089719a75cf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +198,33 @@ Public Attributes</h2></td></tr>
 
 <p>Returns all loaded modules on this player. </p>
 <dl class="section return"><dt>Returns</dt><dd>All loaded modules </dd></dl>
+
+</div>
+</div>
+<a id="adf6d20662afdbcd783b6f39912c8c24d" name="adf6d20662afdbcd783b6f39912c8c24d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6d20662afdbcd783b6f39912c8c24d">&#9670;&#160;</a></span>GetManagerByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_a_yom_manager.html">AYomManager</a> * AYomPlayer::GetManagerByName </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tries to find a manager with a given name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pName</td><td>The name of the manager </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If found it returns the module, if not it returns a nullptr </dd></dl>
 
 </div>
 </div>

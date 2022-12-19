@@ -6,6 +6,7 @@ var class_a_yom_player =
     [ "GetModuleByName", "class_a_yom_player.html#a419e53f5b7f00fe301fddc19be7d69a5", null ],
     [ "GetWallet", "class_a_yom_player.html#a64081a9c9116035847cc721d70e062b5", null ],
     [ "GetWalletID", "class_a_yom_player.html#a1c26f4de3fd3f46e105a26dcd1001a38", null ],
+    [ "HasSpawned", "class_a_yom_player.html#a52d60904f4010bdd690933eea7fd0ac0", null ],
     [ "OnSpawn", "class_a_yom_player.html#a4da034f4547734ae49cd839d1649a667", null ],
     [ "SetManualSpawn", "class_a_yom_player.html#af3eb1bccf44b301cc200758e2f7c4341", null ],
     [ "SpawnPlayerInstance", "class_a_yom_player.html#adf5694457e5d9d933f8b109c4dc41ab1", null ],

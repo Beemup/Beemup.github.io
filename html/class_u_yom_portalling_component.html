@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.3.7.4</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.4.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a280aaf3b080b78a7484fc19771951c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37">ClosePortal</a> (<a class="el" href="class_a_yom_portal.html">AYomPortal</a> *pPortal)</td></tr>
 <tr class="memdesc:a280aaf3b080b78a7484fc19771951c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the portal.  <a href="class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37">More...</a><br /></td></tr>
 <tr class="separator:a280aaf3b080b78a7484fc19771951c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23f383c60ba33da507f0bcdaa39f97d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d">SyncPortal</a> (<a class="el" href="class_a_yom_portal.html">AYomPortal</a> *pPortal, const FPortalData &amp;pPortalData)</td></tr>
+<tr class="memdesc:ae23f383c60ba33da507f0bcdaa39f97d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronizes the portal for this player.  <a href="class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d">More...</a><br /></td></tr>
+<tr class="separator:ae23f383c60ba33da507f0bcdaa39f97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a280aaf3b080b78a7484fc19771951c37" name="a280aaf3b080b78a7484fc19771951c37"></a>
@@ -178,6 +181,43 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">pPortal</td><td>The portal </td></tr>
     <tr><td class="paramname">pUrl</td><td>The url </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae23f383c60ba33da507f0bcdaa39f97d" name="ae23f383c60ba33da507f0bcdaa39f97d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23f383c60ba33da507f0bcdaa39f97d">&#9670;&#160;</a></span>SyncPortal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomPortallingComponent::SyncPortal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_portal.html">AYomPortal</a> *&#160;</td>
+          <td class="paramname"><em>pPortal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FPortalData &amp;&#160;</td>
+          <td class="paramname"><em>pPortalData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synchronizes the portal for this player. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPortal</td><td>The portal to synchronize </td></tr>
+    <tr><td class="paramname">pPortalData</td><td>The session data </td></tr>
   </table>
   </dd>
 </dl>

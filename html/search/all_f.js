@@ -18,6 +18,7 @@ var searchData=
   ['startupmodule_15',['StartupModule',['../class_yom_control_hints_module.html#a9a98d0cae69a4b6338891e31867dcb2a',1,'YomControlHintsModule::StartupModule()'],['../class_f_yom_web_socket_module.html#a719c042cfbd20f18d76e5d37a878f444',1,'FYomWebSocketModule::StartupModule()']]],
   ['stop_5ftalking_5fthreshold_16',['STOP_TALKING_THRESHOLD',['../_yom_audio_recorder_component_8cpp.html#a88303c0124beb0af64a551a35128721a',1,'YomAudioRecorderComponent.cpp']]],
   ['string_5fsetting_17',['STRING_SETTING',['../_yom_settings_window_8cpp.html#a6a4c06c7618a86c78a91c5da20ff3ca0',1,'YomSettingsWindow.cpp']]],
-  ['syomsettingswindow_18',['SYomSettingsWindow',['../class_s_yom_settings_window.html',1,'']]],
-  ['syomsetupwindow_19',['SYomSetupWindow',['../class_s_yom_setup_window.html',1,'']]]
+  ['syncportal_18',['SyncPortal',['../class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d',1,'UYomPortallingComponent']]],
+  ['syomsettingswindow_19',['SYomSettingsWindow',['../class_s_yom_settings_window.html',1,'']]],
+  ['syomsetupwindow_20',['SYomSetupWindow',['../class_s_yom_setup_window.html',1,'']]]
 ];

@@ -150,6 +150,7 @@ var NAVTREEINDEX0 =
 "class_u_yom_portalling_component.html":[2,9,2],
 "class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37":[2,9,2,0],
 "class_u_yom_portalling_component.html#ac0574a8f0f0a5b5ebd656c4281148623":[2,9,2,1],
+"class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d":[2,9,2,2],
 "class_u_yom_portals_b_p_functions.html":[2,9,3],
 "class_u_yom_portals_settings.html":[3,0,34],
 "class_u_yom_tracking_b_p_functions.html":[2,10,0],

@@ -43,7 +43,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_control_hints_setup.html"
+"_airdrop_setup.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

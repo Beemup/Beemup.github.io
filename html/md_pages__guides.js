@@ -46,25 +46,30 @@ var md_pages__guides =
         [ "Step 6: Checking the images that are generated", "_portal_setup.html#autotoc_md31", null ]
       ] ]
     ] ],
+    [ "Airdrop Setup", "_airdrop_setup.html", [
+      [ "Adding airdrop functionality to your metaverse", "_airdrop_setup.html#autotoc_md32", [
+        [ "Step 1: Using the airdrop node", "_airdrop_setup.html#autotoc_md33", null ]
+      ] ]
+    ] ],
     [ "Counter Setup", "_counter_setup.html", [
-      [ "Adding a counter to your metaverse", "_counter_setup.html#autotoc_md32", [
-        [ "Step 1: Adding counter actor the the world", "_counter_setup.html#autotoc_md33", null ],
-        [ "Step 2: Adding counter component to the player", "_counter_setup.html#autotoc_md34", null ],
-        [ "Step 3: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md35", null ]
+      [ "Adding a counter to your metaverse", "_counter_setup.html#autotoc_md34", [
+        [ "Step 1: Adding counter actor the the world", "_counter_setup.html#autotoc_md35", null ],
+        [ "Step 2: Adding counter component to the player", "_counter_setup.html#autotoc_md36", null ],
+        [ "Step 3: Using blueprint functions to use the component", "_counter_setup.html#autotoc_md37", null ]
       ] ]
     ] ],
     [ "Gated Access Setup", "_gated_access_setup.html", [
-      [ "Adding a Gated Access to your metaverse", "_gated_access_setup.html#autotoc_md36", [
-        [ "Step 1: Adding Gated Access component", "_gated_access_setup.html#autotoc_md37", null ],
-        [ "Step 2: Adding Gated Access actor to the level", "_gated_access_setup.html#autotoc_md38", null ],
-        [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md39", null ],
-        [ "Example of Gated Access", "_gated_access_setup.html#autotoc_md40", null ]
+      [ "Adding a Gated Access to your metaverse", "_gated_access_setup.html#autotoc_md38", [
+        [ "Step 1: Adding Gated Access component", "_gated_access_setup.html#autotoc_md39", null ],
+        [ "Step 2: Adding Gated Access actor to the level", "_gated_access_setup.html#autotoc_md40", null ],
+        [ "Step 3: Set Gated Access Item ID", "_gated_access_setup.html#autotoc_md41", null ],
+        [ "Example of Gated Access", "_gated_access_setup.html#autotoc_md42", null ]
       ] ]
     ] ],
     [ "Control Hints Setup", "_control_hints_setup.html", [
-      [ "Displaying the Control Hints Panel to the player's screen", "_control_hints_setup.html#autotoc_md41", [
-        [ "Step 1: Adding Control Hints component", "_control_hints_setup.html#autotoc_md42", null ],
-        [ "Example of ControlHints", "_control_hints_setup.html#autotoc_md43", null ]
+      [ "Displaying the Control Hints Panel to the player's screen", "_control_hints_setup.html#autotoc_md43", [
+        [ "Step 1: Adding Control Hints component", "_control_hints_setup.html#autotoc_md44", null ],
+        [ "Example of ControlHints", "_control_hints_setup.html#autotoc_md45", null ]
       ] ]
     ] ],
     [ "Debugging your metaspace", "_debugging_metaspace.html", [

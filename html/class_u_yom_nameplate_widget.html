@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.2.0.5</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.4.1.2</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -107,13 +107,85 @@ Inheritance diagram for UYomNameplateWidget:</div>
   <img src="class_u_yom_nameplate_widget.png" alt=""/>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Blueprint Members</div></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Blueprint Members</h2></td></tr>
 <tr class="memitem:a2093172b6e25880d199844f854413dc8"><td class="memItemLeft" align="right" valign="top">UTextBlock *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_nameplate_widget.html#a2093172b6e25880d199844f854413dc8">WalletID</a></td></tr>
 <tr class="memdesc:a2093172b6e25880d199844f854413dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class that needs to be displayed to show an item (a button)  <a href="class_u_yom_nameplate_widget.html#a2093172b6e25880d199844f854413dc8">More...</a><br /></td></tr>
 <tr class="separator:a2093172b6e25880d199844f854413dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabd85cbb412137d465aaf32f2dc61581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_nameplate_widget.html#aabd85cbb412137d465aaf32f2dc61581">ShowMute</a> (bool pIsMuted)</td></tr>
+<tr class="memdesc:aabd85cbb412137d465aaf32f2dc61581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the user muted their mic.  <a href="class_u_yom_nameplate_widget.html#aabd85cbb412137d465aaf32f2dc61581">More...</a><br /></td></tr>
+<tr class="separator:aabd85cbb412137d465aaf32f2dc61581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9409ae70621b8a85c3998dad14d68d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_nameplate_widget.html#a7d9409ae70621b8a85c3998dad14d68d">OnStartTalking</a> ()</td></tr>
+<tr class="memdesc:a7d9409ae70621b8a85c3998dad14d68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the player starts talking and sets the color to yellow, can be overridden for different behaviour.  <a href="class_u_yom_nameplate_widget.html#a7d9409ae70621b8a85c3998dad14d68d">More...</a><br /></td></tr>
+<tr class="separator:a7d9409ae70621b8a85c3998dad14d68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565e1566d390c4381a655840ef7b0a75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_nameplate_widget.html#a565e1566d390c4381a655840ef7b0a75">OnStopTalking</a> ()</td></tr>
+<tr class="memdesc:a565e1566d390c4381a655840ef7b0a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the player stops talking and sets the color to white, can be overridden for different behaviour.  <a href="class_u_yom_nameplate_widget.html#a565e1566d390c4381a655840ef7b0a75">More...</a><br /></td></tr>
+<tr class="separator:a565e1566d390c4381a655840ef7b0a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7d9409ae70621b8a85c3998dad14d68d" name="a7d9409ae70621b8a85c3998dad14d68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9409ae70621b8a85c3998dad14d68d">&#9670;&#160;</a></span>OnStartTalking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomNameplateWidget::OnStartTalking </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the player starts talking and sets the color to yellow, can be overridden for different behaviour. </p>
+
+</div>
+</div>
+<a id="a565e1566d390c4381a655840ef7b0a75" name="a565e1566d390c4381a655840ef7b0a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a565e1566d390c4381a655840ef7b0a75">&#9670;&#160;</a></span>OnStopTalking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomNameplateWidget::OnStopTalking </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the player stops talking and sets the color to white, can be overridden for different behaviour. </p>
+
+</div>
+</div>
+<a id="aabd85cbb412137d465aaf32f2dc61581" name="aabd85cbb412137d465aaf32f2dc61581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd85cbb412137d465aaf32f2dc61581">&#9670;&#160;</a></span>ShowMute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomNameplateWidget::ShowMute </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pIsMuted</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates whether the user muted their mic. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pIsMuted</td><td>True if muted, false if unmuted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2093172b6e25880d199844f854413dc8" name="a2093172b6e25880d199844f854413dc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2093172b6e25880d199844f854413dc8">&#9670;&#160;</a></span>WalletID</h2>

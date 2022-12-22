@@ -17,7 +17,6 @@ var hierarchy =
     [ "APlayerController", null, [
       [ "AYomPlayer", "class_a_yom_player.html", null ]
     ] ],
-    [ "FRetryPawn", "struct_f_retry_pawn.html", null ],
     [ "FWallet", "struct_f_wallet.html", null ],
     [ "IModuleInterface", null, [
       [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", null ],
@@ -42,6 +41,7 @@ var hierarchy =
         [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ],
         [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", null ]
       ] ],
+      [ "UYomNameplateManagerComponent", "class_u_yom_nameplate_manager_component.html", null ],
       [ "UYomVoiceComponent", "class_u_yom_voice_component.html", null ]
     ] ],
     [ "UBlueprintFunctionLibrary", null, [

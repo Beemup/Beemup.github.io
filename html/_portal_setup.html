@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.2.0.5</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.4.1.2</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -105,7 +105,7 @@ Step 1: Creating a Custom portal</h2>
 <p ><img src="CreateBlueprintClass.png" alt="Blueprint Class" class="inline"/></p>
 <p >This will open op the blueprint dialog box in which you can search for <code>YomPortal</code>. Once you find the <code>YomPortal</code> class select it.</p>
 <p ><img src="PickYomPortal.png" alt="Pick YomPortal" class="inline"/></p>
-<p >You can now start to customize the portal in every way you like, but the portal must have a <code>StaticMeshComponent</code> and a <code>Collision</code> component. The material of the <code>StaticMeshComponent</code> will get edited at runtime when you connect to a different metaspace, but you can set a default material under <code>Details -&gt; Materials</code> for when the portal is not connected. There are also portal events that can be edited, which can be found under the <a class="el" href="class_a_yom_portal.html" title="A portal that can portal players to a different metaspace.">AYomPortal</a> class reference.</p>
+<p >You can now start to customize the portal in every way you like. If you want the plugin to automatically set the material you must set <code>Details -&gt; Auto Set Portal Material</code> to true and the portal must have a <code>StaticMeshComponent</code> called <code>PortalDisplay</code>, this will automatically edit the material of the <code>StaticMeshComponent</code> at runtime when you connect to a different metaspace. If you want to set the material yourself you can use the <code>Get Portal Material</code> node in the <code>Event On Portal Open</code> and <code>Event On Portal Close</code> events. Furthermore the portal will need a <code>Collision</code> component for triggering the portal behaviour and you can set a default material under <code>Details -&gt; Materials</code> for when the portal is not connected.</p>
 <h2><a class="anchor" id="autotoc_md27"></a>
 Step 2: Adding the portal to your level</h2>
 <p >You can now add the newly created portal to your level by taking it from the <code>Content Browser</code> and sliding it into your level.</p>

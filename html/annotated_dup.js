@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
     [ "AYomGatedAccess", "class_a_yom_gated_access.html", "class_a_yom_gated_access" ],
+    [ "AYomHUD", "class_a_yom_h_u_d.html", "class_a_yom_h_u_d" ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],

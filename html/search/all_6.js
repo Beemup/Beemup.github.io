@@ -33,7 +33,8 @@ var searchData=
   ['getyomplayerfromitem_30',['GetYomPlayerFromItem',['../class_u_yom_items_b_p_functions.html#a87ff96e71ee8087e93ef1ff0421d2fbd',1,'UYomItemsBPFunctions']]],
   ['getyomplayerobject_31',['GetYomPlayerObject',['../_yom_player_blueprint_factory_8cpp.html#a5d2d29afd18834dc8ace6c3fe92b0b76',1,'YomPlayerBlueprintFactory.cpp']]],
   ['getyomportalfromid_32',['GetYomPortalFromID',['../class_u_yom_portals_b_p_functions.html#a4d934c848ffc07301a16416d66dec61b',1,'UYomPortalsBPFunctions']]],
-  ['guestwallet_33',['GuestWallet',['../group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242aa992ac22585cab018d573a01e851f992',1,'YomWallets.h']]],
-  ['guides_34',['Guides',['../md_pages__guides.html',1,'']]],
-  ['guides_2emd_35',['Guides.md',['../_guides_8md.html',1,'']]]
+  ['getyouropenmetaversepluginversion_33',['GetYourOpenMetaversePluginVersion',['../class_u_yom_core_b_p_functions.html#a0388698a6dc743f8d88fea55388d7b9b',1,'UYomCoreBPFunctions']]],
+  ['guestwallet_34',['GuestWallet',['../group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242aa992ac22585cab018d573a01e851f992',1,'YomWallets.h']]],
+  ['guides_35',['Guides',['../md_pages__guides.html',1,'']]],
+  ['guides_2emd_36',['Guides.md',['../_guides_8md.html',1,'']]]
 ];

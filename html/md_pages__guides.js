@@ -10,6 +10,12 @@ var md_pages__guides =
         [ "Result", "_metaspace_setup.html#autotoc_md6", null ]
       ] ]
     ] ],
+    [ "Debugging your metaspace", "_debugging_metaspace.html", [
+      [ "Debugging your metaspace", "_debugging_metaspace.html#autotoc_md7", [
+        [ "Settings", "_debugging_metaspace.html#autotoc_md8", null ],
+        [ "Check the Log", "_debugging_metaspace.html#autotoc_md9", null ]
+      ] ]
+    ] ],
     [ "Advanced Player Setup", "_player_setup.html", [
       [ "Additional settings for a Player", "_player_setup.html#autotoc_md10", [
         [ "Player Asset", "_player_setup.html#autotoc_md11", null ],
@@ -72,10 +78,12 @@ var md_pages__guides =
         [ "Example of ControlHints", "_control_hints_setup.html#autotoc_md45", null ]
       ] ]
     ] ],
-    [ "Debugging your metaspace", "_debugging_metaspace.html", [
-      [ "Debugging your metaspace", "_debugging_metaspace.html#autotoc_md7", [
-        [ "Settings", "_debugging_metaspace.html#autotoc_md8", null ],
-        [ "Check the Log", "_debugging_metaspace.html#autotoc_md9", null ]
+    [ "Package Unreal Map Data", "_package_map_data.html", [
+      [ "Package Unreal Map Data", "_package_map_data.html#autotoc_md46", [
+        [ "Step 1: Build your map data", "_package_map_data.html#autotoc_md47", null ],
+        [ "Step 2: Package your map data", "_package_map_data.html#autotoc_md48", null ],
+        [ "Step 3: Upload your map data to github", "_package_map_data.html#autotoc_md49", null ],
+        [ "Result", "_package_map_data.html#autotoc_md50", null ]
       ] ]
     ] ]
 ];

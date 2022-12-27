@@ -8,6 +8,9 @@ var hierarchy =
     [ "AGameMode", null, [
       [ "AYomGameMode", "class_a_yom_game_mode.html", null ]
     ] ],
+    [ "AHUD", null, [
+      [ "AYomHUD", "class_a_yom_h_u_d.html", null ]
+    ] ],
     [ "AInfo", null, [
       [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
       [ "AYomManager", "class_a_yom_manager.html", [

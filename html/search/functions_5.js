@@ -30,5 +30,6 @@ var searchData=
   ['getyomplayerfromactor_27',['GetYomPlayerFromActor',['../class_u_yom_core_b_p_functions.html#a9099a40f4e844131557618f2c3046d50',1,'UYomCoreBPFunctions']]],
   ['getyomplayerfromitem_28',['GetYomPlayerFromItem',['../class_u_yom_items_b_p_functions.html#a87ff96e71ee8087e93ef1ff0421d2fbd',1,'UYomItemsBPFunctions']]],
   ['getyomplayerobject_29',['GetYomPlayerObject',['../_yom_player_blueprint_factory_8cpp.html#a5d2d29afd18834dc8ace6c3fe92b0b76',1,'YomPlayerBlueprintFactory.cpp']]],
-  ['getyomportalfromid_30',['GetYomPortalFromID',['../class_u_yom_portals_b_p_functions.html#a4d934c848ffc07301a16416d66dec61b',1,'UYomPortalsBPFunctions']]]
+  ['getyomportalfromid_30',['GetYomPortalFromID',['../class_u_yom_portals_b_p_functions.html#a4d934c848ffc07301a16416d66dec61b',1,'UYomPortalsBPFunctions']]],
+  ['getyouropenmetaversepluginversion_31',['GetYourOpenMetaversePluginVersion',['../class_u_yom_core_b_p_functions.html#a0388698a6dc743f8d88fea55388d7b9b',1,'UYomCoreBPFunctions']]]
 ];

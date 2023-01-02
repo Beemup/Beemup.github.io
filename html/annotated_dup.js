@@ -10,6 +10,7 @@ var annotated_dup =
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
     [ "AYomWebSocket", "class_a_yom_web_socket.html", "class_a_yom_web_socket" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
+    [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", "class_f_yom_setup_settings_loader" ],
     [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", "class_f_yom_web_socket_module" ],
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
     [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],

@@ -21,6 +21,7 @@ var hierarchy =
       [ "AYomPlayer", "class_a_yom_player.html", null ]
     ] ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", null ],
     [ "IModuleInterface", null, [
       [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", null ],
       [ "YomControlHintsModule", "class_yom_control_hints_module.html", null ]

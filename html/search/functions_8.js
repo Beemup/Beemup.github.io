@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['metaspaceid_0',['MetaspaceId',['../class_u_yom_core_settings.html#aac6025bcd5558f49f9f0e3f6f58f8482',1,'UYomCoreSettings']]]
+  ['loadsettings_0',['LoadSettings',['../class_f_yom_setup_settings_loader.html#ae0d593054256132da29c2dd901ad12b6',1,'FYomSetupSettingsLoader']]]
 ];

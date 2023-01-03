@@ -8,10 +8,8 @@ var annotated_dup =
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
-    [ "AYomWebSocket", "class_a_yom_web_socket.html", "class_a_yom_web_socket" ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
     [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", "class_f_yom_setup_settings_loader" ],
-    [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", "class_f_yom_web_socket_module" ],
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
     [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
@@ -24,6 +22,7 @@ var annotated_dup =
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
     [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
+    [ "UYomExternalEvent", "class_u_yom_external_event.html", "class_u_yom_external_event" ],
     [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
     [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", "class_u_yom_gated_access_component" ],
     [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
@@ -42,6 +41,5 @@ var annotated_dup =
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
     [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
-    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ],
-    [ "YomWebSocket", "class_yom_web_socket.html", "class_yom_web_socket" ]
+    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
 ];

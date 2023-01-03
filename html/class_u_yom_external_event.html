@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.0</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.1</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -94,63 +94,75 @@ $(document).ready(function(){initNavTree('class_u_yom_external_event.html',''); 
 
 <div class="header">
   <div class="summary">
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_u_yom_external_event-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">UYomExternalEvent Class Reference</div></div>
+  <div class="headertitle"><div class="title">UYomExternalEvent Class Reference<div class="ingroups"><a class="el" href="group___yom_external_events.html">YomExternalEvents</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >An external event that can be called from the bridge. </p>
+</div><div class="dynheader">
 Inheritance diagram for UYomExternalEvent:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_u_yom_external_event.png" alt=""/>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa4cd05d72cfee66a23783d7c6344a946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_external_event.html#aa4cd05d72cfee66a23783d7c6344a946">InvokeEvent_BP</a> (UVaRestJsonObject *pJson)</td></tr>
-<tr class="memdesc:aa4cd05d72cfee66a23783d7c6344a946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blueprint implementable event for calling external events.  <a href="class_u_yom_external_event.html#aa4cd05d72cfee66a23783d7c6344a946">More...</a><br /></td></tr>
-<tr class="separator:aa4cd05d72cfee66a23783d7c6344a946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa57638806fc0e02f9e57691db8a9553d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_external_event.html#aa57638806fc0e02f9e57691db8a9553d">RegisterEvent</a> ()</td></tr>
+<tr class="memdesc:aa57638806fc0e02f9e57691db8a9553d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register this event so that it can be called.  <a href="class_u_yom_external_event.html#aa57638806fc0e02f9e57691db8a9553d">More...</a><br /></td></tr>
+<tr class="separator:aa57638806fc0e02f9e57691db8a9553d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518d7532b45cffe90ffc8fa530742307"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_external_event.html#a518d7532b45cffe90ffc8fa530742307">UnRegisterEvent</a> ()</td></tr>
+<tr class="memdesc:a518d7532b45cffe90ffc8fa530742307"><td class="mdescLeft">&#160;</td><td class="mdescRight">UnRegister this event so that it cannot be called.  <a href="class_u_yom_external_event.html#a518d7532b45cffe90ffc8fa530742307">More...</a><br /></td></tr>
+<tr class="separator:a518d7532b45cffe90ffc8fa530742307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a4cdb809c6c29672a3eeead5f67a847a2"><td class="memItemLeft" align="right" valign="top">FInvokeExternalEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_external_event.html#a4cdb809c6c29672a3eeead5f67a847a2">ExternalEvent</a></td></tr>
+<tr class="memdesc:a4cdb809c6c29672a3eeead5f67a847a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that can be bound to.  <a href="class_u_yom_external_event.html#a4cdb809c6c29672a3eeead5f67a847a2">More...</a><br /></td></tr>
+<tr class="separator:a4cdb809c6c29672a3eeead5f67a847a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0b4d6cd4db19c1c0b5290dc827b6bf9"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_external_event.html#ad0b4d6cd4db19c1c0b5290dc827b6bf9">EventName</a></td></tr>
 <tr class="memdesc:ad0b4d6cd4db19c1c0b5290dc827b6bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of this event, this name is used to call this event.  <a href="class_u_yom_external_event.html#ad0b4d6cd4db19c1c0b5290dc827b6bf9">More...</a><br /></td></tr>
 <tr class="separator:ad0b4d6cd4db19c1c0b5290dc827b6bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa4cd05d72cfee66a23783d7c6344a946" name="aa4cd05d72cfee66a23783d7c6344a946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4cd05d72cfee66a23783d7c6344a946">&#9670;&#160;</a></span>InvokeEvent_BP()</h2>
+<a id="aa57638806fc0e02f9e57691db8a9553d" name="aa57638806fc0e02f9e57691db8a9553d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57638806fc0e02f9e57691db8a9553d">&#9670;&#160;</a></span>RegisterEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UYomExternalEvent::InvokeEvent_BP </td>
+          <td class="memname">void UYomExternalEvent::RegisterEvent </td>
           <td>(</td>
-          <td class="paramtype">UVaRestJsonObject *&#160;</td>
-          <td class="paramname"><em>pJson</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Blueprint implementable event for calling external events. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pJson</td><td>The json of the called event </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Register this event so that it can be called. </p>
+
+</div>
+</div>
+<a id="a518d7532b45cffe90ffc8fa530742307" name="a518d7532b45cffe90ffc8fa530742307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a518d7532b45cffe90ffc8fa530742307">&#9670;&#160;</a></span>UnRegisterEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomExternalEvent::UnRegisterEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UnRegister this event so that it cannot be called. </p>
 
 </div>
 </div>
@@ -160,22 +172,30 @@ Protected Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">FString UYomExternalEvent::EventName</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Name of this event, this name is used to call this event. </p>
+
+</div>
+</div>
+<a id="a4cdb809c6c29672a3eeead5f67a847a2" name="a4cdb809c6c29672a3eeead5f67a847a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cdb809c6c29672a3eeead5f67a847a2">&#9670;&#160;</a></span>ExternalEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FInvokeExternalEvent UYomExternalEvent::ExternalEvent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Event that can be bound to. </p>
 
 </div>
 </div>

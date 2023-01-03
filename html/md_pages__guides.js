@@ -78,12 +78,18 @@ var md_pages__guides =
         [ "Example of ControlHints", "_control_hints_setup.html#autotoc_md45", null ]
       ] ]
     ] ],
+    [ "External events", "_external_events.html", [
+      [ "External events", "_external_events.html#autotoc_md46", [
+        [ "Creating your own events", "_external_events.html#autotoc_md47", null ],
+        [ "Calling your own events", "_external_events.html#autotoc_md48", null ]
+      ] ]
+    ] ],
     [ "Package Unreal Map Data", "_package_map_data.html", [
-      [ "Package Unreal Map Data", "_package_map_data.html#autotoc_md46", [
-        [ "Step 1: Build your map data", "_package_map_data.html#autotoc_md47", null ],
-        [ "Step 2: Package your map data", "_package_map_data.html#autotoc_md48", null ],
-        [ "Step 3: Upload your map data to github", "_package_map_data.html#autotoc_md49", null ],
-        [ "Result", "_package_map_data.html#autotoc_md50", null ]
+      [ "Package Unreal Map Data", "_package_map_data.html#autotoc_md49", [
+        [ "Step 1: Build your map data", "_package_map_data.html#autotoc_md50", null ],
+        [ "Step 2: Package your map data", "_package_map_data.html#autotoc_md51", null ],
+        [ "Step 3: Upload your map data to github", "_package_map_data.html#autotoc_md52", null ],
+        [ "Result", "_package_map_data.html#autotoc_md53", null ]
       ] ]
     ] ]
 ];

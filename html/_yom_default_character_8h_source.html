@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.4.1.7</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.1</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('_yom_default_character_8h_source.html'
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">int</span> HeadIndex = 0;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    UPROPERTY()</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">int</span> BodyIndex = 0;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">int</span> JacketIndex = 0;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    UPROPERTY()</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">int</span> LegsIndex = 0;</div>
@@ -122,59 +122,65 @@ $(document).ready(function(){initNavTree('_yom_default_character_8h_source.html'
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">int</span> ShoesIndex = 0;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>UCLASS(Blueprintable)</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>class YOMCHARACTER_API AYomDefaultCharacter : public ACharacter</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    GENERATED_BODY()</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    UPROPERTY(ReplicatedUsing = UpdateClothes)</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    FYomDefaultCharacterServerData mServerData;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">bool</span> ShouldUpdateClothes = false;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    UPROPERTY()</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    UStaticMeshComponent* mHead;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    UPROPERTY()</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    USkeletalMeshComponent* mBody;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    UPROPERTY()</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    USkeletalMeshComponent* mLegs;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    UPROPERTY()</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    UStaticMeshComponent* mShoeLeft;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    UPROPERTY()</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    UStaticMeshComponent* mShoeRight;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    UFUNCTION()</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> UpdateClothes();</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> GetClothingComponents();</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>public:</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="comment">// Sets default values for this character&#39;s properties</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    AYomDefaultCharacter();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>UCLASS(Blueprintable)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>class YOMCHARACTER_API AYomDefaultCharacter : public ACharacter</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    GENERATED_BODY()</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    UPROPERTY(ReplicatedUsing = UpdateClothes)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    FYomDefaultCharacterServerData mServerData;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">bool</span> ShouldUpdateClothes = false;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    UPROPERTY()</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    UStaticMeshComponent* mHead;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    UPROPERTY()</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    USkeletalMeshComponent* mJacket;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    UPROPERTY()</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    USkeletalMeshComponent* mBody;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    UPROPERTY()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    USkeletalMeshComponent* mLegs;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    UPROPERTY()</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    UStaticMeshComponent* mShoeLeft;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    UPROPERTY()</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    UStaticMeshComponent* mShoeRight;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    UFUNCTION()</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> UpdateClothes();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span> GetClothingComponents();</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Head Wear&quot;)</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    TArray&lt;UStaticMesh*&gt; HeadWear;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Body Wear&quot;)</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    TArray&lt;USkeletalMesh*&gt; BodyWear;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Legs Wear&quot;)</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    TArray&lt;USkeletalMesh*&gt; LegsWear;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Shoes Wear&quot;)</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    TArray&lt;UStaticMesh*&gt; ShoesWear;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    virtual <span class="keywordtype">void</span> GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty&gt;&amp; OutLifetimeProps) const override;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>protected:</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="comment">// Called when the game starts or when spawned</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    virtual <span class="keywordtype">void</span> BeginPlay() override;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>};</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>public:</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">// Sets default values for this character&#39;s properties</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    AYomDefaultCharacter();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Head Wear&quot;)</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    TArray&lt;UStaticMesh*&gt; HeadWear;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Jacket Wear&quot;)</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    TArray&lt;USkeletalMesh*&gt; JacketWear;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Body Matrials&quot;)</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    TArray&lt;UMaterial*&gt; BodyMaterials;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Legs Wear&quot;)</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    TArray&lt;USkeletalMesh*&gt; LegsWear;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    UPROPERTY(EditAnywhere, DisplayName=&quot;Shoes Wear&quot;)</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    TArray&lt;UStaticMesh*&gt; ShoesWear;</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    virtual <span class="keywordtype">void</span> GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty&gt;&amp; OutLifetimeProps) const override;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>protected:</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// Called when the game starts or when spawned</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    virtual <span class="keywordtype">void</span> BeginPlay() override;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

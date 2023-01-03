@@ -4,5 +4,5 @@ var searchData=
   ['float_5fsetting_1',['FLOAT_SETTING',['../_yom_settings_window_8cpp.html#ad39348f1a9487779c93aef4d97f70902',1,'YomSettingsWindow.cpp']]],
   ['front_5fcam_2',['FRONT_CAM',['../_yom_portal_capture_component_8cpp.html#a581339873c091a8f0b07b01a0291d846',1,'YomPortalCaptureComponent.cpp']]],
   ['fwallet_3',['FWallet',['../struct_f_wallet.html',1,'']]],
-  ['fyomwebsocketmodule_4',['FYomWebSocketModule',['../class_f_yom_web_socket_module.html',1,'']]]
+  ['fyomsetupsettingsloader_4',['FYomSetupSettingsLoader',['../class_f_yom_setup_settings_loader.html',1,'']]]
 ];

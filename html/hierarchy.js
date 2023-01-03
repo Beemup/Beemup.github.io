@@ -2,8 +2,7 @@ var hierarchy =
 [
     [ "AActor", null, [
       [ "AYomGatedAccess", "class_a_yom_gated_access.html", null ],
-      [ "AYomPortal", "class_a_yom_portal.html", null ],
-      [ "AYomWebSocket", "class_a_yom_web_socket.html", null ]
+      [ "AYomPortal", "class_a_yom_portal.html", null ]
     ] ],
     [ "AGameMode", null, [
       [ "AYomGameMode", "class_a_yom_game_mode.html", null ]
@@ -21,15 +20,12 @@ var hierarchy =
       [ "AYomPlayer", "class_a_yom_player.html", null ]
     ] ],
     [ "FWallet", "struct_f_wallet.html", null ],
+    [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", null ],
     [ "IModuleInterface", null, [
-      [ "FYomWebSocketModule", "class_f_yom_web_socket_module.html", null ],
       [ "YomControlHintsModule", "class_yom_control_hints_module.html", null ]
     ] ],
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
-    ] ],
-    [ "ModuleRules", null, [
-      [ "YomWebSocket", "class_yom_web_socket.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
@@ -37,6 +33,7 @@ var hierarchy =
     ] ],
     [ "UActorComponent", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
+      [ "UYomExternalEvent", "class_u_yom_external_event.html", null ],
       [ "UYomModule", "class_u_yom_module.html", [
         [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", null ],
         [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", null ],

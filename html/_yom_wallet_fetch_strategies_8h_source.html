@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.2</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.3</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -102,27 +102,25 @@ $(document).ready(function(){initNavTree('_yom_wallet_fetch_strategies_8h_source
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;VaRestSubsystem.h&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_yom_core_8h.html">YomCore.h</a>&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;UObject/Object.h&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;YomWalletFetchStrategies.generated.h&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;UObject/Object.h&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;YomWalletFetchStrategies.generated.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">struct </span><a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>UCLASS()</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_u_yom_wallet_fetch_strategies.html">   25</a></span>class YOMINVENTORY_API <a class="code hl_class" href="class_u_yom_wallet_fetch_strategies.html">UYomWalletFetchStrategies</a> : public UObject</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    GENERATED_BODY()</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchTest(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchSolana(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchAll(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
-<div class="ttc" id="a_yom_core_8h_html"><div class="ttname"><a href="_yom_core_8h.html">YomCore.h</a></div><div class="ttdoc">Header to include the YomAirdrop module into a file.</div></div>
-<div class="ttc" id="aclass_u_yom_wallet_fetch_strategies_html"><div class="ttname"><a href="class_u_yom_wallet_fetch_strategies.html">UYomWalletFetchStrategies</a></div><div class="ttdoc">Different item fetching strategies that are based on the wallet of the player.</div><div class="ttdef"><b>Definition:</b> YomWalletFetchStrategies.h:26</div></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>UCLASS()</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_u_yom_wallet_fetch_strategies.html">   24</a></span>class YOMINVENTORY_API <a class="code hl_class" href="class_u_yom_wallet_fetch_strategies.html">UYomWalletFetchStrategies</a> : public UObject</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    GENERATED_BODY()</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchTest(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchSolana(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> FetchAll(<span class="keyword">const</span> <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>&amp; pWallet, <span class="keyword">const</span> FVaRestCallDelegate&amp; pCallback);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+<div class="ttc" id="aclass_u_yom_wallet_fetch_strategies_html"><div class="ttname"><a href="class_u_yom_wallet_fetch_strategies.html">UYomWalletFetchStrategies</a></div><div class="ttdoc">Different item fetching strategies that are based on the wallet of the player.</div><div class="ttdef"><b>Definition:</b> YomWalletFetchStrategies.h:25</div></div>
 <div class="ttc" id="astruct_f_wallet_html"><div class="ttname"><a href="struct_f_wallet.html">FWallet</a></div><div class="ttdoc">The wallet which holds information about a the wallet of a player.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

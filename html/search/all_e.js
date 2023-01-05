@@ -9,5 +9,6 @@ var searchData=
   ['replace_5ffloat_5fsetting_6',['REPLACE_FLOAT_SETTING',['../_yom_settings_window_8cpp.html#a4aaad7ad6ec7e63d575d9d3d526681fe',1,'YomSettingsWindow.cpp']]],
   ['replace_5fint_5fsetting_7',['REPLACE_INT_SETTING',['../_yom_settings_window_8cpp.html#a9239ef7fd4fa06a9e42fac208ce6a353',1,'YomSettingsWindow.cpp']]],
   ['replace_5fstring_5fsetting_8',['REPLACE_STRING_SETTING',['../_yom_settings_window_8cpp.html#afc0a6c421b7e9ae89555c64cde54eeaf',1,'YomSettingsWindow.cpp']]],
-  ['right_5fcam_9',['RIGHT_CAM',['../_yom_portal_capture_component_8cpp.html#a9d1726b216e8914a576e76c5aba9a144',1,'YomPortalCaptureComponent.cpp']]]
+  ['replicatecounter_9',['ReplicateCounter',['../class_u_yom_counter_b_p_functions.html#a3ba241e446b003d0e659b324d73ce79f',1,'UYomCounterBPFunctions']]],
+  ['right_5fcam_10',['RIGHT_CAM',['../_yom_portal_capture_component_8cpp.html#a9d1726b216e8914a576e76c5aba9a144',1,'YomPortalCaptureComponent.cpp']]]
 ];

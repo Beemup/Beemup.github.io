@@ -27,6 +27,9 @@ var hierarchy =
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
     ] ],
+    [ "ModuleRules", null, [
+      [ "YomModuleRules", "class_yom_module_rules.html", null ]
+    ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
       [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ]
@@ -51,13 +54,13 @@ var hierarchy =
       [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
       [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
       [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
+      [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
       [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ]
     ] ],
     [ "UObject", null, [
       [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
       [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
-      [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
       [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
       [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]

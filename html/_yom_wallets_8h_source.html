@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.5</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.6</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -125,17 +125,20 @@ $(document).ready(function(){initNavTree('_yom_wallets_8h_source.html',''); init
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_struct" href="struct_f_wallet.html">FWallet</a>(<span class="keyword">const</span> FString&amp; pWalletKey, <span class="keyword">const</span> FString&amp; pPlayerName);</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#a8b4bc4ab6b5a4e6f204f5521380d91f2">   49</a></span>    <a class="code hl_enumeration" href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a> WalletType = <a class="code hl_enumvalue" href="group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5">NoWallet</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda">   52</a></span>    FString PublicWalletID = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944">   55</a></span>    FString PlayerName = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keyword">static</span> <a class="code hl_enumeration" href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a> DetermineWalletType(<span class="keyword">const</span> FString&amp; pWalletKey, <span class="keyword">const</span> FString&amp; pPlayerName);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    UPROPERTY()</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#a98becb985bd5c7498fc2e9ff5929100c">   50</a></span>    TEnumAsByte&lt;<a class="code hl_enumeration" href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a>&gt; WalletType = <a class="code hl_enumvalue" href="group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5">NoWallet</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    UPROPERTY()</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda">   54</a></span>    FString PublicWalletID = &quot;&quot;;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    UPROPERTY()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944">   58</a></span>    FString PlayerName = &quot;&quot;;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">static</span> FString DeterminePlayerName(<span class="keyword">const</span> FString&amp; pWalletKey, <span class="keyword">const</span> FString&amp; pPlayerName);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>private:</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    static <a class="code hl_enumeration" href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a> DetermineWalletType(const FString&amp; pWalletKey, const FString&amp; pPlayerName);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    static FString DeterminePlayerName(const FString&amp; pWalletKey, const FString&amp; pPlayerName);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
 <div class="ttc" id="agroup___yom_core_html_gaffa0fbc759e8fa855b98981147f5b242"><div class="ttname"><a href="group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242">EWalletType</a></div><div class="ttdeci">EWalletType</div><div class="ttdoc">All wallet types that are available to the metaspace.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:20</div></div>
 <div class="ttc" id="agroup___yom_core_html_ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5"><div class="ttname"><a href="group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5">NoWallet</a></div><div class="ttdeci">@ NoWallet</div><div class="ttdoc">No wallet is the 'null' version of a wallet type.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:22</div></div>
 <div class="ttc" id="agroup___yom_core_html_ggaffa0fbc759e8fa855b98981147f5b242a67e79d50f3d7c47288f35e3ab4476f4f"><div class="ttname"><a href="group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a67e79d50f3d7c47288f35e3ab4476f4f">SolanaWallet</a></div><div class="ttdeci">@ SolanaWallet</div><div class="ttdoc">A wallet that can communicate with the Solana blockchain.</div><div class="ttdef"><b>Definition:</b> YomWallets.h:26</div></div>

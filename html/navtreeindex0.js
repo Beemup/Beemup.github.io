@@ -127,6 +127,7 @@ var NAVTREEINDEX0 =
 "class_u_yom_button.html#a5745d481f597ac0534a61e2e32cab3a1":[2,7,0,1],
 "class_u_yom_button.html#a9940fa5b986a5765431343a65d6241e9":[2,7,0,0],
 "class_u_yom_control_hints_component.html":[2,1,0],
+"class_u_yom_control_hints_component.html#aac602c0b8afa3336f3c302462086762f":[2,1,0,0],
 "class_u_yom_control_hints_widget.html":[2,1,1],
 "class_u_yom_core_b_p_functions.html":[2,2,0],
 "class_u_yom_core_settings.html":[3,0,19],
@@ -219,6 +220,6 @@ var NAVTREEINDEX0 =
 "pages.html":[],
 "struct_f_wallet.html":[2,2,5],
 "struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda":[2,2,5,1],
-"struct_f_wallet.html#a8b4bc4ab6b5a4e6f204f5521380d91f2":[2,2,5,2],
+"struct_f_wallet.html#a98becb985bd5c7498fc2e9ff5929100c":[2,2,5,2],
 "struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944":[2,2,5,0]
 };

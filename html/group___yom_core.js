@@ -26,7 +26,7 @@ var group___yom_core =
     [ "FWallet", "struct_f_wallet.html", [
       [ "PlayerName", "struct_f_wallet.html#ab8922d0f243498d739fd6d2cfe11b944", null ],
       [ "PublicWalletID", "struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda", null ],
-      [ "WalletType", "struct_f_wallet.html#a8b4bc4ab6b5a4e6f204f5521380d91f2", null ]
+      [ "WalletType", "struct_f_wallet.html#a98becb985bd5c7498fc2e9ff5929100c", null ]
     ] ],
     [ "EWalletType", "group___yom_core.html#gaffa0fbc759e8fa855b98981147f5b242", [
       [ "NoWallet", "group___yom_core.html#ggaffa0fbc759e8fa855b98981147f5b242a4686e1581a9f79ef381ed68b800a52d5", null ],

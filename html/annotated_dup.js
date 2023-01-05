@@ -16,7 +16,7 @@ var annotated_dup =
     [ "UYomAudioPlayerComponent", "class_u_yom_audio_player_component.html", "class_u_yom_audio_player_component" ],
     [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],
     [ "UYomButton", "class_u_yom_button.html", "class_u_yom_button" ],
-    [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", null ],
+    [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", "class_u_yom_control_hints_component" ],
     [ "UYomControlHintsWidget", "class_u_yom_control_hints_widget.html", null ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
     [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],

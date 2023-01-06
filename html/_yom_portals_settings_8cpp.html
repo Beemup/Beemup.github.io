@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.9</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.10</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -113,6 +113,8 @@ $(document).ready(function(){initNavTree('_yom_portals_settings_8cpp.html',''); 
 Macros</h2></td></tr>
 <tr class="memitem:a2addd312ad052ab5f9243c0bc9f81f6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_portals_settings_8cpp.html#a2addd312ad052ab5f9243c0bc9f81f6a">READ_FIELD</a>(pField,  pFunc)&#160;&#160;&#160;if(jsonObject-&gt;HasField(#pField)) mSettings.pField = jsonObject-&gt;pFunc(#pField)</td></tr>
 <tr class="separator:a2addd312ad052ab5f9243c0bc9f81f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2696598eb5003d12a93de8eff106830f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_yom_portals_settings_8cpp.html#a2696598eb5003d12a93de8eff106830f">WRITE_FIELD</a>(pField,  pFunc)&#160;&#160;&#160;jsonObject-&gt;pFunc(#pField,mSettings.pField)</td></tr>
+<tr class="separator:a2696598eb5003d12a93de8eff106830f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2addd312ad052ab5f9243c0bc9f81f6a" name="a2addd312ad052ab5f9243c0bc9f81f6a"></a>
@@ -137,6 +139,34 @@ Macros</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;if(jsonObject-&gt;HasField(#pField)) mSettings.pField = jsonObject-&gt;pFunc(#pField)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2696598eb5003d12a93de8eff106830f" name="a2696598eb5003d12a93de8eff106830f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2696598eb5003d12a93de8eff106830f">&#9670;&#160;</a></span>WRITE_FIELD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_FIELD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pField, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pFunc&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;jsonObject-&gt;pFunc(#pField,mSettings.pField)</td>
         </tr>
       </table>
 </div><div class="memdoc">

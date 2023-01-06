@@ -27,9 +27,6 @@ var hierarchy =
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
     ] ],
-    [ "ModuleRules", null, [
-      [ "YomModuleRules", "class_yom_module_rules.html", null ]
-    ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
       [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ]

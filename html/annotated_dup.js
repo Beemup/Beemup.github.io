@@ -41,6 +41,5 @@ var annotated_dup =
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
     [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
-    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ],
-    [ "YomModuleRules", "class_yom_module_rules.html", "class_yom_module_rules" ]
+    [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
 ];

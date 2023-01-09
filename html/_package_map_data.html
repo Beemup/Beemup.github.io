@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.11</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -96,19 +96,19 @@ $(document).ready(function(){initNavTree('_package_map_data.html',''); initResiz
   <div class="headertitle"><div class="title">Package Unreal Map Data </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md51"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md54"></a>
 Package Unreal Map Data</h1>
 <p >In most unreal games the maps of unreal generate extra data for lightmaps, navmesh, reflections, etc... This is of course needed in a production build but is (usually) not provided in the github repository due to large file sizes and merge conflicts in binary files. The YourOpenMetaverse plugin has a solution for this problem by zipping all the data into one big zip archive, which can always be rebuild. This guide will show you how to generate this file such that your project can be build with map data.</p>
-<h2><a class="anchor" id="autotoc_md52"></a>
+<h2><a class="anchor" id="autotoc_md55"></a>
 Step 1: Build your map data</h2>
 <p >Before you can start packaging all of the map data you will need to build all of the needed map data in the Unreal Editor. You can do this under <code>Build</code> in the top bar. E.G. if you need to build reflection captures, you will have to click <code>Build -&gt; Build Reflection Captures</code>. After this there should be YOUR_MAP_NAME_BuiltData.uasset files next to your maps on the disk.</p>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md56"></a>
 Step 2: Package your map data</h2>
 <p >Now you can go to <code>Tools -&gt; YourOpenMetaverse -&gt; Package map data</code>, which will get all of the _BuiltData.uasset files and zip them into an archive called <code>MapData.zip</code>.</p>
-<h2><a class="anchor" id="autotoc_md54"></a>
+<h2><a class="anchor" id="autotoc_md57"></a>
 Step 3: Upload your map data to github</h2>
 <p >You can now commit and push your <code>MapData.zip</code> to github.</p>
-<h2><a class="anchor" id="autotoc_md55"></a>
+<h2><a class="anchor" id="autotoc_md58"></a>
 Result</h2>
 <p >The Yom build pipeline will now include the map build data into the build, which makes lightmaps, navmesh, reflections, etc... work for your metaspace. </p>
 </div></div><!-- contents -->

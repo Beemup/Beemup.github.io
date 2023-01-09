@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.11</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -96,14 +96,14 @@ $(document).ready(function(){initNavTree('_external_events.html',''); initResiza
   <div class="headertitle"><div class="title">External events </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md48"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md51"></a>
 External events</h1>
 <p >The <code>YourOpenMetaverse</code> plugin allows you to create and call your own external events. These events can be anything that you want it to be like fireworks, opening portals, airdropping items, etc... The events can be called from the <code>Bridge</code> where you hosted your metaspace. In this guide we will show how to create your own events and how the events can be called.</p>
-<h2><a class="anchor" id="autotoc_md49"></a>
+<h2><a class="anchor" id="autotoc_md52"></a>
 Creating your own events</h2>
 <p >To create your own events you will need to create an <code>Actor</code> and add a <code>Yom External Event</code> component to the actor. Firstly you will need to give the <code>Yom External Event</code> an <code>Event Name</code> by going to <code>Details -&gt; Yom External Event -&gt; Event Name</code> and setting your own <code>Event Name</code>. This <code>Event Name</code> will be the name of your function, so E.G. calling your function <code>Hello World</code> and calling the function <code>Hello World</code> from the <code>Bridge</code> will call this event. After you have set a name you will have to register the event in the <code>Event BeginPlay</code> of the actor by calling <code>Register Event</code> on the <code>Yom External Event</code>, this will set it so that the event can be called. Not calling <code>Register Event</code> will not list the event and the event can thus not be called from the <code>Bridge</code>. You can also call <code>UnRegister</code> on the <code>Yom External event</code> to ensure that the event cannot be called again. A normal setup for an event looks like this:</p>
 <p ><img src="ExternalEventInitialization.png" alt="ExternalEvent Initialization" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h2><a class="anchor" id="autotoc_md53"></a>
 Calling your own events</h2>
 <p >Currently not possible as the <code>Bridge</code> needs to be updated to do this. </p>
 </div></div><!-- contents -->

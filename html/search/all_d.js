@@ -12,5 +12,6 @@ var searchData=
   ['pretty_5ffunction_9',['PRETTY_FUNCTION',['../_yom_core_macros_8h.html#af6ad60ef4c47c4a9bc65da38ba085125',1,'YomCoreMacros.h']]],
   ['previewimagequality_10',['PreviewImageQuality',['../class_u_yom_settings.html#a7df2aa791ddd93721a71bef91c37c54f',1,'UYomSettings']]],
   ['previewimagesizexy_11',['PreviewImageSizeXY',['../class_u_yom_settings.html#a887de94075a296229773dc3566ebec0a',1,'UYomSettings']]],
-  ['publicwalletid_12',['PublicWalletID',['../struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda',1,'FWallet']]]
+  ['project_20delivery_20guidelines_12',['Project Delivery Guidelines',['../_project_delivery_guidelines.html',1,'md_pages_Guides']]],
+  ['publicwalletid_13',['PublicWalletID',['../struct_f_wallet.html#a616ddb6d100a71c4db7715fef11aecda',1,'FWallet']]]
 ];

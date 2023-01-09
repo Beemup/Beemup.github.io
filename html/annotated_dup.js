@@ -19,9 +19,7 @@ var annotated_dup =
     [ "UYomControlHintsComponent", "class_u_yom_control_hints_component.html", "class_u_yom_control_hints_component" ],
     [ "UYomControlHintsWidget", "class_u_yom_control_hints_widget.html", null ],
     [ "UYomCoreBPFunctions", "class_u_yom_core_b_p_functions.html", null ],
-    [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
     [ "UYomCounterBPFunctions", "class_u_yom_counter_b_p_functions.html", null ],
-    [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
     [ "UYomExternalEvent", "class_u_yom_external_event.html", "class_u_yom_external_event" ],
     [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
     [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", "class_u_yom_gated_access_component" ],
@@ -35,11 +33,11 @@ var annotated_dup =
     [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", "class_u_yom_player_inventory_widget" ],
     [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", "class_u_yom_portalling_component" ],
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
-    [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
+    [ "UYomSettings", "class_u_yom_settings.html", null ],
+    [ "UYomSettingsSync", "class_u_yom_settings_sync.html", "class_u_yom_settings_sync" ],
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
     [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],
-    [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
     [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ],
     [ "YomControlHintsModule", "class_yom_control_hints_module.html", "class_yom_control_hints_module" ]
 ];

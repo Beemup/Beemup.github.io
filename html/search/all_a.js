@@ -7,7 +7,8 @@ var searchData=
   ['max_5faudio_5fthreshold_4',['MAX_AUDIO_THRESHOLD',['../_yom_audio_recorder_component_8cpp.html#a2082eb672a28e38a5bbcc5587a6a6816',1,'YomAudioRecorderComponent.cpp']]],
   ['max_5fvoice_5fremainder_5fsize_5',['MAX_VOICE_REMAINDER_SIZE',['../_yom_audio_recorder_component_8cpp.html#a7ebd7257c5fa8ca6dd5614af8c0fbbcf',1,'YomAudioRecorderComponent.cpp']]],
   ['metaspace_20setup_6',['Metaspace Setup',['../_metaspace_setup.html',1,'md_pages_Guides']]],
-  ['metaspaceid_7',['MetaspaceId',['../class_u_yom_core_settings.html#aac6025bcd5558f49f9f0e3f6f58f8482',1,'UYomCoreSettings']]],
-  ['moviescenesequence_8',['MovieSceneSequence',['../class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae',1,'AYomPlayer']]],
-  ['moviescenesettings_9',['MovieSceneSettings',['../class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70',1,'AYomPlayer']]]
+  ['metaspaceid_7',['MetaspaceId',['../class_u_yom_settings.html#abe2f53f126027535781c3fd89dc85ebe',1,'UYomSettings']]],
+  ['minspeakingtime_8',['MinSpeakingTime',['../class_u_yom_settings.html#a9e684978b5bc0483edb16db8903717ae',1,'UYomSettings']]],
+  ['moviescenesequence_9',['MovieSceneSequence',['../class_a_yom_player.html#a0aa95fc02fd750fcdacec583dc1909ae',1,'AYomPlayer']]],
+  ['moviescenesettings_10',['MovieSceneSettings',['../class_a_yom_player.html#ab248189eef4c472977aca8686d7f2d70',1,'AYomPlayer']]]
 ];

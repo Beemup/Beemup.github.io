@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['unregisterevent_0',['UnRegisterEvent',['../class_u_yom_external_event.html#a518d7532b45cffe90ffc8fa530742307',1,'UYomExternalEvent']]],
-  ['usesolanadevnet_1',['UseSolanaDevnet',['../class_u_yom_core_settings.html#ab3d3cfc045e21a1bcd0ddd30a451cc21',1,'UYomCoreSettings']]],
-  ['usetestplayer_2',['UseTestPlayer',['../class_u_yom_core_settings.html#a1cd256216e1cb371c78639cd82f504d8',1,'UYomCoreSettings']]]
+  ['playbackbufferseconds_0',['PlaybackBufferSeconds',['../class_u_yom_settings.html#aeec0e1cf756fc547af5580c7f9a1da56',1,'UYomSettings']]],
+  ['portalimagedir_1',['PortalImageDir',['../class_u_yom_settings.html#a5f2c05f14c665c2470e411230a0211dd',1,'UYomSettings']]],
+  ['portalimagepath_2',['PortalImagePath',['../class_u_yom_settings.html#aae2b38502f4b34faff998142982253b6',1,'UYomSettings']]],
+  ['previewimagequality_3',['PreviewImageQuality',['../class_u_yom_settings.html#a7df2aa791ddd93721a71bef91c37c54f',1,'UYomSettings']]],
+  ['previewimagesizexy_4',['PreviewImageSizeXY',['../class_u_yom_settings.html#a887de94075a296229773dc3566ebec0a',1,'UYomSettings']]]
 ];

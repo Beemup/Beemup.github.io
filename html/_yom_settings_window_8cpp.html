@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.10</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.11</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('_yom_settings_window_8cpp.html',''); i
 <hr  />
 <p> Copyright (C) Your Open Metaverse (Beemup), Inc - All Rights Reserved Unauthorized copying of this file, via any medium is strictly prohibited Proprietary and confidential Written by Sietze Riemersma <a href="#" onclick="location.href='mai'+'lto:'+'hel'+'lo'+'@yo'+'m.'+'ooo'; return false;">hello<span class="obfuscator">.nosp@m.</span>@yom<span class="obfuscator">.nosp@m.</span>.ooo</a>, November 2022</p>
 <dl class="section author"><dt>Author</dt><dd>Sietze Riemersma </dd></dl>
-<h2><a class="anchor" id="autotoc_md135"></a>
+<h2><a class="anchor" id="autotoc_md137"></a>
 @date   10/11/2022</h2>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -183,23 +183,23 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                       \</div>
-<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                 \</div>
-<div class="line">    .HAlign(HAlign_Left)                                                                     \</div>
-<div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
-<div class="line">    [                                                                                        \</div>
-<div class="line">        SNew(SCheckBox)                                                                      \</div>
-<div class="line">        .IsChecked(current##pModule##Settings-&gt;pField)                                       \</div>
-<div class="line">        .OnCheckStateChanged_Lambda([<span class="keyword">this</span>](ECheckBoxState pState)                            \</div>
-<div class="line">        {                                                                                    \</div>
-<div class="line">            U##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</div>
-<div class="line">            newSettings-&gt;pField = pState == ECheckBoxState::Checked;                         \</div>
-<div class="line">            U##pModule##Settings::SetSettings(newSettings);                                  \</div>
-<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
-<div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
-<div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
-<div class="line"><span class="preprocessor">    ]</span></div>
-<div class="ttc" id="a_yom_settings_window_8cpp_html_a9a8a0ad2bccbf2895ab8d0ffb23b340a"><div class="ttname"><a href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a></div><div class="ttdeci">#define VARIABLE_TEXT(pText, pDescription)</div><div class="ttdef"><b>Definition:</b> YomSettingsWindow.cpp:193</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                          \</div>
+<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                    \</div>
+<div class="line">    .HAlign(HAlign_Left)                                                                        \</div>
+<div class="line">    .VAlign(VAlign_Top)                                                                         \</div>
+<div class="line">    [                                                                                           \</div>
+<div class="line">        SNew(SCheckBox)                                                                         \</div>
+<div class="line">        .IsChecked(currentYom##pModule##Settings-&gt;pField)                                       \</div>
+<div class="line">        .OnCheckStateChanged_Lambda([<span class="keyword">this</span>](ECheckBoxState pState)                               \</div>
+<div class="line">        {                                                                                       \</div>
+<div class="line">            UYom##pModule##SettingsClass* newSettings = UYomSettings::Get##pModule##Settings(); \</div>
+<div class="line">            newSettings-&gt;pField = pState == ECheckBoxState::Checked;                            \</div>
+<div class="line">            UYomSettings::Set##pModule##Settings(newSettings);                                  \</div>
+<div class="line">            Yom##pModule##ToDisk(newSettings);                                                  \</div>
+<div class="line">        })                                                                                      \</div>
+<div class="line">        .ToolTipText(FText::FromString(pDescription))                                           \</div>
+<div class="line">    ]</div>
+<div class="ttc" id="a_yom_settings_window_8cpp_html_a9a8a0ad2bccbf2895ab8d0ffb23b340a"><div class="ttname"><a href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a></div><div class="ttdeci">#define VARIABLE_TEXT(pText, pDescription)</div><div class="ttdef"><b>Definition:</b> YomSettingsWindow.cpp:191</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -246,15 +246,15 @@ Functions</h2></td></tr>
 <div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
 <div class="line">    [                                                                                        \</div>
 <div class="line">        SNew(SEditableTextBox)                                                               \</div>
-<div class="line">        .Text(FText::FromString(FString::SanitizeFloat(current##pModule##Settings-&gt;pField))) \</div>
+<div class="line">        .Text(FText::FromString(FString::SanitizeFloat(currentYom##pModule##Settings-&gt;pField))) \</div>
 <div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                   \</div>
 <div class="line">        {                                                                                    \</div>
 <div class="line">            FString stringValue = pNewText.ToString();                                       \</div>
 <div class="line">            if(!stringValue.IsNumeric()) return;                                             \</div>
-<div class="line">            U<span class="preprocessor">##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</span></div>
+<div class="line">            UYom<span class="preprocessor">##pModule##SettingsClass* newSettings = UYomSettings::Get##pModule##Settings();    \</span></div>
 <div class="line"><span class="preprocessor">            newSettings-&gt;pField = FCString::Atof(stringValue.GetCharArray().GetData());      \</span></div>
-<div class="line"><span class="preprocessor">            U##pModule##Settings::SetSettings(newSettings);                                  \</span></div>
-<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
+<div class="line"><span class="preprocessor">            UYomSettings::Set##pModule##Settings(newSettings);                                  \</span></div>
+<div class="line"><span class="preprocessor">            Yom##pModule##ToDisk(newSettings);                                               \</span></div>
 <div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
 <div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
 <div class="line"><span class="preprocessor">    ]</span></div>
@@ -298,24 +298,24 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                       \</div>
-<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                 \</div>
-<div class="line">    .HAlign(HAlign_Left)                                                                     \</div>
-<div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
-<div class="line">    [                                                                                        \</div>
-<div class="line">        SNew(SEditableTextBox)                                                               \</div>
-<div class="line">        .Text(FText::FromString(FString::FromInt(current##pModule##Settings-&gt;pField)))       \</div>
-<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                   \</div>
-<div class="line">        {                                                                                    \</div>
-<div class="line">            FString stringValue = pNewText.ToString();                                       \</div>
-<div class="line">            if(!YomIsInt(stringValue)) <span class="keywordflow">return</span>;                                               \</div>
-<div class="line">            U##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</div>
-<div class="line">            newSettings-&gt;pField = FCString::Atoi(stringValue.GetCharArray().GetData());      \</div>
-<div class="line">            U##pModule##Settings::SetSettings(newSettings);                                  \</div>
-<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
-<div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
-<div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
-<div class="line"><span class="preprocessor">    ]</span></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                          \</div>
+<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                    \</div>
+<div class="line">    .HAlign(HAlign_Left)                                                                        \</div>
+<div class="line">    .VAlign(VAlign_Top)                                                                         \</div>
+<div class="line">    [                                                                                           \</div>
+<div class="line">        SNew(SEditableTextBox)                                                                  \</div>
+<div class="line">        .Text(FText::FromString(FString::FromInt(currentYom##pModule##Settings-&gt;pField)))       \</div>
+<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                      \</div>
+<div class="line">        {                                                                                       \</div>
+<div class="line">            FString stringValue = pNewText.ToString();                                          \</div>
+<div class="line">            if(!YomIsInt(stringValue)) <span class="keywordflow">return</span>;                                                  \</div>
+<div class="line">            UYom##pModule##SettingsClass* newSettings = UYomSettings::Get##pModule##Settings(); \</div>
+<div class="line">            newSettings-&gt;pField = FCString::Atoi(stringValue.GetCharArray().GetData());         \</div>
+<div class="line">            UYomSettings::Set##pModule##Settings(newSettings);                                  \</div>
+<div class="line">            Yom##pModule##ToDisk(newSettings);                                                  \</div>
+<div class="line">        })                                                                                      \</div>
+<div class="line">        .ToolTipText(FText::FromString(pDescription))                                           \</div>
+<div class="line">    ]</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -456,22 +456,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                       \</div>
-<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                 \</div>
-<div class="line">    .HAlign(HAlign_Left)                                                                     \</div>
-<div class="line">    .VAlign(VAlign_Top)                                                                      \</div>
-<div class="line">    [                                                                                        \</div>
-<div class="line">        SNew(SEditableTextBox)                                                               \</div>
-<div class="line">        .Text(FText::FromString(current##pModule##Settings-&gt;pField))                         \</div>
-<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                   \</div>
-<div class="line">        {                                                                                    \</div>
-<div class="line">            U##pModule##SettingsClass* newSettings = U##pModule##Settings::GetSettings();    \</div>
-<div class="line">            newSettings-&gt;pField = pNewText.ToString();                                       \</div>
-<div class="line">            U##pModule##Settings::SetSettings(newSettings);                                  \</div>
-<div class="line"><span class="preprocessor">            ##pModule##ToDisk(newSettings);                                                  \</span></div>
-<div class="line"><span class="preprocessor">        })                                                                                   \</span></div>
-<div class="line"><span class="preprocessor">        .ToolTipText(FText::FromString(pDescription))                                        \</span></div>
-<div class="line"><span class="preprocessor">    ]</span></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_yom_settings_window_8cpp.html#a9a8a0ad2bccbf2895ab8d0ffb23b340a">VARIABLE_TEXT</a>(pText, pDescription)                                                          \</div>
+<div class="line">    +SUniformGridPanel::Slot(1,currentRow++)                                                    \</div>
+<div class="line">    .HAlign(HAlign_Left)                                                                        \</div>
+<div class="line">    .VAlign(VAlign_Top)                                                                         \</div>
+<div class="line">    [                                                                                           \</div>
+<div class="line">        SNew(SEditableTextBox)                                                                  \</div>
+<div class="line">        .Text(FText::FromString(currentYom##pModule##Settings-&gt;pField))                         \</div>
+<div class="line">        .OnTextChanged_Lambda([<span class="keyword">this</span>](<span class="keyword">const</span> FText pNewText)                                      \</div>
+<div class="line">        {                                                                                       \</div>
+<div class="line">            UYom##pModule##SettingsClass* newSettings = UYomSettings::Get##pModule##Settings(); \</div>
+<div class="line">            newSettings-&gt;pField = pNewText.ToString();                                          \</div>
+<div class="line">            UYomSettings::Set##pModule##Settings(newSettings);                                  \</div>
+<div class="line">            Yom##pModule##ToDisk(newSettings);                                                  \</div>
+<div class="line">        })                                                                                      \</div>
+<div class="line">        .ToolTipText(FText::FromString(pDescription))                                           \</div>
+<div class="line">    ]</div>
 </div><!-- fragment -->
 </div>
 </div>

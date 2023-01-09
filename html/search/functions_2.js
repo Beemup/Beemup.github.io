@@ -1,9 +1,14 @@
 var searchData=
 [
-  ['defaultplayerid_0',['DefaultPlayerID',['../class_u_yom_core_settings.html#a8bb0ceea4d8243a49534e844e4a3a18a',1,'UYomCoreSettings']]],
-  ['define_5flog_5fcategory_1',['DEFINE_LOG_CATEGORY',['../_yom_character_macros_8cpp.html#ab703c85c460c0967cb6e98db63b29b40',1,'DEFINE_LOG_CATEGORY(YomCharacterLog):&#160;YomCharacterMacros.cpp'],['../_yom_control_hints_macros_8cpp.html#a471e03ea58c8904244751042896b9219',1,'DEFINE_LOG_CATEGORY(YomControlHintsLog):&#160;YomControlHintsMacros.cpp'],['../_yom_inventory_macros_8cpp.html#a68188464a295d81c28ef5bd2d5aaffac',1,'DEFINE_LOG_CATEGORY(YomInventoryLog):&#160;YomInventoryMacros.cpp'],['../_yom_items_macros_8cpp.html#a834e7578ccafb6524f06b5847a12c790',1,'DEFINE_LOG_CATEGORY(YomItemsLog):&#160;YomItemsMacros.cpp'],['../_yom_nameplates_macros_8cpp.html#abdf70be9bda9067962d4bb5a79eb56d6',1,'DEFINE_LOG_CATEGORY(YomNameplatesLog):&#160;YomNameplatesMacros.cpp']]],
-  ['despawnallitems_2',['DespawnAllItems',['../class_u_yom_inventory_component.html#a6300d68ca62094499e100f5ad3d7f5b0',1,'UYomInventoryComponent']]],
-  ['despawnallitemsfromwidget_3',['DespawnAllItemsFromWidget',['../class_u_yom_inventory_b_p_functions.html#a22ff282ae5d7b478c6b61c2087dbd2e2',1,'UYomInventoryBPFunctions']]],
-  ['disablepixelstreaminput_4',['DisablePixelStreamInput',['../class_u_yom_core_settings.html#abf82af0395d7ce01804d69d90be78b51',1,'UYomCoreSettings']]],
-  ['drawhud_5',['DrawHUD',['../class_a_yom_h_u_d.html#a0cdd5528d74b29e4b9ee561bbaee8e45',1,'AYomHUD']]]
+  ['callsigfunction_0',['CallSigFunction',['../class_u_yom_core_b_p_functions.html#a323c2024bcbf61c4f3f6b88b40cfa6dd',1,'UYomCoreBPFunctions']]],
+  ['canplayeraccess_1',['CanPlayerAccess',['../class_u_yom_gated_access_b_p_functions.html#a3861f33a38e4dcb3f04108d0b52f4dc6',1,'UYomGatedAccessBPFunctions']]],
+  ['captureside_2',['CaptureSide',['../_yom_portal_capture_component_8cpp.html#a4e31ff4680385c760a9169482c9066f9',1,'YomPortalCaptureComponent.cpp']]],
+  ['closeportal_3',['ClosePortal',['../class_u_yom_portalling_component.html#a280aaf3b080b78a7484fc19771951c37',1,'UYomPortallingComponent']]],
+  ['closeyomportal_4',['CloseYomPortal',['../class_u_yom_portals_b_p_functions.html#a860e624ef4f54dc12c98fd0787bd47f5',1,'UYomPortalsBPFunctions']]],
+  ['combinesides_5',['CombineSides',['../_yom_portal_capture_component_8cpp.html#ace37eaa605b013db3f838ce5fe3678aa',1,'YomPortalCaptureComponent.cpp']]],
+  ['construct_6',['Construct',['../class_s_yom_setup_window.html#aa4468aa0376617deced137b45ef8cc5c',1,'SYomSetupWindow']]],
+  ['converttopng_7',['ConvertToPng',['../_yom_portal_capture_component_8cpp.html#aa3a43eada1b26cc5fccf19863cea3293',1,'YomPortalCaptureComponent.cpp']]],
+  ['convertvarestjsontostring_8',['ConvertVaRestJsonToString',['../class_u_yom_core_b_p_functions.html#acbaeb889ea5c8dd8ba47138768ccc400',1,'UYomCoreBPFunctions']]],
+  ['createyominventoryitemfromdata_9',['CreateYomInventoryItemFromData',['../class_u_yom_inventory_item_factory.html#a845e32b8019981928574342b393568ec',1,'UYomInventoryItemFactory']]],
+  ['createyominventoryitemfromjson_10',['CreateYomInventoryItemFromJson',['../class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120',1,'UYomInventoryItemFactory']]]
 ];

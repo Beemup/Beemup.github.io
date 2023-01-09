@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.2</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -96,21 +96,21 @@ $(document).ready(function(){initNavTree('_player_setup.html',''); initResizable
   <div class="headertitle"><div class="title">Advanced Player Setup </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md12"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md15"></a>
 Additional settings for a Player</h1>
 <p >There are more settings for a player besides the settings which are set in the <a class="el" href="_metaspace_setup.html">Setup Window</a>. This page will list all of the additional settings that can be adjusted. The extra settings can be accessed by opening the blueprint of your <code>MetaspacePlayer</code>. In the details section, there will be a tab called <code>Yom Player</code>, which will include all settings listed below.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Player Asset</h2>
 <p ><img src="PlayerAsset.png" alt="Player Asset" class="inline"/></p>
 <p >The <code>Player Asset</code> setting was set in the setup window, but can also be changed here if needed.</p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Manual Spawn Location</h2>
 <p ><img src="ManualSpawnLocation.png" alt="Manual Spawn Location" class="inline"/></p>
 <p >The <code>Manual Spawn Location</code> setting allows creators to define their own manual spawning location. If you would like a fixed location you should set this to true and set a location in <code>Manual Spawn Transform</code>.</p>
 <p ><img src="ManualSpawnTransform.png" alt="Manual Spawn Transform" class="inline"/></p>
 <p >If you want to have dynamic spawning behavior you will need to implement the <code>OnSpawn</code> event in a blueprint graph. The graph should start with <code>Event On Spawn</code> and call <code>Set Manual Spawn</code> and <code>Spawn Player Instance</code> (both are functions of self), which will set the spawn point and spawn the player. An example of such a graph can be found below:</p>
 <p ><img src="OnSpawn.png" alt="OnSpawn" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Level Sequence (virtual camera)</h2>
 <p ><img src="LevelSequence.png" alt="Level Sequence" class="inline"/></p>
 <p >The <code>Level Sequence</code> setting allows a creator to set a Virtual Camera for a player if the player accessed the metaspace without a wallet. This can also be seen as a preview of the level. A video on how to create a sequence can be found <a href="https://www.youtube.com/watch?v=FOS9FMbUtq0">here</a>, but there are also many other guides on this topic.</p>

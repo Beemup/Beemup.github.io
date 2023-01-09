@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.2</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -104,13 +104,13 @@ $(document).ready(function(){initNavTree('_yom_inventory_component_8h_source.htm
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_yom_module_8h.html">YomModule.h</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_yom_wallets_8h.html">YomWallets.h</a>&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;VaRestRequestJSON.h&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;YomInventoryComponent.generated.h&quot;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="_yom_inventory_component_8h.html#a0892558ca88b14fa718aca4ac234ef4f">   21</a></span><span class="preprocessor">#define INVENTORY_MODULE_NAME &quot;YomInventoryModule&quot;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span><a class="code hl_class" href="class_u_yom_player_inventory_widget.html">UYomPlayerInventoryWidget</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">class </span><a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;YomInventoryComponent.generated.h&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="_yom_inventory_component_8h.html#a0892558ca88b14fa718aca4ac234ef4f">   20</a></span><span class="preprocessor">#define INVENTORY_MODULE_NAME &quot;YomInventoryModule&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span><a class="code hl_class" href="class_u_yom_player_inventory_widget.html">UYomPlayerInventoryWidget</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">class </span><a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">class </span>UVaRestRequestJSON;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>UCLASS(Blueprintable, meta=(BlueprintSpawnableComponent))</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_u_yom_inventory_component.html">   29</a></span>class YOMINVENTORY_API <a class="code hl_class" href="class_u_yom_inventory_component.html">UYomInventoryComponent</a> : public <a class="code hl_class" href="class_u_yom_module.html">UYomModule</a></div>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('_yom_inventory_component_8h_source.htm
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* GetItemByID(const FString&amp; pID);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    virtual <span class="keywordtype">void</span> InitYomModule() override;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    virtual <span class="keywordtype">void</span> InitYomModulePostSpawn() override;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    virtual <span class="keywordtype">void</span> ShutdownYomModule() override;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
@@ -188,7 +188,7 @@ $(document).ready(function(){initNavTree('_yom_inventory_component_8h_source.htm
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>};</div>
 <div class="ttc" id="a_yom_module_8h_html"><div class="ttname"><a href="_yom_module_8h.html">YomModule.h</a></div><div class="ttdoc">The base class for all YomModules that can extend the YomPlayer.</div></div>
 <div class="ttc" id="a_yom_wallets_8h_html"><div class="ttname"><a href="_yom_wallets_8h.html">YomWallets.h</a></div><div class="ttdoc">Defines all different wallet types that can be used by a player.</div></div>
-<div class="ttc" id="aclass_a_yom_inventory_item_html"><div class="ttname"><a href="class_a_yom_inventory_item.html">AYomInventoryItem</a></div><div class="ttdoc">An item that contains all of the blockchain data and actor data of an item.</div><div class="ttdef"><b>Definition:</b> YomInventoryItem.h:135</div></div>
+<div class="ttc" id="aclass_a_yom_inventory_item_html"><div class="ttname"><a href="class_a_yom_inventory_item.html">AYomInventoryItem</a></div><div class="ttdoc">An item that contains all of the blockchain data and actor data of an item.</div><div class="ttdef"><b>Definition:</b> YomInventoryItem.h:136</div></div>
 <div class="ttc" id="aclass_u_yom_inventory_component_html"><div class="ttname"><a href="class_u_yom_inventory_component.html">UYomInventoryComponent</a></div><div class="ttdoc">The Inventory YomModule, which keeps track of the items the player has in his wallet.</div><div class="ttdef"><b>Definition:</b> YomInventoryComponent.h:30</div></div>
 <div class="ttc" id="aclass_u_yom_module_html"><div class="ttname"><a href="class_u_yom_module.html">UYomModule</a></div><div class="ttdoc">The base class for all YomModules that can extend the YomPlayer.</div><div class="ttdef"><b>Definition:</b> YomModule.h:21</div></div>
 <div class="ttc" id="aclass_u_yom_player_inventory_widget_html"><div class="ttname"><a href="class_u_yom_player_inventory_widget.html">UYomPlayerInventoryWidget</a></div><div class="ttdoc">The UI of the inventory that renders the inventory to the player's screen.</div><div class="ttdef"><b>Definition:</b> YomPlayerInventoryWidget.h:26</div></div>

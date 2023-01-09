@@ -39,6 +39,7 @@ var hierarchy =
         [ "UYomGatedAccessComponent", "class_u_yom_gated_access_component.html", null ],
         [ "UYomInventoryComponent", "class_u_yom_inventory_component.html", null ],
         [ "UYomPortallingComponent", "class_u_yom_portalling_component.html", null ],
+        [ "UYomSettingsSync", "class_u_yom_settings_sync.html", null ],
         [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", null ]
       ] ],
       [ "UYomNameplateManagerComponent", "class_u_yom_nameplate_manager_component.html", null ],
@@ -51,15 +52,12 @@ var hierarchy =
       [ "UYomGatedAccessBPFunctions", "class_u_yom_gated_access_b_p_functions.html", null ],
       [ "UYomInventoryBPFunctions", "class_u_yom_inventory_b_p_functions.html", null ],
       [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
+      [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
       [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
       [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ]
     ] ],
     [ "UObject", null, [
-      [ "UYomCoreSettings", "class_u_yom_core_settings.html", null ],
-      [ "UYomEnvironmentVariablesSettings", "class_u_yom_environment_variables_settings.html", null ],
-      [ "UYomItemsBPFunctions", "class_u_yom_items_b_p_functions.html", null ],
-      [ "UYomPortalsSettings", "class_u_yom_portals_settings.html", null ],
-      [ "UYomVoiceSettings", "class_u_yom_voice_settings.html", null ],
+      [ "UYomSettings", "class_u_yom_settings.html", null ],
       [ "UYomWalletFetchStrategies", "class_u_yom_wallet_fetch_strategies.html", null ]
     ] ],
     [ "UUserWidget", null, [

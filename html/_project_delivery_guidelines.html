@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.13</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.14</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -101,7 +101,8 @@ Project Delivery Guidelines</h1>
 <p >This page will explain how to correctly setup your project such that it can be build by the YourOpenMetaverse build server.</p>
 <h2><a class="anchor" id="autotoc_md4"></a>
 Step 1: Creating a new project</h2>
-<p >Create a new project (Blueprint or C++) with Unreal 5 in which you want to build your new metaspace, but integrating into an existing metaspace is also possible. Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">this gitignore</a> to the root of the folder to ensure that git does not include unnecessary files. Open the Gitignore and add the following line: <code>!Plugins/YourOpenMetaverse</code>, which is needed to include the build version of the plugin. Convert your project to a git repository, but ensure that the <code>.git</code> folder is in the same location as the <code>.uproject</code> file.</p>
+<p >Create a new project (Blueprint or C++) with Unreal 5 in which you want to build your new metaspace, but integrating into an existing metaspace is also possible. Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">this gitignore</a> to the root of the folder to ensure that git does not include unnecessary files. Convert your project to a git repository, but ensure that the <code>.git</code> folder is in the same location as the <code>.uproject</code> file.</p>
+<p >Note: If you want to share the plugin accros a team the whole team needs to download the sources, unless you add all of the plugins binaries to git.</p>
 <h2><a class="anchor" id="autotoc_md5"></a>
 Step 2: Creating a Plugins folder</h2>
 <p >Inside your project folder you should make a folder called <code>Plugins</code> in which you can install the YOM Replicator SDK, <a href="https://github.com/rdeioris/glTFRuntime/archive/refs/heads/master.zip">GltfRuntime</a>, and <a href="https://www.unrealengine.com/marketplace/en-US/product/varest-plugin">VaRest</a> plugins.</p>

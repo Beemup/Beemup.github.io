@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.18</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.19</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -290,26 +290,29 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    const FString&amp; GetWalletID() const;</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    UFUNCTION(BlueprintCallable, Category=&quot;YomCore&quot;)</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    UPixelStreamingInput* GetInputComponent() const;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    const FString&amp; GetPlayerName() const;</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    UFUNCTION(BlueprintCallable, Category=&quot;YomCore&quot;)</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordtype">bool</span> HasSpawned() const;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    UPixelStreamingInput* GetInputComponent() const;</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    UFUNCTION(Client, Reliable)</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordtype">void</span> SendPixelStreamCommand(const FString&amp; pCommand) const;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    UFUNCTION(BlueprintCallable, Category=&quot;YomCore&quot;)</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    <span class="keywordtype">bool</span> HasSpawned() const;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    const UVaRestJsonObject* GetInitialJSON() const;</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <span class="keywordtype">void</span> AddUIInteraction(const FString&amp; pFunctionName, const FUIInteractionEvent&amp; pEvent);</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    <span class="keywordtype">void</span> RegisterYomCmd(const FString&amp; pCommandName, const FYomCmdEvent&amp; pEvent);</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="keywordtype">void</span> UnRegisterYomCmd(const FString&amp; pCommandName);</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordtype">void</span> CallSigFunction(const FString&amp; pFunction, const TArray&lt;FString&gt;&amp; pVariableNames = {}, <span class="keyword">const</span> TArray&lt;UVaRestJsonValue*&gt;&amp; pVariableValues = {}) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>};</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    UFUNCTION(Client, Reliable)</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="keywordtype">void</span> SendPixelStreamCommand(const FString&amp; pCommand) const;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    const UVaRestJsonObject* GetInitialJSON() const;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keywordtype">void</span> AddUIInteraction(const FString&amp; pFunctionName, const FUIInteractionEvent&amp; pEvent);</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <span class="keywordtype">void</span> RegisterYomCmd(const FString&amp; pCommandName, const FYomCmdEvent&amp; pEvent);</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keywordtype">void</span> UnRegisterYomCmd(const FString&amp; pCommandName);</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keywordtype">void</span> CallSigFunction(const FString&amp; pFunction, const TArray&lt;FString&gt;&amp; pVariableNames = {}, <span class="keyword">const</span> TArray&lt;UVaRestJsonValue*&gt;&amp; pVariableValues = {}) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>};</div>
 <div class="ttc" id="a_yom_wallets_8h_html"><div class="ttname"><a href="_yom_wallets_8h.html">YomWallets.h</a></div><div class="ttdoc">Defines all different wallet types that can be used by a player.</div></div>
 <div class="ttc" id="aclass_a_yom_manager_html"><div class="ttname"><a href="class_a_yom_manager.html">AYomManager</a></div><div class="ttdoc">A manager that can manage something of the metaspace.</div><div class="ttdef"><b>Definition:</b> YomManager.h:22</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:55</div></div>

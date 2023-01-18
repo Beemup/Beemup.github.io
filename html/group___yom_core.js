@@ -9,6 +9,7 @@ var group___yom_core =
       [ "GetLoadedModules", "class_a_yom_player.html#a98605d3791e4d2825ce089719a75cf1f", null ],
       [ "GetManagerByName", "class_a_yom_player.html#adf6d20662afdbcd783b6f39912c8c24d", null ],
       [ "GetModuleByName", "class_a_yom_player.html#a419e53f5b7f00fe301fddc19be7d69a5", null ],
+      [ "GetPlayerName", "class_a_yom_player.html#aae31390a8c061deb3802850573b9f952", null ],
       [ "GetWallet", "class_a_yom_player.html#a64081a9c9116035847cc721d70e062b5", null ],
       [ "GetWalletID", "class_a_yom_player.html#a1c26f4de3fd3f46e105a26dcd1001a38", null ],
       [ "HasSpawned", "class_a_yom_player.html#a52d60904f4010bdd690933eea7fd0ac0", null ],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['callsigfunction_0',['CallSigFunction',['../class_u_yom_core_b_p_functions.html#a323c2024bcbf61c4f3f6b88b40cfa6dd',1,'UYomCoreBPFunctions']]],
   ['camerasettings_1',['CameraSettings',['../class_a_yom_player.html#a607c5da4b5bf287c7742960d0867525a',1,'AYomPlayer']]],
-  ['can_5fbuild_5fraw_5frecorder_2',['CAN_BUILD_RAW_RECORDER',['../_yom_audio_recorder_component_8cpp.html#ac1225175f6d6a18e4d297776c2da626f',1,'YomAudioRecorderComponent.cpp']]],
+  ['can_5fbuild_5fraw_5frecorder_2',['CAN_BUILD_RAW_RECORDER',['../_yom_voice_macros_8h.html#ac1225175f6d6a18e4d297776c2da626f',1,'YomVoiceMacros.h']]],
   ['canplayeraccess_3',['CanPlayerAccess',['../class_u_yom_gated_access_b_p_functions.html#a3861f33a38e4dcb3f04108d0b52f4dc6',1,'UYomGatedAccessBPFunctions']]],
   ['canvas_4',['Canvas',['../class_u_yom_button.html#a53d1d0675be9d8c9be24c793b5b71e9d',1,'UYomButton']]],
   ['captureside_5',['CaptureSide',['../_yom_portal_capture_component_8cpp.html#a4e31ff4680385c760a9169482c9066f9',1,'YomPortalCaptureComponent.cpp']]],

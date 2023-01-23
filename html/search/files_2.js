@@ -168,7 +168,7 @@ var searchData=
   ['yomqueue_2ecpp_165',['YomQueue.cpp',['../_yom_queue_8cpp.html',1,'']]],
   ['yomqueue_2eh_166',['YomQueue.h',['../_yom_queue_8h.html',1,'']]],
   ['yomsettings_2ecpp_167',['YomSettings.cpp',['../_yom_settings_8cpp.html',1,'']]],
-  ['yomsettings_2eh_168',['YomSettings.h',['../_yom_editor_2_yom_settings_window_2_public_2_yom_settings_8h.html',1,'(Global Namespace)'],['../_yom_core_2_public_2_yom_settings_8h.html',1,'(Global Namespace)']]],
+  ['yomsettings_2eh_168',['YomSettings.h',['../_yom_core_2_public_2_yom_settings_8h.html',1,'(Global Namespace)'],['../_yom_editor_2_yom_settings_window_2_public_2_yom_settings_8h.html',1,'(Global Namespace)']]],
   ['yomsettingssync_2ecpp_169',['YomSettingsSync.cpp',['../_yom_settings_sync_8cpp.html',1,'']]],
   ['yomsettingssync_2eh_170',['YomSettingsSync.h',['../_yom_settings_sync_8h.html',1,'']]],
   ['yomsettingswindow_2ecpp_171',['YomSettingsWindow.cpp',['../_yom_settings_window_8cpp.html',1,'']]],

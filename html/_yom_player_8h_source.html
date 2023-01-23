@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.24</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.25</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -315,12 +315,14 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    <span class="keywordtype">void</span> AddUIInteraction(const FString&amp; pFunctionName, const FUIInteractionEvent&amp; pEvent);</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <span class="keywordtype">void</span> RegisterYomCmd(const FString&amp; pCommandName, const FYomCmdEvent&amp; pEvent);</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <span class="keywordtype">void</span> RemoveUIInteraction(const FString&amp; pFunctionName);</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keywordtype">void</span> UnRegisterYomCmd(const FString&amp; pCommandName);</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keywordtype">void</span> RegisterYomCmd(const FString&amp; pCommandName, const FYomCmdEvent&amp; pEvent);</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordtype">void</span> CallSigFunction(const FString&amp; pFunction, const TArray&lt;FString&gt;&amp; pVariableNames = {}, <span class="keyword">const</span> TArray&lt;UVaRestJsonValue*&gt;&amp; pVariableValues = {}) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>};</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordtype">void</span> UnRegisterYomCmd(const FString&amp; pCommandName);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="keywordtype">void</span> CallSigFunction(const FString&amp; pFunction, const TArray&lt;FString&gt;&amp; pVariableNames = {}, <span class="keyword">const</span> TArray&lt;UVaRestJsonValue*&gt;&amp; pVariableValues = {}) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>};</div>
 <div class="ttc" id="a_yom_wallets_8h_html"><div class="ttname"><a href="_yom_wallets_8h.html">YomWallets.h</a></div><div class="ttdoc">Defines all different wallet types that can be used by a player.</div></div>
 <div class="ttc" id="aclass_a_yom_manager_html"><div class="ttname"><a href="class_a_yom_manager.html">AYomManager</a></div><div class="ttdoc">A manager that can manage something of the metaspace.</div><div class="ttdef"><b>Definition:</b> YomManager.h:22</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:55</div></div>

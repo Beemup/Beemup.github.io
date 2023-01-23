@@ -23,8 +23,9 @@ var searchData=
   ['uyomportalsbpfunctions_20',['UYomPortalsBPFunctions',['../class_u_yom_portals_b_p_functions.html',1,'']]],
   ['uyomsettings_21',['UYomSettings',['../class_u_yom_settings.html',1,'']]],
   ['uyomsettingssync_22',['UYomSettingsSync',['../class_u_yom_settings_sync.html',1,'']]],
-  ['uyomtrackingbpfunctions_23',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
-  ['uyomvoicecomponent_24',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
-  ['uyomvoiceinitializercomponent_25',['UYomVoiceInitializerComponent',['../class_u_yom_voice_initializer_component.html',1,'']]],
-  ['uyomwalletfetchstrategies_26',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
+  ['uyomstreamevent_23',['UYomStreamEvent',['../class_u_yom_stream_event.html',1,'']]],
+  ['uyomtrackingbpfunctions_24',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
+  ['uyomvoicecomponent_25',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
+  ['uyomvoiceinitializercomponent_26',['UYomVoiceInitializerComponent',['../class_u_yom_voice_initializer_component.html',1,'']]],
+  ['uyomwalletfetchstrategies_27',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
 ];

@@ -35,6 +35,7 @@ var annotated_dup =
     [ "UYomPortalsBPFunctions", "class_u_yom_portals_b_p_functions.html", null ],
     [ "UYomSettings", "class_u_yom_settings.html", null ],
     [ "UYomSettingsSync", "class_u_yom_settings_sync.html", "class_u_yom_settings_sync" ],
+    [ "UYomStreamEvent", "class_u_yom_stream_event.html", "class_u_yom_stream_event" ],
     [ "UYomTrackingBPFunctions", "class_u_yom_tracking_b_p_functions.html", null ],
     [ "UYomVoiceComponent", "class_u_yom_voice_component.html", "class_u_yom_voice_component" ],
     [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", "class_u_yom_voice_initializer_component" ],

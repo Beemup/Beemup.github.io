@@ -3,7 +3,7 @@ var searchData=
   ['raritywidget_0',['RarityWidget',['../class_u_yom_button.html#a235edce2411462cd88c143b047ce858a',1,'UYomButton']]],
   ['read_5ffield_1',['READ_FIELD',['../_yom_settings_8cpp.html#ab581be9a6a96047fd96cb8bfe6d73d41',1,'YomSettings.cpp']]],
   ['redirectplayer_2',['RedirectPlayer',['../class_u_yom_core_b_p_functions.html#ae9604d15abd00c297f0c0d4e1c801e9b',1,'UYomCoreBPFunctions']]],
-  ['registerevent_3',['RegisterEvent',['../class_u_yom_external_event.html#aa57638806fc0e02f9e57691db8a9553d',1,'UYomExternalEvent']]],
+  ['registerevent_3',['RegisterEvent',['../class_u_yom_external_event.html#aa57638806fc0e02f9e57691db8a9553d',1,'UYomExternalEvent::RegisterEvent()'],['../class_u_yom_stream_event.html#a70ceee875b76d90080b93da74b6214b7',1,'UYomStreamEvent::RegisterEvent()']]],
   ['releasetimeseconds_4',['ReleaseTimeSeconds',['../class_u_yom_settings.html#add32af643c6f96eae18fe64c40b1ab90',1,'UYomSettings']]],
   ['replace_5fbool_5fsetting_5',['REPLACE_BOOL_SETTING',['../_yom_settings_window_8cpp.html#af97b173bdb09182505216fd8e322bcba',1,'YomSettingsWindow.cpp']]],
   ['replace_5fcustom_5fsetting_6',['REPLACE_CUSTOM_SETTING',['../_yom_settings_window_8cpp.html#a7062a6884cb55a7cfb7464a37488704a',1,'YomSettingsWindow.cpp']]],

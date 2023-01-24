@@ -43,6 +43,7 @@ var hierarchy =
         [ "UYomVoiceInitializerComponent", "class_u_yom_voice_initializer_component.html", null ]
       ] ],
       [ "UYomNameplateManagerComponent", "class_u_yom_nameplate_manager_component.html", null ],
+      [ "UYomStreamEvent", "class_u_yom_stream_event.html", null ],
       [ "UYomVoiceComponent", "class_u_yom_voice_component.html", null ]
     ] ],
     [ "UBlueprintFunctionLibrary", null, [

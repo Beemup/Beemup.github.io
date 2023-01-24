@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -96,22 +96,22 @@ $(document).ready(function(){initNavTree('_counter_setup.html',''); initResizabl
   <div class="headertitle"><div class="title">Counter Setup </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md39"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md40"></a>
 Adding a counter to your metaverse</h1>
 <p >The <code>Your Open Metaverse</code> plugin allows creators to design their own counters. This guide will explain how to create and use your own counters with our ecosystem.</p>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Step 1: Adding counter actor the the world</h2>
 <p >To use the features of the counter, it needs to be added to the world first.</p>
 <p >YOM Counter is an actor and needs to be manually added to the world to start working. To add the actor, you will have to slide the actor from <code>Content Browser</code> under <code>Plugins -&gt; YOM Content -&gt; Counter</code> into your world.</p>
 <p >After this, you can call counter functions through blueprints without errors.</p>
-<h2><a class="anchor" id="autotoc_md41"></a>
+<h2><a class="anchor" id="autotoc_md42"></a>
 Step 2: Adding counter component to the player</h2>
-<p >To use the auto replicating feature of the counter (updating a counter value is shared with other clients), you will need to add the counter component to the player blueprint. You can do this by going to the player blueprint and using the add button on the top left corner of the screen.</p>
+<p >To use the auto replicating feature of the counter (updating a counter value is shared with other clients), you will need to add the counter component to the player blueprint. You can do this by going to your <code>MetaspacePlayer</code> and using the add button on the top left corner of the screen.</p>
 <p ><img src="PickYomCounterComponent.png" alt="Pick YomCounter Component" class="inline"/></p>
 <p >After you do this, you can define what to do when a counter value is updated. This is done by using a callback event. This callback event gives you the name of the counter which is updated and its new value.</p>
 <p ><img src="UpdatedCallback.png" alt="Yom Counter Updated" class="inline"/></p>
-<p >When a counter value is updated with <code>GetCounterPlayer</code> blueprint function, this callback function will be called on all of the clients with a counter component. Returned value and the name can be used however you like. </p>
-<h2><a class="anchor" id="autotoc_md42"></a>
+<p >When a counter value is updated with <code>GetCounterPlayer</code> blueprint function, this callback function will be called on all of the clients with a counter component. Returned value and the name can be used however you like.</p>
+<h2><a class="anchor" id="autotoc_md43"></a>
 Step 3: Using blueprint functions to use the component</h2>
 <p >From the blueprint actions box (it is automatically open or you should right click to the screen), search for <code>Yom Counter</code> in order to see the available functions.</p>
 <p >Example use case for <code>Get Counter</code> function</p>
@@ -124,7 +124,8 @@ Step 3: Using blueprint functions to use the component</h2>
 <p >If callback function is not required, a dummy callback function can be created as it can be seen from the image.</p>
 <p >Finally, we can use <code>Get Counter Player</code> blueprint function in order to replicate the get request of the counter value. When it is called from a client, it makes a server call which is replicated to other clients as well. This way, all of the connected clients are getting the new value of the counter as well as the name of the counter.</p>
 <p >Example use case for <code>Get Counter Player</code> function</p>
-<p ><img src="GetCounterPlayer.png" alt="Get Counter Player" class="inline"/> </p>
+<p ><img src="GetCounterPlayer.png" alt="Get Counter Player" class="inline"/></p>
+<p >Note: we recommend not updating the counter too much, but 'batch' the counts, as everytime the counter is updated it needs to be updated on the blockchain, which costs money. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

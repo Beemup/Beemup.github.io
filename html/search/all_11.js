@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unregisterevent_0',['UnRegisterEvent',['../class_u_yom_external_event.html#a518d7532b45cffe90ffc8fa530742307',1,'UYomExternalEvent']]],
+  ['unregisterevent_0',['UnRegisterEvent',['../class_u_yom_stream_event.html#adc04c59ab12d8e7e51364a786d8f9e09',1,'UYomStreamEvent::UnRegisterEvent()'],['../class_u_yom_external_event.html#a518d7532b45cffe90ffc8fa530742307',1,'UYomExternalEvent::UnRegisterEvent()']]],
   ['up_5fcam_1',['UP_CAM',['../_yom_portal_capture_component_8cpp.html#a3e499d334ebec6d616e6b322991c4de2',1,'YomPortalCaptureComponent.cpp']]],
   ['updateconfig_2',['UpdateConfig',['../class_u_yom_settings_sync.html#a62b798415a9206e56801bd30e83bee89',1,'UYomSettingsSync::UpdateConfig(const FString &amp;pJson)'],['../class_u_yom_settings_sync.html#af6d7854c15ede9fd2d2cfaacf436a381',1,'UYomSettingsSync::UpdateConfig(UVaRestJsonObject *pJson)']]],
   ['updateconfigclient_3',['UpdateConfigClient',['../class_u_yom_settings_sync.html#aa66bbb4dc6a29d080655433c1bf49a88',1,'UYomSettingsSync']]],
@@ -29,8 +29,9 @@ var searchData=
   ['uyomportalsbpfunctions_26',['UYomPortalsBPFunctions',['../class_u_yom_portals_b_p_functions.html',1,'']]],
   ['uyomsettings_27',['UYomSettings',['../class_u_yom_settings.html',1,'']]],
   ['uyomsettingssync_28',['UYomSettingsSync',['../class_u_yom_settings_sync.html',1,'']]],
-  ['uyomtrackingbpfunctions_29',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
-  ['uyomvoicecomponent_30',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
-  ['uyomvoiceinitializercomponent_31',['UYomVoiceInitializerComponent',['../class_u_yom_voice_initializer_component.html',1,'']]],
-  ['uyomwalletfetchstrategies_32',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
+  ['uyomstreamevent_29',['UYomStreamEvent',['../class_u_yom_stream_event.html',1,'']]],
+  ['uyomtrackingbpfunctions_30',['UYomTrackingBPFunctions',['../class_u_yom_tracking_b_p_functions.html',1,'']]],
+  ['uyomvoicecomponent_31',['UYomVoiceComponent',['../class_u_yom_voice_component.html',1,'']]],
+  ['uyomvoiceinitializercomponent_32',['UYomVoiceInitializerComponent',['../class_u_yom_voice_initializer_component.html',1,'']]],
+  ['uyomwalletfetchstrategies_33',['UYomWalletFetchStrategies',['../class_u_yom_wallet_fetch_strategies.html',1,'']]]
 ];

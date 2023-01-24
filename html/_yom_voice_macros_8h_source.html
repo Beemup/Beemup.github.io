@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -111,6 +111,12 @@ $(document).ready(function(){initNavTree('_yom_voice_macros_8h_source.html','');
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#af79c461d28aab990cee8774b81dfffaf">   22</a></span><span class="preprocessor">#define YOMVOICE_SOUND_LOG(pText, ...) if(UYomSettings::IsSoundLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#a1b911a97e4f6a9cabc2bf22554feb53c">   23</a></span><span class="preprocessor">#define YOMVOICE_CONNECTION_LOG(pText, ...) if(UYomSettings::IsConnectionLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#addf36d8a05ac2cc37dd7c25b554cf7c0">   24</a></span><span class="preprocessor">#define YOMVOICE_PLAYBACK_LOG(pText, ...) if(UYomSettings::IsPlaybackLogEnabled()) YOM_LOG(pText, ##__VA_ARGS__)</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#if defined(_WIN32) &amp;&amp; WITH_EDITOR &amp;&amp; !defined(__GNUC__)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define CAN_BUILD_RAW_RECORDER 1</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_yom_voice_macros_8h.html#ac1225175f6d6a18e4d297776c2da626f">   29</a></span><span class="preprocessor">#define CAN_BUILD_RAW_RECORDER 0</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="a_yom_core_macros_8h_html"><div class="ttname"><a href="_yom_core_macros_8h.html">YomCoreMacros.h</a></div><div class="ttdoc">Some module specific macros.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

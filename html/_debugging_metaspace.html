@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.12</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -107,7 +107,16 @@ Settings</h2>
 <p ><img src="DebugSettingsWindow.png" alt="DebugSettingsWindow" class="inline"/></p>
 <p >These settings will ensure that your metaspace is setup for testing.</p>
 <h2><a class="anchor" id="autotoc_md14"></a>
-Check the Log</h2>
+Additional settings for debugging with a signalling server</h2>
+<p >If you want to debug with a signalling server, you need to set some additional settings in the editor to ensure that unreal and the signalling server can connect.</p>
+<p >First go to <code>Edit -&gt; Editor Preferences -&gt; Additional Launch Parameters</code> and set this to <code>-AudioMixer -PixelStreamingUrl=ws://localhost:8888 -Log</code>, which will enable audio, set the pixel streaming url and open the log.</p>
+<p ><img src="AdditionalLaunchParameters.png" alt="AdditionalLaunchParameters" class="inline"/></p>
+<p >Secondly you will need to play as a standalone game. This can be set At the green play button click the three dots and then press <code>Standalone Game</code></p>
+<p ><img src="ClickThreeDots.png" alt="ClickThreeDots" class="inline"/> <img src="StandaloneGame.png" alt="StandaloneGame" class="inline"/></p>
+<p >Furthermore, we recommend going to <code>Tools -&gt; Your Open Metaverse -&gt; Metaspace Settings</code> and disable <code>Spawn Default Player</code> if you are using the signalling server of Your Open Metaverse, otherwise leave this turned on. If you are using the signalling server of Your Open Metaverse also enable <code>Allow Guests</code>.</p>
+<p >You can now launch your signalling server and launch the game. The two applications will automatically connect with each other if the ports that they connect on are the same. You can spawn a player from the browser by going to <a href="http://localhost/?guestName=guest">http://localhost/?guestName=guest</a>. If they do not connect first check if the signalling server actually shows when you go to <code>localhost</code>, otherwise check your <code>Additional Launch Parameters</code>, and lastly check the <code>config.json</code> file of the <code>SignallingServer</code> to see if the port is set correctly to 8888.</p>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Check the Logs</h2>
 <p >If any of the <code>Actors</code> or <code>Components</code> that Yom provided are not working as you expect it is always a good idea to look in the <code>Output Log</code> for warnings or other useful information. You can open this by clicking <code>Output Log</code>, which is next to <code>Content Drawer</code> in the bar at the bottom of the editor.</p>
 <p ><img src="ClickOutputLog.png" alt="ClickOutputLog" class="inline"/> </p>
 </div></div><!-- contents -->

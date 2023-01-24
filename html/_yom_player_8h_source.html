@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.25</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.5.0.26</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">bool</span> mDisplayingOverlay = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    FVector mLastCameraPosition = {};</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">bool</span> mIsVirtualCamera = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    UFUNCTION(Client, Reliable)</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> StartLevelCamera();</div>
@@ -322,7 +322,8 @@ $(document).ready(function(){initNavTree('_yom_player_8h_source.html',''); initR
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordtype">void</span> UnRegisterYomCmd(const FString&amp; pCommandName);</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="keywordtype">void</span> CallSigFunction(const FString&amp; pFunction, const TArray&lt;FString&gt;&amp; pVariableNames = {}, <span class="keyword">const</span> TArray&lt;UVaRestJsonValue*&gt;&amp; pVariableValues = {}) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>};</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>};</div>
 <div class="ttc" id="a_yom_wallets_8h_html"><div class="ttname"><a href="_yom_wallets_8h.html">YomWallets.h</a></div><div class="ttdoc">Defines all different wallet types that can be used by a player.</div></div>
 <div class="ttc" id="aclass_a_yom_manager_html"><div class="ttname"><a href="class_a_yom_manager.html">AYomManager</a></div><div class="ttdoc">A manager that can manage something of the metaspace.</div><div class="ttdef"><b>Definition:</b> YomManager.h:22</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:55</div></div>

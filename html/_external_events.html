@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.2</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.3</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -110,7 +110,7 @@ Calling YomExternalEvents from the Bridge</h2>
 <p >Currently not possible as the <code>Bridge</code> needs to be updated to do this.</p>
 <h2><a class="anchor" id="autotoc_md56"></a>
 Calling YomStreamEvents from a website</h2>
-<p >In the <code>Signalling Server</code> that we provide you can call the <code>emitUIInteraction</code> in app.js, which takes a JSON object. The JSON object takes a function and a data field. The function should be the same as your event name, the data field should contain all parameters that your function needs. Example code (javascript): </p><div class="fragment"><div class="line">emitUIInteraction({</div>
+<p >It is also possible to trigger events directly from the host website. To trigger an event, call <code>emitUIInteraction</code> on the iframe. This method takes json object that takes a function parameter and a data field. The function should be the same as your event name, the data field should contain all parameters that your function needs. Example code (javascript): </p><div class="fragment"><div class="line">emitUIInteraction({</div>
 <div class="line">    function: &#39;MyFunction&#39;,</div>
 <div class="line">    data: {</div>
 <div class="line">        myBooleanParameter: true</div>

@@ -9,6 +9,7 @@ var searchData=
   ['construct_6',['Construct',['../class_s_yom_setup_window.html#aa4468aa0376617deced137b45ef8cc5c',1,'SYomSetupWindow']]],
   ['converttopng_7',['ConvertToPng',['../_yom_portal_capture_component_8cpp.html#aa3a43eada1b26cc5fccf19863cea3293',1,'YomPortalCaptureComponent.cpp']]],
   ['convertvarestjsontostring_8',['ConvertVaRestJsonToString',['../class_u_yom_core_b_p_functions.html#acbaeb889ea5c8dd8ba47138768ccc400',1,'UYomCoreBPFunctions']]],
-  ['createyominventoryitemfromdata_9',['CreateYomInventoryItemFromData',['../class_u_yom_inventory_item_factory.html#a845e32b8019981928574342b393568ec',1,'UYomInventoryItemFactory']]],
-  ['createyominventoryitemfromjson_10',['CreateYomInventoryItemFromJson',['../class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120',1,'UYomInventoryItemFactory']]]
+  ['createemptyyominventoryitem_9',['CreateEmptyYomInventoryItem',['../class_u_yom_inventory_item_factory.html#ae12144af6ec8766b096238e07747099f',1,'UYomInventoryItemFactory']]],
+  ['createyominventoryitemfromdata_10',['CreateYomInventoryItemFromData',['../class_u_yom_inventory_item_factory.html#a845e32b8019981928574342b393568ec',1,'UYomInventoryItemFactory']]],
+  ['createyominventoryitemfromjson_11',['CreateYomInventoryItemFromJson',['../class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120',1,'UYomInventoryItemFactory']]]
 ];

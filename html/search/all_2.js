@@ -19,6 +19,7 @@ var searchData=
   ['convertvarestjsontostring_16',['ConvertVaRestJsonToString',['../class_u_yom_core_b_p_functions.html#acbaeb889ea5c8dd8ba47138768ccc400',1,'UYomCoreBPFunctions']]],
   ['counter_20setup_17',['Counter Setup',['../_counter_setup.html',1,'md_pages_Guides']]],
   ['counter_5fmodule_5fname_18',['COUNTER_MODULE_NAME',['../_yom_counter_component_8h.html#a38e7822682fd3a77b10080495dd43ed1',1,'YomCounterComponent.h']]],
-  ['createyominventoryitemfromdata_19',['CreateYomInventoryItemFromData',['../class_u_yom_inventory_item_factory.html#a845e32b8019981928574342b393568ec',1,'UYomInventoryItemFactory']]],
-  ['createyominventoryitemfromjson_20',['CreateYomInventoryItemFromJson',['../class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120',1,'UYomInventoryItemFactory']]]
+  ['createemptyyominventoryitem_19',['CreateEmptyYomInventoryItem',['../class_u_yom_inventory_item_factory.html#ae12144af6ec8766b096238e07747099f',1,'UYomInventoryItemFactory']]],
+  ['createyominventoryitemfromdata_20',['CreateYomInventoryItemFromData',['../class_u_yom_inventory_item_factory.html#a845e32b8019981928574342b393568ec',1,'UYomInventoryItemFactory']]],
+  ['createyominventoryitemfromjson_21',['CreateYomInventoryItemFromJson',['../class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120',1,'UYomInventoryItemFactory']]]
 ];

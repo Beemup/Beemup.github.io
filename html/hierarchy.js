@@ -19,6 +19,12 @@ var hierarchy =
     [ "APlayerController", null, [
       [ "AYomPlayer", "class_a_yom_player.html", null ]
     ] ],
+    [ "AYomBaseItem", null, [
+      [ "AYomAvatarItem", "class_a_yom_avatar_item.html", [
+        [ "AYomGltfAvatar", "class_a_yom_gltf_avatar.html", null ]
+      ] ],
+      [ "AYomSpawnableItem", "class_a_yom_spawnable_item.html", null ]
+    ] ],
     [ "FWallet", "struct_f_wallet.html", null ],
     [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", null ],
     [ "IModuleInterface", null, [
@@ -26,6 +32,9 @@ var hierarchy =
     ] ],
     [ "IPixelStreamingAudioConsumer", null, [
       [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ]
+    ] ],
+    [ "IYomNetworkItem", null, [
+      [ "AYomGltfAvatar", "class_a_yom_gltf_avatar.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],

@@ -1,13 +1,16 @@
 var annotated_dup =
 [
+    [ "AYomAvatarItem", "class_a_yom_avatar_item.html", null ],
     [ "AYomGameMode", "class_a_yom_game_mode.html", null ],
     [ "AYomGatedAccess", "class_a_yom_gated_access.html", "class_a_yom_gated_access" ],
+    [ "AYomGltfAvatar", "class_a_yom_gltf_avatar.html", null ],
     [ "AYomHUD", "class_a_yom_h_u_d.html", "class_a_yom_h_u_d" ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "AYomManager", "class_a_yom_manager.html", null ],
     [ "AYomNameplateManager", "class_a_yom_nameplate_manager.html", null ],
     [ "AYomPlayer", "class_a_yom_player.html", "class_a_yom_player" ],
     [ "AYomPortal", "class_a_yom_portal.html", "class_a_yom_portal" ],
+    [ "AYomSpawnableItem", "class_a_yom_spawnable_item.html", null ],
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
     [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", "class_f_yom_setup_settings_loader" ],
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],

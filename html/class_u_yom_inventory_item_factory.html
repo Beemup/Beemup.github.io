@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -110,6 +110,9 @@ Inheritance diagram for UYomInventoryItemFactory:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Blueprint Functions</div></td></tr>
+<tr class="memitem:ae12144af6ec8766b096238e07747099f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_item_factory.html#ae12144af6ec8766b096238e07747099f">CreateEmptyYomInventoryItem</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pOwner, bool pIsAirdrop, TSubclassOf&lt; AYomBaseItem &gt; pActorClass)</td></tr>
+<tr class="memdesc:ae12144af6ec8766b096238e07747099f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty inventory item.  <a href="class_u_yom_inventory_item_factory.html#ae12144af6ec8766b096238e07747099f">More...</a><br /></td></tr>
+<tr class="separator:ae12144af6ec8766b096238e07747099f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd1185b9dc2e71ec9aa8f5503f48120"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120">CreateYomInventoryItemFromJson</a> (UVaRestJsonValue *pJson, <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pOwner, bool pIsAirdrop=false, TSubclassOf&lt; AYomBaseItem &gt; pActorClass=nullptr)</td></tr>
 <tr class="memdesc:acbd1185b9dc2e71ec9aa8f5503f48120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a inventory item from a JSON value.  <a href="class_u_yom_inventory_item_factory.html#acbd1185b9dc2e71ec9aa8f5503f48120">More...</a><br /></td></tr>
 <tr class="separator:acbd1185b9dc2e71ec9aa8f5503f48120"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,6 +121,59 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a845e32b8019981928574342b393568ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae12144af6ec8766b096238e07747099f" name="ae12144af6ec8766b096238e07747099f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae12144af6ec8766b096238e07747099f">&#9670;&#160;</a></span>CreateEmptyYomInventoryItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> * UYomInventoryItemFactory::CreateEmptyYomInventoryItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td>
+          <td class="paramname"><em>pOwner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pIsAirdrop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TSubclassOf&lt; AYomBaseItem &gt;&#160;</td>
+          <td class="paramname"><em>pActorClass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates an empty inventory item. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pOwner</td><td>The owner of the inventory item </td></tr>
+    <tr><td class="paramname">pIsAirdrop</td><td>If it is an airdrop </td></tr>
+    <tr><td class="paramname">pActorClass</td><td>What class should be spawned for the item </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new item </dd></dl>
+
+</div>
+</div>
 <a id="a845e32b8019981928574342b393568ec" name="a845e32b8019981928574342b393568ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a845e32b8019981928574342b393568ec">&#9670;&#160;</a></span>CreateYomInventoryItemFromData()</h2>
 

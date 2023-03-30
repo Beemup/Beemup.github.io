@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -101,7 +101,7 @@ Project Delivery Guidelines</h1>
 <p >This page will explain how to correctly setup your project such that it can be build by the YourOpenMetaverse build server.</p>
 <h2><a class="anchor" id="autotoc_md4"></a>
 Step 1: Creating a new project</h2>
-<p >Create a new project (Blueprint or C++) with Unreal 5 in which you want to build your new metaspace, but integrating into an existing metaspace is also possible. Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">this gitignore</a> to the root of the folder to ensure that git does not include unnecessary files. Convert your project to a git repository, but ensure that the <code>.git</code> folder is in the same location as the <code>.uproject</code> file.</p>
+<p >Create a new project (Blueprint or C++) with Unreal 5 in which you want to build your new metaspace, but integrating into an existing metaspace is also possible. Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">this gitignore</a> to the root of the folder to ensure that git does not include unnecessary files. Convert your project to a git repository, with the .uproject file in the root of the repository.</p>
 <p >Note: If you want to share the plugin accros a team the whole team needs to download the sources, unless you add all of the plugins binaries to git.</p>
 <h2><a class="anchor" id="autotoc_md5"></a>
 Step 2: Creating a Plugins folder</h2>
@@ -109,9 +109,21 @@ Step 2: Creating a Plugins folder</h2>
 <h2><a class="anchor" id="autotoc_md6"></a>
 Result</h2>
 <p >You should now have a folder structure that looks like this:</p>
-<p >(YourProjectFolder): <img src="RootFolderStructure.png" alt="RootFolderStructure" class="inline"/></p>
-<p >(YourProjectFolder/Plugins): <img src="PluginFolderStructure.png" alt="PluginFolderStructure" class="inline"/> </p>
-</div></div><!-- contents -->
+<div class="fragment"><div class="line">YourProject (Github Repository root)/</div>
+<div class="line">├─ .git/...</div>
+<div class="line">├─ Plugins/</div>
+<div class="line">│  ├─ glTFRuntime/</div>
+<div class="line">│  │  ├─ glTFRuntime.uplugin</div>
+<div class="line">│  │  ├─ ...</div>
+<div class="line">│  ├─ VaRestPlugin/</div>
+<div class="line">│  │  ├─ VaRest.uplugin</div>
+<div class="line">│  │  ├─ ...</div>
+<div class="line">│  ├─ YourOpenMetaverse/</div>
+<div class="line">│  │  ├─ YourOpenMetaverse.uplugin</div>
+<div class="line">│  │  ├─ ...</div>
+<div class="line">├─ YourProject.uproject</div>
+<div class="line">├─ ...</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -94,15 +94,16 @@ var md_pages__guides =
     [ "External events", "_external_events.html", [
       [ "External events", "_external_events.html#autotoc_md53", [
         [ "Creating your own events", "_external_events.html#autotoc_md54", null ],
-        [ "Calling your own events", "_external_events.html#autotoc_md55", null ]
+        [ "Calling YomExternalEvents from the Bridge", "_external_events.html#autotoc_md55", null ],
+        [ "Calling YomStreamEvents from a website", "_external_events.html#autotoc_md56", null ]
       ] ]
     ] ],
     [ "Package Unreal Map Data", "_package_map_data.html", [
-      [ "Package Unreal Map Data", "_package_map_data.html#autotoc_md56", [
-        [ "Step 1: Build your map data", "_package_map_data.html#autotoc_md57", null ],
-        [ "Step 2: Package your map data", "_package_map_data.html#autotoc_md58", null ],
-        [ "Step 3: Upload your map data to github", "_package_map_data.html#autotoc_md59", null ],
-        [ "Result", "_package_map_data.html#autotoc_md60", null ]
+      [ "Package Unreal Map Data", "_package_map_data.html#autotoc_md57", [
+        [ "Step 1: Build your map data", "_package_map_data.html#autotoc_md58", null ],
+        [ "Step 2: Package your map data", "_package_map_data.html#autotoc_md59", null ],
+        [ "Step 3: Upload your map data to github", "_package_map_data.html#autotoc_md60", null ],
+        [ "Result", "_package_map_data.html#autotoc_md61", null ]
       ] ]
     ] ]
 ];

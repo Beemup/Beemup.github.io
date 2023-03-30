@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.0</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a843ad5bf45f7bb2eed1f9dfefd91bf84"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_component.html#a843ad5bf45f7bb2eed1f9dfefd91bf84">GetSpawnedYomInventoryItems</a> ()</td></tr>
 <tr class="memdesc:a843ad5bf45f7bb2eed1f9dfefd91bf84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the wallet items that have been spawned in the game.  <a href="class_u_yom_inventory_component.html#a843ad5bf45f7bb2eed1f9dfefd91bf84">More...</a><br /></td></tr>
 <tr class="separator:a843ad5bf45f7bb2eed1f9dfefd91bf84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b0622344463af9d6fcba953f8c30d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_component.html#ac2b0622344463af9d6fcba953f8c30d8">GetItemByID</a> (const FString &amp;pID)</td></tr>
+<tr class="memdesc:ac2b0622344463af9d6fcba953f8c30d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an item of the player by ID.  <a href="class_u_yom_inventory_component.html#ac2b0622344463af9d6fcba953f8c30d8">More...</a><br /></td></tr>
+<tr class="separator:ac2b0622344463af9d6fcba953f8c30d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -138,6 +141,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab68c844c7bb6620d95699e719599f5fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_yom_player_inventory_widget.html">UYomPlayerInventoryWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd">Widget</a></td></tr>
 <tr class="memdesc:ab68c844c7bb6620d95699e719599f5fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance of the inventory widget that is displayed on the client side.  <a href="class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd">More...</a><br /></td></tr>
 <tr class="separator:ab68c844c7bb6620d95699e719599f5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330c140a1a41bb7c136dbe6930e9944c"><td class="memItemLeft" align="right" valign="top">FOnInvetoryFetched&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_inventory_component.html#a330c140a1a41bb7c136dbe6930e9944c">OnInventoryFetched</a></td></tr>
+<tr class="memdesc:a330c140a1a41bb7c136dbe6930e9944c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the items of the player are fetched on the server.  <a href="class_u_yom_inventory_component.html#a330c140a1a41bb7c136dbe6930e9944c">More...</a><br /></td></tr>
+<tr class="separator:a330c140a1a41bb7c136dbe6930e9944c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="add02a5c9ab71507702e96178dd5081f3" name="add02a5c9ab71507702e96178dd5081f3"></a>
@@ -182,6 +188,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Despawns all of the placed items of the player. </p>
+
+</div>
+</div>
+<a id="ac2b0622344463af9d6fcba953f8c30d8" name="ac2b0622344463af9d6fcba953f8c30d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b0622344463af9d6fcba953f8c30d8">&#9670;&#160;</a></span>GetItemByID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_a_yom_inventory_item.html">AYomInventoryItem</a> * UYomInventoryComponent::GetItemByID </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves an item of the player by ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pID</td><td>The id of the item </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The item that was searched for or null if it was not found </dd></dl>
 
 </div>
 </div>
@@ -263,6 +296,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The class of the inventory widget that is displayed on the client side. </p>
+
+</div>
+</div>
+<a id="a330c140a1a41bb7c136dbe6930e9944c" name="a330c140a1a41bb7c136dbe6930e9944c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330c140a1a41bb7c136dbe6930e9944c">&#9670;&#160;</a></span>OnInventoryFetched</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FOnInvetoryFetched UYomInventoryComponent::OnInventoryFetched</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the items of the player are fetched on the server. </p>
 
 </div>
 </div>

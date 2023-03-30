@@ -14,7 +14,7 @@ var annotated_dup =
     [ "FWallet", "struct_f_wallet.html", "struct_f_wallet" ],
     [ "FYomSetupSettingsLoader", "class_f_yom_setup_settings_loader.html", "class_f_yom_setup_settings_loader" ],
     [ "SYomSettingsWindow", "class_s_yom_settings_window.html", null ],
-    [ "SYomSetupWindow", "class_s_yom_setup_window.html", "class_s_yom_setup_window" ],
+    [ "SYomSetupWindow", "class_s_yom_setup_window.html", null ],
     [ "UYomAirdropBPFunctions", "class_u_yom_airdrop_b_p_functions.html", null ],
     [ "UYomAudioPlayerComponent", "class_u_yom_audio_player_component.html", "class_u_yom_audio_player_component" ],
     [ "UYomAudioRecorderComponent", "class_u_yom_audio_recorder_component.html", null ],

@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.6.0.13</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -282,25 +282,29 @@ $(document).ready(function(){initNavTree('_yom_inventory_item_8h_source.html',''
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>{</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    GENERATED_BODY()</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> GetGlbLoadSettings(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem, UVaRestJsonObject* jsonObject);</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> IsReadyPlayerMeModel(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem);</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> GetExtraYomData(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem, UVaRestJsonObject* jsonObject);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> GetReadyPlayerMeLoadSettings(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem);</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> GetGlbLoadSettings(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem, UVaRestJsonObject* jsonObject);</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> GetExtraYomData(<a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* YomInventoryItem, UVaRestJsonObject* jsonObject);</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    UFUNCTION(BlueprintCallable, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateEmptyYomInventoryItem(<a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop,</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                                                          TSubclassOf&lt;AYomBaseItem&gt; pActorClass);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    UFUNCTION(BlueprintCallable, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateYomInventoryItemFromJson(UVaRestJsonValue* pJson, <a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop = <span class="keyword">false</span>,</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                                                 TSubclassOf&lt;AYomBaseItem&gt; pActorClass = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateEmptyYomInventoryItem(<a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop,</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                                                          TSubclassOf&lt;AYomBaseItem&gt; pActorClass);</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    UFUNCTION(BlueprintCallable, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateYomInventoryItemFromData(<span class="keyword">const</span> FWalletData&amp; pData, <a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop = <span class="keyword">false</span>,</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateYomInventoryItemFromJson(UVaRestJsonValue* pJson, <a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop = <span class="keyword">false</span>,</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                                                 TSubclassOf&lt;AYomBaseItem&gt; pActorClass = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>};</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    UFUNCTION(BlueprintCallable, Category=<span class="stringliteral">&quot;YomItems&quot;</span>)</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keyword">static</span> <a class="code hl_class" href="class_a_yom_inventory_item.html">AYomInventoryItem</a>* CreateYomInventoryItemFromData(<span class="keyword">const</span> FWalletData&amp; pData, <a class="code hl_class" href="class_a_yom_player.html">AYomPlayer</a>* pOwner, <span class="keywordtype">bool</span> pIsAirdrop = <span class="keyword">false</span>,</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                                                 TSubclassOf&lt;AYomBaseItem&gt; pActorClass = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>};</div>
 <div class="ttc" id="a_yom_gltf_avatar_8h_html"><div class="ttname"><a href="_yom_gltf_avatar_8h.html">YomGltfAvatar.h</a></div><div class="ttdoc">A gltf avatar that can be equipped.</div></div>
 <div class="ttc" id="aclass_a_yom_inventory_item_html"><div class="ttname"><a href="class_a_yom_inventory_item.html">AYomInventoryItem</a></div><div class="ttdoc">An item that contains all of the blockchain data and actor data of an item.</div><div class="ttdef"><b>Definition:</b> YomInventoryItem.h:152</div></div>
 <div class="ttc" id="aclass_a_yom_player_html"><div class="ttname"><a href="class_a_yom_player.html">AYomPlayer</a></div><div class="ttdoc">The main player of the metaspaces, it is a PlayerController as the PlayerController should never chan...</div><div class="ttdef"><b>Definition:</b> YomPlayer.h:55</div></div>

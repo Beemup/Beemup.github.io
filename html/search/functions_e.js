@@ -10,11 +10,10 @@ var searchData=
   ['shutdownmodule_7',['ShutdownModule',['../class_yom_control_hints_module.html#a670dfe73fe79e2bc0d1dbf45f2913b0a',1,'YomControlHintsModule']]],
   ['signallingbufferseconds_8',['SignallingBufferSeconds',['../class_u_yom_settings.html#af85267a3bb8868a6eb91b798c1e23d8e',1,'UYomSettings']]],
   ['simulateemptyoverlaypress_9',['SimulateEmptyOverlayPress',['../class_u_yom_settings.html#ac0456247cce980bf4f08e4bd2d85659c',1,'UYomSettings']]],
-  ['slate_5fbegin_5fargs_10',['SLATE_BEGIN_ARGS',['../class_s_yom_setup_window.html#a4014f8fcbd176e9d15168610ea70aacb',1,'SYomSetupWindow']]],
-  ['spawndefaultplayer_11',['SpawnDefaultPlayer',['../class_u_yom_settings.html#a158864c9b0913b86c749d64a38a5d889',1,'UYomSettings']]],
-  ['spawnitem_12',['SpawnItem',['../class_u_yom_inventory_component.html#ac534df41964bb0530a717e109addd714',1,'UYomInventoryComponent']]],
-  ['spawnitemfromwidget_13',['SpawnItemFromWidget',['../class_u_yom_inventory_b_p_functions.html#ae0702435b0c4f84ae03860f11b74c875',1,'UYomInventoryBPFunctions']]],
-  ['spawnplayerinstance_14',['SpawnPlayerInstance',['../class_a_yom_player.html#adf5694457e5d9d933f8b109c4dc41ab1',1,'AYomPlayer']]],
-  ['startupmodule_15',['StartupModule',['../class_yom_control_hints_module.html#a9a98d0cae69a4b6338891e31867dcb2a',1,'YomControlHintsModule']]],
-  ['syncportal_16',['SyncPortal',['../class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d',1,'UYomPortallingComponent']]]
+  ['spawndefaultplayer_10',['SpawnDefaultPlayer',['../class_u_yom_settings.html#a158864c9b0913b86c749d64a38a5d889',1,'UYomSettings']]],
+  ['spawnitem_11',['SpawnItem',['../class_u_yom_inventory_component.html#ac534df41964bb0530a717e109addd714',1,'UYomInventoryComponent']]],
+  ['spawnitemfromwidget_12',['SpawnItemFromWidget',['../class_u_yom_inventory_b_p_functions.html#ae0702435b0c4f84ae03860f11b74c875',1,'UYomInventoryBPFunctions']]],
+  ['spawnplayerinstance_13',['SpawnPlayerInstance',['../class_a_yom_player.html#adf5694457e5d9d933f8b109c4dc41ab1',1,'AYomPlayer']]],
+  ['startupmodule_14',['StartupModule',['../class_yom_control_hints_module.html#a9a98d0cae69a4b6338891e31867dcb2a',1,'YomControlHintsModule']]],
+  ['syncportal_15',['SyncPortal',['../class_u_yom_portalling_component.html#ae23f383c60ba33da507f0bcdaa39f97d',1,'UYomPortallingComponent']]]
 ];

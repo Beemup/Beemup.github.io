@@ -16,7 +16,7 @@ var searchData=
   ['autosetportalmaterial_13',['AutoSetPortalMaterial',['../class_a_yom_portal.html#aff96cc2ae3d92ccf164d3812ccee5275',1,'AYomPortal']]],
   ['ayomavataritem_14',['AYomAvatarItem',['../class_a_yom_avatar_item.html',1,'']]],
   ['ayomgamemode_15',['AYomGameMode',['../class_a_yom_game_mode.html',1,'']]],
-  ['ayomgatedaccess_16',['AYomGatedAccess',['../class_a_yom_gated_access.html',1,'AYomGatedAccess'],['../class_a_yom_gated_access.html#a74a9483e8b420b6460f459c85e0c113b',1,'AYomGatedAccess::AYomGatedAccess()']]],
+  ['ayomgatedaccess_16',['AYomGatedAccess',['../class_a_yom_gated_access.html',1,'']]],
   ['ayomgltfavatar_17',['AYomGltfAvatar',['../class_a_yom_gltf_avatar.html',1,'']]],
   ['ayomhud_18',['AYomHUD',['../class_a_yom_h_u_d.html',1,'']]],
   ['ayominventoryitem_19',['AYomInventoryItem',['../class_a_yom_inventory_item.html',1,'']]],

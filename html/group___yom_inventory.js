@@ -14,6 +14,7 @@ var group___yom_inventory =
       [ "AddItem", "class_u_yom_inventory_component.html#add02a5c9ab71507702e96178dd5081f3", null ],
       [ "DespawnAllItems", "class_u_yom_inventory_component.html#a6300d68ca62094499e100f5ad3d7f5b0", null ],
       [ "GetItemByID", "class_u_yom_inventory_component.html#ac2b0622344463af9d6fcba953f8c30d8", null ],
+      [ "GetItemsByMasterID", "class_u_yom_inventory_component.html#adae886ec9cfa78cd716912d8aa953d05", null ],
       [ "GetSpawnedYomInventoryItems", "class_u_yom_inventory_component.html#a843ad5bf45f7bb2eed1f9dfefd91bf84", null ],
       [ "GetYomInventoryItems", "class_u_yom_inventory_component.html#aa25e1fde0a31c702186f759b3fe5ec97", null ],
       [ "SpawnItem", "class_u_yom_inventory_component.html#ac534df41964bb0530a717e109addd714", null ],

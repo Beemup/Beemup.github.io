@@ -8,8 +8,8 @@ var md_pages__guides =
     ] ],
     [ "Project Delivery Guidelines", "_project_delivery_guidelines.html", [
       [ "Project Delivery Guidelines", "_project_delivery_guidelines.html#autotoc_md3", [
-        [ "Step 1: Creating a new project", "_project_delivery_guidelines.html#autotoc_md4", null ],
-        [ "Step 2: Creating a Plugins folder", "_project_delivery_guidelines.html#autotoc_md5", null ],
+        [ "Step 1: Project and GitHub setup", "_project_delivery_guidelines.html#autotoc_md4", null ],
+        [ "Step 2: The Plugins folder", "_project_delivery_guidelines.html#autotoc_md5", null ],
         [ "Result", "_project_delivery_guidelines.html#autotoc_md6", null ]
       ] ]
     ] ],

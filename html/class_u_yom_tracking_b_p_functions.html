@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.12</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.13</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -113,6 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa612d7391239fdc29e1456a25d721757"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_tracking_b_p_functions.html#aa612d7391239fdc29e1456a25d721757">EmitTrackingInfo</a> (const <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const TArray&lt; FString &gt; &amp;pVariableNames, const TArray&lt; UVaRestJsonValue * &gt; &amp;pVariableValues)</td></tr>
 <tr class="memdesc:aa612d7391239fdc29e1456a25d721757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits tracking info to the signalling server.  <a href="class_u_yom_tracking_b_p_functions.html#aa612d7391239fdc29e1456a25d721757">More...</a><br /></td></tr>
 <tr class="separator:aa612d7391239fdc29e1456a25d721757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407e8bc505d930583eb5e488c47015ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_tracking_b_p_functions.html#a407e8bc505d930583eb5e488c47015ae">EmitTrackingInfoGoogleAnalytics</a> (const <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const FString &amp;pEventName, UVaRestJsonValue *pEventValue)</td></tr>
+<tr class="memdesc:a407e8bc505d930583eb5e488c47015ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits tracking info in the format of the google analytics api.  <a href="class_u_yom_tracking_b_p_functions.html#a407e8bc505d930583eb5e488c47015ae">More...</a><br /></td></tr>
+<tr class="separator:a407e8bc505d930583eb5e488c47015ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa612d7391239fdc29e1456a25d721757" name="aa612d7391239fdc29e1456a25d721757"></a>
@@ -161,6 +164,58 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">pPlayer</td><td>The player that the tracking info needs to be send from </td></tr>
     <tr><td class="paramname">pVariableNames</td><td>The variables that can be in the tracking info </td></tr>
     <tr><td class="paramname">pVariableValues</td><td>The values that can be in the tracking info </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a407e8bc505d930583eb5e488c47015ae" name="a407e8bc505d930583eb5e488c47015ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407e8bc505d930583eb5e488c47015ae">&#9670;&#160;</a></span>EmitTrackingInfoGoogleAnalytics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UYomTrackingBPFunctions::EmitTrackingInfoGoogleAnalytics </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_a_yom_player.html">AYomPlayer</a> *&#160;</td>
+          <td class="paramname"><em>pPlayer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>pEventName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UVaRestJsonValue *&#160;</td>
+          <td class="paramname"><em>pEventValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emits tracking info in the format of the google analytics api. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPlayer</td><td>The player that the tracking info needs to be send from </td></tr>
+    <tr><td class="paramname">pEventName</td><td>The name of the event in google analytics </td></tr>
+    <tr><td class="paramname">pEventValue</td><td>An optional value to send google analytics </td></tr>
   </table>
   </dd>
 </dl>

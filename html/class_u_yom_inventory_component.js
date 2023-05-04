@@ -9,5 +9,7 @@ var class_u_yom_inventory_component =
     [ "SpawnItem", "class_u_yom_inventory_component.html#ac534df41964bb0530a717e109addd714", null ],
     [ "InventoryWidget", "class_u_yom_inventory_component.html#ae950ace2279c8a5371298854949bfc53", null ],
     [ "OnInventoryFetched", "class_u_yom_inventory_component.html#a330c140a1a41bb7c136dbe6930e9944c", null ],
+    [ "OpenInventoryKeys", "class_u_yom_inventory_component.html#a588c44ebe31b68ff9e677daec5af9f50", null ],
+    [ "RemoveAllItemsKeys", "class_u_yom_inventory_component.html#a33710b964a2aeb6a3551ba8c51004b8b", null ],
     [ "Widget", "class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd", null ]
 ];

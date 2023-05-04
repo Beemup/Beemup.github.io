@@ -20,12 +20,14 @@ var group___yom_inventory =
       [ "SpawnItem", "class_u_yom_inventory_component.html#ac534df41964bb0530a717e109addd714", null ],
       [ "InventoryWidget", "class_u_yom_inventory_component.html#ae950ace2279c8a5371298854949bfc53", null ],
       [ "OnInventoryFetched", "class_u_yom_inventory_component.html#a330c140a1a41bb7c136dbe6930e9944c", null ],
+      [ "OpenInventoryKeys", "class_u_yom_inventory_component.html#a588c44ebe31b68ff9e677daec5af9f50", null ],
+      [ "RemoveAllItemsKeys", "class_u_yom_inventory_component.html#a33710b964a2aeb6a3551ba8c51004b8b", null ],
       [ "Widget", "class_u_yom_inventory_component.html#ab68c844c7bb6620d95699e719599f5fd", null ]
     ] ],
     [ "AYomInventoryItem", "class_a_yom_inventory_item.html", null ],
     [ "UYomInventoryItemFactory", "class_u_yom_inventory_item_factory.html", null ],
     [ "UYomPlayerInventoryWidget", "class_u_yom_player_inventory_widget.html", [
-      [ "GetInventory", "class_u_yom_player_inventory_widget.html#af843e16c53514398c330b24071a40a5b", null ],
+      [ "GetInventory", "class_u_yom_player_inventory_widget.html#a184ee2e66f5fbb76fdb5cde148ecdb81", null ],
       [ "BaseButtonWidget", "class_u_yom_player_inventory_widget.html#a186ad4165bf283dfe9ae8168af875406", null ],
       [ "StartButtonAmount", "class_u_yom_player_inventory_widget.html#af296a5c3699f930f7046dca7e786cca8", null ],
       [ "YomButtonWidget", "class_u_yom_player_inventory_widget.html#a3e09adce56c288e073e51b9fe2148ddb", null ]

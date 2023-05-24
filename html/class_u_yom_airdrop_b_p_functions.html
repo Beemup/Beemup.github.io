@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.1</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.8.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -110,13 +110,13 @@ Inheritance diagram for UYomAirdropBPFunctions:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Blueprint Functions</div></td></tr>
-<tr class="memitem:ac947c7b96c0adb88acd738e5feac34bb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_airdrop_b_p_functions.html#ac947c7b96c0adb88acd738e5feac34bb">AirdropItemForPlayer</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const FString &amp;pItemID)</td></tr>
-<tr class="memdesc:ac947c7b96c0adb88acd738e5feac34bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">A BlueprintCallable function that airdrops a blockchain item for a player This function MUST run on the server, as the server controls how items are loaded.  <a href="class_u_yom_airdrop_b_p_functions.html#ac947c7b96c0adb88acd738e5feac34bb">More...</a><br /></td></tr>
-<tr class="separator:ac947c7b96c0adb88acd738e5feac34bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae098f56ca91b8d505aaf2489c881e5e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_yom_airdrop_b_p_functions.html#ae098f56ca91b8d505aaf2489c881e5e0">AirdropItemForPlayer</a> (<a class="el" href="class_a_yom_player.html">AYomPlayer</a> *pPlayer, const FString &amp;pItemID, FOnInvetoryAirdropItem pInventoryAirdropItemCallback)</td></tr>
+<tr class="memdesc:ae098f56ca91b8d505aaf2489c881e5e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A BlueprintCallable function that airdrops a blockchain item for a player This function MUST run on the server, as the server controls how items are loaded.  <a href="class_u_yom_airdrop_b_p_functions.html#ae098f56ca91b8d505aaf2489c881e5e0">More...</a><br /></td></tr>
+<tr class="separator:ae098f56ca91b8d505aaf2489c881e5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac947c7b96c0adb88acd738e5feac34bb" name="ac947c7b96c0adb88acd738e5feac34bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac947c7b96c0adb88acd738e5feac34bb">&#9670;&#160;</a></span>AirdropItemForPlayer()</h2>
+<a id="ae098f56ca91b8d505aaf2489c881e5e0" name="ae098f56ca91b8d505aaf2489c881e5e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae098f56ca91b8d505aaf2489c881e5e0">&#9670;&#160;</a></span>AirdropItemForPlayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134,7 +134,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const FString &amp;&#160;</td>
-          <td class="paramname"><em>ItemID</em>&#160;</td>
+          <td class="paramname"><em>ItemID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FOnInvetoryAirdropItem&#160;</td>
+          <td class="paramname"><em>pInventoryAirdropItemCallback</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -154,6 +160,7 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">Player</td><td>The player to airdrop the item to </td></tr>
     <tr><td class="paramname">ItemID</td><td>The itemID of the item to airdrop for the player, MUST be the same as on the airdrop backend </td></tr>
+    <tr><td class="paramname">pInventoryAirdropItemCallback</td><td>the callback that will be called when airdrop happens </td></tr>
   </table>
   </dd>
 </dl>

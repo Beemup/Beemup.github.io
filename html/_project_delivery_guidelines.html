@@ -28,7 +28,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.7.0.1</span>
+   <div id="projectname">YOM Replicator SDK<span id="projectnumber">&#160;0.8.0.0</span>
    </div>
    <div id="projectbrief">A metaverse SDK created by YOM</div>
   </td>
@@ -98,14 +98,28 @@ $(document).ready(function(){initNavTree('_project_delivery_guidelines.html','')
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md3"></a>
 Project Delivery Guidelines</h1>
-<p >This page will explain how to correctly setup your project such that it can be build by the YourOpenMetaverse build server.</p>
+<p >This page will explain how to correctly setup your project such that it can be built by the YOM build server.</p>
 <h2><a class="anchor" id="autotoc_md4"></a>
-Step 1: Creating a new project</h2>
-<p >Create a new project (Blueprint or C++) with Unreal 5 in which you want to build your new metaspace, but integrating into an existing metaspace is also possible. Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">this gitignore</a> to the root of the folder to ensure that git does not include unnecessary files. Convert your project to a git repository, with the .uproject file in the root of the repository.</p>
-<p >Note: If you want to share the plugin accros a team the whole team needs to download the sources, unless you add all of the plugins binaries to git.</p>
+Step 1: Project and GitHub setup</h2>
+<p >Our build system uses GitHub as method of delivery. It is version controlled, supports large files, and allows for branching and storing separate version numbers as tags, which drastically helps maintain different test and production versions of a metaspace with ease. To set it up, take the following steps:</p>
+<ul>
+<li>Create a new Unreal project (Blueprint or C++) that will hold your metaspace, or pick an existing project to extend with the YOM plugin.</li>
+<li>Add <a href="https://www.toptal.com/developers/gitignore/api/unrealengine,visualstudio,c++,visualstudiocode,rider,clion">a .gitignore file</a> to the root of the Unreal project folder to ensure that git does not track unnecessary files in your repository.</li>
+<li>Initialize the git repository in the project directory, where the .uproject file should be in the root of the repository. <div class="fragment"><div class="line">cd YourProject</div>
+<div class="line">git init</div>
+</div><!-- fragment --></li>
+<li>Create a GitHub account if you hadn't done so yet.</li>
+<li>For storing large files it is required to enable Git LFS on the repository.</li>
+<li>Push the files to GitHub using the commands shown on the GitHub repository page. <b>Note that the GitHub repository name should match the .uproject file name you had chosen earlier.</b> <div class="fragment"><div class="line">git init</div>
+<div class="line">git add .</div>
+<div class="line">git commit -m &quot;Initial commit&quot;</div>
+<div class="line">git remote add origin youruser@yourserver.com:/path/to/YourProject.git # name needs to match the .uproject name</div>
+<div class="line">git push origin main</div>
+</div><!-- fragment --></li>
+</ul>
 <h2><a class="anchor" id="autotoc_md5"></a>
-Step 2: Creating a Plugins folder</h2>
-<p >Inside your project folder you should make a folder called <code>Plugins</code> in which you can install the YOM Replicator SDK, <a href="https://github.com/rdeioris/glTFRuntime/archive/refs/heads/master.zip">GltfRuntime</a>, and <a href="https://www.unrealengine.com/marketplace/en-US/product/varest-plugin">VaRest</a> plugins.</p>
+Step 2: The Plugins folder</h2>
+<p >Inside your project folder you should create a folder called <code>Plugins</code> in which you can install the YOM Replicator SDK, <a href="https://github.com/rdeioris/glTFRuntime/archive/refs/heads/master.zip">GltfRuntime</a>, and <a href="https://www.unrealengine.com/marketplace/en-US/product/varest-plugin">VaRest</a> plugins.</p>
 <h2><a class="anchor" id="autotoc_md6"></a>
 Result</h2>
 <p >You should now have a folder structure that looks like this:</p>
@@ -123,7 +137,8 @@ Result</h2>
 <div class="line">│  │  ├─ ...</div>
 <div class="line">├─ YourProject.uproject</div>
 <div class="line">├─ ...</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><p >Note that if you chose to pre package map data (for baked lighting), there will be an additional MapData.zip file in the project root folder. See the section on packaging map data for more information. </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
